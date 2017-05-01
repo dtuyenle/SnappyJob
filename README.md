@@ -15,4 +15,6 @@ Here is how it works:
 Crawler written in Python - crawl multiple sites and grab information then run through a baby model nltk category for salary and job category
 Nodejs and angularjs used for rendering data.
 
+Best part I even manual define keyword for Twitter api to serve the widget ( waste of time again )
+
 Simple shit - Should have used reactjs for this though but angular2 is tempting
