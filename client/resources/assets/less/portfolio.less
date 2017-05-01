@@ -1,0 +1,143 @@
+/*
+* Portfolio - LESS stylesheet
+*/
+
+.oe-msnry-item {
+    display: inline-block;
+}
+.oe-msnry-hidden {
+    display: none;
+}
+
+.oe-portfolio {
+    // NOTE: Portfolio main
+    // Put common classes for Portfolio here
+
+    .oe-portfolio-nav {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        .btn {
+            margin-bottom: 10px;
+            margin-right: 5px;
+        }
+    }
+    .oe-devider {
+        margin: 20px 0;
+    }
+    .pagination > li > a {
+        margin-right: 5px;
+    }
+    .oe-portfolio-item {
+        margin-bottom: 30px;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.oe-portfolio-single-aside {
+    .oe-label-btn {
+        display: block;
+        margin-bottom: 10px;
+        float: left;
+        &:last-child {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+// NOTE: Portfolio type - fullwidth mansory
+.oe-portfolio-fullwidth-mansory {
+    .oe-heading-3 {
+        font-size: 1.85em;
+    }
+}
+@media @desktopAbove {
+//    .oe-row-fullwidth {
+//        .col-md-2 {
+//            width: 20%;
+//        }
+//        .col-md-4 {
+//            width: 40%;
+//        }
+//    }
+    .col-5-items {
+        width: 20%;
+    }
+}
+
+// NOTE: Portfolio type - four column standard
+.oe-image-caption {
+    padding-bottom: 5px;
+    text-align: center;
+    color: @imageCaptionColor;
+}
+.oe-image-caption-captain {
+    text-align: center;
+    color: @imageCaptionCaptainColor;
+    font-size: 1.14em;
+    a, span {
+        color: @imageCaptionCaptainColor;
+    }
+}
+.oe-portfolio-standard {
+    padding-bottom: 0px;
+    border-bottom: 2px solid transparent;
+    .transition(all .3s);
+    .oe-image-item {
+        margin-bottom: 20px;
+    }
+    .oe-image-item, .oe-image-caption {
+        .transition(all .3s);
+    }
+    &:hover {
+        border-color: @lineBorder;
+        .oe-image-item, .oe-image-caption {
+            .translate(0, -20px);
+        }
+    }
+}
+
+// NOTE: Portfolio type - two columns
+.oe-portfolio-two-gallery,
+.oe-portfolio-two-standard
+{
+    .oe-image-caption {
+        font-size: 1.14em;
+        a, span {
+            font-size: 1.14em;
+        }
+    }
+    .oe-image-caption-top {
+        h3 {
+            font-size: 1.5em;
+        }
+        a, span {
+            font-size: 1em;
+        }
+    }
+    .oe-image-hover-caption {
+        &:hover {
+            i.fa {
+                .scale(2.5,2.5);
+            }
+        }
+    }
+}
+
+// NOTE: Portfolio type - single fullwidth
+.oe-container-top {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .oe-pagination {
+        margin: 0;
+        margin-right: 20px;
+        float: left;
+        li > a {
+            margin-right: 0;
+        }
+    }
+}
+.oe-portfolio-single {
+    padding-top: 50px;
+}

@@ -1,0 +1,42 @@
+.oe-stars {
+    display: inline-block;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+
+    &,
+    & .star,
+    & .star .fa {
+        color: inherit;
+        font-size: inherit;
+    }
+
+    .star {
+        display: inline;
+
+        .i { display: none; }
+        .o { display: inline-block; }
+
+        &.i {
+            .i { &:extend(.oe-stars .star .o all); }
+            .o { &:extend(.oe-stars .star .i all); }
+        }
+
+        &:hover,
+        &:hover ~ .star {
+            &:extend(.oe-stars .star.i all);
+        }
+    }
+
+    .starred(@maximumSupport) {
+        .loop(@n) when (@n > 0) {
+            @prev: @n + 1;
+
+            &.oe-unstarred-@{n} .star:nth-child(n+@{prev}) {
+                &:extend(.oe-stars .star.i all);
+            }
+            .loop(@n - 1);
+        }
+        .loop(@maximumSupport);
+    }
+    .starred(10);
+}

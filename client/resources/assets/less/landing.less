@@ -1,0 +1,132 @@
+// Responsive
+@import (reference) "bootstrap/less/bootstrap.less";
+@import (reference) "bootstrapx.less";
+
+@import (reference) "config/config.less";
+@import (reference) "config/variables.less";
+@import (reference) "config/commons.less";
+
+.landing {
+    .dark-element {
+        &:after {
+            .opacity(0.85);
+        }
+    }
+    .oe-big-banner-photo {
+        .banner-photo {
+            @media @desktopBelow {
+                min-height: inherit;
+                height: 60%;
+            }
+            @media @tabletBelow {
+                height: 30%;
+            }
+        }
+    }
+}
+.land-logo {
+    text-align: center;
+    img {
+        width: 660px;
+        height: auto;
+        margin: 0 auto;
+
+        @media @desktopBelow {
+            width: 60%;
+        }
+    }
+}
+.land-item-bg {
+    width: 559px;
+    height: 326px;
+    @media @desktopBelow {
+        width: 100%;
+        height: auto;
+    }
+    padding: 21px 0 35px;
+    margin: 0 auto 20px;
+    background: url(../img/index/mac-bg.jpg) no-repeat center center;
+}
+.land-title {
+    text-transform: uppercase;
+    span {
+        color: #10AFEA;
+    }
+}
+.land-thumb-holder {
+    display: block;
+    position: relative;
+    width: 421px;
+    height: 270px;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;
+
+    .land-thumb {
+        display: block;
+        width: 422px;
+        height: auto;
+    }
+    .dark-element {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        .opacity(0);
+        .transition(opacity linear .3s);
+        &:after {
+            width: 101%;
+        }
+    }
+    &:hover {
+        .dark-element {
+            .opacity(1);
+        }
+    }
+}
+.landing-btn {
+    display: block;
+    z-index: 999;
+    padding: 8px 26px 7px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #10AFEA;
+    .border-radius(1em);
+
+    &:hover {
+        color: #10AFEA;
+        background-color: #fff;
+    }
+}
+.landing-feature {
+    padding-top: 20px;
+    .oe-heading-2 {
+        margin-top: 0;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        &:before {
+            height: 3px;
+        }
+    }
+}
+.landing-feature-box {
+    padding: 20px 0 40px;
+    .oe-content-boxes {
+        margin-top: 0;
+    }
+}
+.landing-foot {
+    padding: 80px 0;
+    background-color: #63C9F1;
+    @media @desktopBelow {
+        padding: 40px 0;
+    }
+    p {
+        color: #fff;
+        font-size: 28px;
+    }
+    .fa {
+        color: #FFFF99;
+    }
+}

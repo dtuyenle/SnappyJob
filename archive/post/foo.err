@@ -1,0 +1,89 @@
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 761, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "post.py", line 162, in put_get_url
+    q.put(get_url(url,values,headers))
+  File "post.py", line 153, in get_url
+    resp = requests.post(url, data=values, headers=headers, allow_redirects=True)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+SSLError: [Errno bad handshake] (54, 'Connection reset by peer')
+
+Exception in thread Thread-8:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 761, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "post.py", line 162, in put_get_url
+    q.put(get_url(url,values,headers))
+  File "post.py", line 153, in get_url
+    resp = requests.post(url, data=values, headers=headers, allow_redirects=True)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+SSLError: [Errno bad handshake] (54, 'Connection reset by peer')
+
+EException in thread Thread-8:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 761, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "post.py", line 162, in put_get_url
+    q.put(get_url(url,values,headers))
+  File "post.py", line 153, in get_url
+    resp = requests.post(url, data=values, headers=headers, allow_redirects=True)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+SSLError: [Errno bad handshake] (54, 'Connection reset by peer')
+
+xception in thread Thread-3:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 808, in __bootstrap_inner
+    self.run()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 761, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "post.py", line 162, in put_get_url
+    q.put(get_url(url,values,headers))
+  File "post.py", line 153, in get_url
+    resp = requests.post(url, data=values, headers=headers, allow_redirects=True)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 109, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/api.py", line 50, in request
+    response = session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 465, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/2.7/site-packages/requests/sessions.py", line 573, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/2.7/site-packages/requests/adapters.py", line 431, in send
+    raise SSLError(e, request=request)
+SSLError: [Errno bad handshake] (54, 'Connection reset by peer')
+
+

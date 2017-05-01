@@ -1,0 +1,287 @@
+/*
+* Blog Pages - LESS stylesheet
+*/
+.oe-blog {
+    // NOTE: Blog main
+    // Put common classes for blog group pages here
+    // .abc {}
+}
+
+.oe-blog-item {
+    position: relative;
+    .oe-blog-title {
+        padding: 0  0 5px 0;
+        margin-top: 0;
+    }
+    .oe-blog-icon-box {
+        margin-bottom: 20px;
+        .oe-blog-date {
+            margin-right: 40px;
+        }
+        span {
+            margin-right: 20px;
+        }
+        i.fa {
+            margin-right: 5px;
+            font-size: 1.2em;
+        }
+    }
+    .oe-blog-quote {
+        .oe-btn {
+            margin-top: 10px;
+        }
+    }
+    .oe-devider {
+        margin: 40px 0 50px;
+    }
+    .oe-quote-2 {
+        font-size: 1em;
+    }
+}
+.oe-blog-content {
+    padding-bottom: 20px;
+    .oe-social-group-smallspace {
+    	margin-right: 3px;	
+    }    
+}
+.oe-blog-comments {
+    padding-top: 15px;
+}
+
+.mejs-container {
+    border: 1px solid @lineBorder;
+    background: @bgColor;
+    .mejs-controls {
+        bottom: 10px;
+        background: none;
+        background-color: @bgColor;
+        .mejs-time-rail {
+            padding-left: 20px;
+            padding-right: 130px;
+            padding-top: 7px;
+            font-family: FontAwesome;
+            .mejs-time-total {
+                border-radius: 0;
+                background: none;
+                background-color: @lineBorder;
+            }
+            .mejs-time-loaded {
+                border-radius: 0;
+                background: none;
+                background-color: @textColor;
+            }
+            .mejs-time-current {
+                border-radius: 0;
+                background: none;
+                background-color: @linkColor;
+            }
+        }
+        div.mejs-playpause-button {
+            width: 50px;
+            height: 50px;
+            margin-top: -10px;
+            padding: 10px 0 0 12px;
+            border-right: 1px solid @lineBorder;
+        }
+        .mejs-button button {
+            font-family: FontAwesome;
+            background: none;
+            width: 0;
+            height: 0;
+            margin: 16px 9px;
+            &:after {
+                display: block;
+                height: 100%;
+                font-size: 1.2*@fontSizeDefault;
+                position: absolute;
+                top: 0px;
+                left: -2px;
+            }
+        }
+        .mejs-play button {
+            &:after {
+                content: "\f04b";
+            }
+        }
+        .mejs-pause button {
+            &:after {
+                content: "\f04c";
+            }
+        }
+        .mejs-volume-button {
+            margin-left: -110px;
+            padding-left: 15px;
+            padding-top: 0;
+            width: 25px;
+            height: 34px;
+            border-left: 1px solid @lineBorder;
+            font-family: FontAwesome;
+            color: @linkColor;
+            .mejs-volume-slider {
+                left: 15px;
+                z-index: 9999;
+            }
+            button {
+                font-family: FontAwesome;
+                background: none;
+                width: 10px;
+                height: 0;
+                margin: 16px 9px;
+                &:after {
+                    display: block;
+                    height: 100%;
+                    font-size: 1.1*@fontSizeDefault;
+                    position: absolute;
+                    top: 0px;
+                    left: -2px;
+                }
+            }
+            .mejs-volume-slider {
+                top: -108px;
+            }
+        }
+        .mejs-mute button {
+            &:after {
+                content: "\f028";
+            }
+        }
+        .mejs-unmute button {
+            &:after {
+                content: "\f026";
+            }
+        }
+    }
+}
+
+.oe-audio-player {
+    position: relative;
+    .oe-audio-share-icon, .oe-audio-menu-icon {
+        font-family: FontAwesome;
+        display: block;
+        font-size: 1.1*@fontSizeDefault;
+        position: absolute;
+        top: 15px;
+    }
+    .oe-audio-share-icon {
+        right: 45px;
+        content: "\f0c1";
+    }
+    .oe-audio-menu-icon {
+        right: 20px;
+        content: "\f03a";
+    }
+
+}
+.oe-audio-share, .oe-audio-menu {
+    display: block;
+    padding: 15px;
+    border: 1px solid @lineBorder;
+    border-top: 0;
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    right: 0;
+    background-color: @bgColor;
+    .opacity(0);
+    .transition(opacity linear .2s);
+
+    &.oe-audio-visible {
+        .opacity(1);
+        z-index: 1000;
+    }
+}
+
+.oe-blog-timeline {
+    background-color: @topPageBg;
+
+    .oe-timeline-container {
+        padding-bottom: 50px;
+    }
+
+    .oe-blog-item,
+    .oe-timeline-mark .btn {
+        background-color: #fff;
+    }
+}
+
+.oe-comments {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    .oe-comment {
+        display: inline-block;
+        width: 100%;
+        padding: 25px 0 30px;
+        border-top: 1px solid @boxGrey;
+    }
+    li {
+        &:first-child {
+            .oe-comment {
+                border-top: 0;
+                padding-top: 0;
+            }
+        }
+    }
+    .oe-comment-author {
+        display: block;
+        color: @textCaptain;
+        font-weight: 500;
+    }
+    .oe-comment-avatar {
+        display: block;
+        float: left;
+    }
+    .oe-comment-content {
+        margin-left: 100px;
+    }
+    .oe-comments-child {
+        margin-top: 25px;
+        padding-left: 50px;
+        list-style: none;
+    }
+    .oe-comment-has-childs {
+        border-bottom: 1px solid @boxGrey;
+        padding-bottom: 15px;
+    }
+    .oe-comment-time {
+        display: block;
+        font-size: .92em;
+    }
+    .oe-comment-quote {
+        margin-bottom: 0;
+        margin-top: 10px;
+        line-height: 1.71em;
+    }
+}
+.oe-blog-author {
+    overflow: hidden;
+    background-color: @topPageBg;
+    .oe-blog-author-inner {
+        display: block;
+        float: left;
+        margin: 0 auto;
+        padding: 25px 0;
+        margin-left: 50%;
+        .translate(-50%, 0);
+    }
+    .oe-blog-author-avatar {
+        img {
+            max-width: 100px;
+        }
+    }
+    .oe-blog-author-avatar,
+    .oe-blog-author-quote {
+        display: block;
+        float: left;
+    }
+    .oe-blog-author-name,
+    .oe-blog-author-des {
+        margin-left: 10px;
+        display: block;
+    }
+    .oe-blog-author-name {
+        margin-top: 25px;
+        color: @textCaptain;
+        font-weight: 500;
+    }
+}

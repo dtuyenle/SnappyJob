@@ -1,0 +1,471 @@
+/*
+* Pages - LESS stylesheet
+*/
+.oe-page {
+    // NOTE: Page main
+    // Put common classes for pages here
+    // .abc {}
+
+
+    // DARK OVER LAY
+    .dark-overlay > div {
+        position: relative;
+        z-index: 1;
+    }
+    .dark-overlay:before {
+        background-color: #000;
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        pointer-events: none;
+    }
+    .dark-overlay-20 {
+        &:before, &:after {
+            opacity: 0.2;
+        }
+    }
+    .dark-overlay-30 {
+        &:before, &:after {
+            opacity: 0.3;
+        }
+    }
+    .dark-overlay-40 {
+        &:before, &:after {
+            opacity: 0.4;
+        }
+    }
+    .dark-overlay-50 {
+        &:before, &:after {
+            opacity: 0.5;
+        }
+    }
+    .dark-overlay-60 {
+        &:before, &:after {
+            opacity: 0.6;
+        }
+    }
+
+    // NOTE: Page type - About Company
+    .oe-page-about-company {
+
+    }
+
+    // NOTE: Page type - About Us
+    &.oe-page-about-us {
+    }
+
+    .aboutus-devider {
+        border-width: 5px;
+        width: 30px;
+        margin: 10px auto 50px;
+    }
+    .oe-content-boxes {
+        margin-top: 0;
+    }
+
+    .oe-shortcode-section {
+        padding-top: 45px;
+        .oe-page-aboutus-title {
+            margin-bottom: 45px;
+        }
+        p {
+            margin-bottom: 45px;
+        }
+    }
+
+
+}
+
+// VIDEO BACKGROUND
+
+.oe-fullwidth {
+    position: relative;
+    top: 0;
+    left: 0;
+    &.oe-page-border-bottom {
+        border-bottom: 1px solid @boxGrey;
+    }
+}
+
+.oe-page-videobg {
+    overflow: hidden;
+    position: relative;
+
+    .mejs-controls {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+.oe-videobg {
+    position: absolute;
+    z-index: 1;
+    color: @white;
+    text-align: center;
+    h4 {color: @white}
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    .mejs-container {
+        z-index: -1;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .mejs-layers {
+//        display: none !important;
+        .mejs-poster {
+            width: 100% !important;
+            height: 100% !important;
+            .background-size(cover);
+        }
+        .mejs-overlay-button {
+            display: none;
+        }
+    }
+
+    &.dark-overlay:before {
+        z-index: 2;
+    }
+}
+.oe-bgvideo-full {
+    .mejs-container {
+        width: 100% !important;
+        border: 0;
+    }
+}
+.oe-fullwidth {
+    &.oe-page-videobg {
+        .mejs-container {
+            border: 0;
+        }
+    }
+}
+.mejs-mediaelement {
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        top: 50%;
+        left: 50%;
+        .translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+.oe-videobg-control {
+    z-index: 2;
+}
+.oe-videobg-control-btn {
+    width: 102px;
+    height: 102px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    color: @white;
+    line-height: 102px;
+    text-align: center;
+    border: 1px solid @reflectTextColor;
+}
+.oe-videobg-control-btn-normal {
+    border-color: transparent;
+    width: auto;
+    height: auto;
+    line-height: 50px;
+}
+.control-btn-circle {
+    border-radius: 100% 100%;
+}
+.control-btn-square {
+}
+.control-btn-small {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+}
+.oe-videobg-control-btn-large {
+    width: 328px;
+    height: 102px;
+    line-height: 101px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    .oe-fonts-giant {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: inline-block;
+        border-right: 1px solid @reflectTextColor;
+    }
+    .fa {
+        width: 102px;
+        height: 102px;
+        position: relative;
+        top: -10px;
+        line-height: 102px;
+    }
+}
+
+.oe-block-content {
+    color: @textInBlock;
+}
+.oe-block-content-darken {
+    color: @textCaptain;
+    a {color: @textInBlock;}
+}
+.oe-block-address {
+    margin-bottom: 45px;
+}
+
+// CONTACT 2
+
+// MAINTENANCE
+.oe-page-maintenance-row {
+    height: 700px;
+
+    .dark-element {
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+// COMMING SOON
+.oe-comming-item {
+    float: left;
+    .oe-fonts-giant {
+        border: 1px solid @reflectTextColor;
+        padding: 25px 25px;
+        min-width: 108px;
+    }
+}
+.oe-fonts-giant-super {
+    font-size: 4.3em;
+}
+.oe-fonts-giant-bigspace {
+    letter-spacing: 10px;
+}
+
+
+// ABOUT OUR COMPANY
+.oe-row-fullwidth {
+    overflow: hidden;
+}
+.page-about-company-message {
+    .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .oe-callout {
+        margin-bottom: 0;
+        border-width: 0px;
+    }
+}
+.page-about-company-team {
+    .oe-image-no-margin {
+        width: 100%;
+    }
+
+    .oe-image-no-margin {
+        img {
+            min-width: 100%;
+        }
+    }
+}
+.oe-image-client {
+    height: 191px;
+    padding: 1px;
+    img {
+        min-width: initial;
+    }
+}
+
+.col-team {
+    width: 98%;
+}
+
+.oe-client {
+    .oe-col-non-mp {
+        margin-right: -1px;
+        margin-bottom: -1px;
+    }
+    img {
+        width: auto;
+    }
+}
+
+
+.oe-image-hover-caption {
+    .oe-image-caption-full {
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.9);
+        right: 0;
+        text-align: left;
+        padding: 7px;
+        p {
+            margin-bottom: 0;
+        }
+
+        .oe-username {
+            color: @textCaptain;
+        }
+        .oe-jobname {
+            color: @textColor;
+        }
+    }
+    &:hover {
+        .oe-image-caption-full {
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+.oe-image-short-cap {
+    position: relative;
+    overflow: hidden;
+    > img {
+        display: block;
+        width: 110%;
+        margin: 0 -5% -10%;
+        position: relative;
+        z-index: 3;
+        .transition(all linear .4s);
+    }
+    .oe-image-caption {
+        position: absolute;
+        z-index: 10;
+        bottom: -100px;
+        left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        background-color: rgba(255,255,255,0.9);
+        text-align: left;
+        .transition(all linear .3s);
+
+        h4 {
+            font-size: @fontSizeDefault;
+        }
+        p {
+            color: @textColor;
+        }
+    }
+    .oe-sc-links {
+        margin-top: -10px;
+        .opacity(0);
+        .transition(all ease-out .5s);
+    }
+    &:before {
+        &:extend(.oe-full-banner.dark-overlay:before);
+        z-index: 5;
+        .opacity(0);
+        .transition(opacity linear .2s);
+    }
+    &:hover {
+        .oe-image-caption {
+            bottom: 0;
+        }
+        > img {
+            .translate(0, -10%);
+        }
+        &:before {
+            .opacity(0.6);
+        }
+        .oe-sc-links {
+            margin-top: 0;
+            .opacity(1);
+        }
+    }
+}
+
+.oe-page-member-infomation {
+    padding: 50px 50px 20px;
+}
+
+.oe-employee-pagination {
+    h6 {
+        margin-top: 20px;
+    }
+}
+
+
+
+// SEARCH
+.oe-search-result {
+    display: block;
+    padding: 30px;
+    border-width: 1px;
+    border-style: solid;
+    img {
+        width: auto;
+    }
+    .oe-image-item {
+        display: inline;
+        width: 70px;
+        height: 70px;
+        background-color: @boxGrey;
+        margin-right: 25px;
+        color: @reflectBgColor;
+    }
+}
+
+.oe-search-input {
+    position: relative;
+    .form-control {
+        border-color: @reflectBgColor;
+        &:focus {
+            border-color: @boxGrey;
+        }
+        padding-right: 4em;
+    }
+    .oe-search-submit {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        cursor: pointer;
+           padding: 0;
+           height: auto;
+           &:active {
+               .translate(0,0);
+           }
+        .fa {
+            background: @reflectBgColor;
+            color: @white;
+            width: 100%;
+            height: 100%;
+
+            line-height: 1.5em;
+            padding: 0.8em 1.2em;
+            transition: all 0.4s ease-out 0s;
+            z-index: 10;
+
+            &:after {
+                opacity: 0.5;
+                z-index: 1;
+                transition: all 0.4s ease-out 0s;
+                line-height: 1.5em;
+            }
+        }
+    }
+}
+
+.oe-slider {
+    .slides {
+        img {
+            width: 100%;
+        }
+    }
+}

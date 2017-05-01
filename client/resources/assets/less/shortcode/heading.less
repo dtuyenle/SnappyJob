@@ -1,0 +1,135 @@
+//
+// Heading
+// --------------------------------------------------
+
+h1 {
+    font-size: 2.3em;
+}
+h2 {
+    font-size: 2.0em;
+}
+h3 {
+    font-size: 1.70em;
+}
+h4 {
+    font-size: 1.57em;
+}
+h5 {
+    font-size: 1.4em;
+}
+h6 {
+    font-size: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0;
+    padding: 10px 0;
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 1.1em;
+    color: @textColor;
+}
+.oe-reflect {
+    .oe-heading-2:before,
+    .oe-heading-3:after,
+    .oe-heading-4:after,
+    .oe-heading-5:before,
+    .oe-heading-5:after,
+    .oe-heading-6:before,
+    .oe-heading-6:after {
+        background-color: @reflectTextColor;
+    }
+    .oe-heading-6:before,
+    .oe-heading-6:after {
+        .box-shadow(10px 0 0 @reflectTextColor, -10px 0 0 @reflectTextColor;);
+    }
+}
+
+.oe-heading-2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+.oe-heading-2:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: @textCaptain;
+    content: '';
+}
+
+.oe-heading-3, .oe-heading-4, .oe-heading-5, .oe-heading-6 {
+    position: relative;
+    text-align: center;
+}
+
+.oe-heading-3:after {
+	display: block;
+	margin: 26px auto 0;
+	width: 30px;
+	height: 5px; 
+	background-color: @textCaptain;
+	content: '';
+}
+
+.oe-heading-4:after {
+	display: block;
+	margin: 28px auto 0;
+	width: 30px;
+	height: 2px;
+	background-color: @textCaptain;
+	content: '';
+}
+
+.oe-heading-5:before,
+.oe-heading-5:after {
+    position: relative;
+    top: -0.3em;
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    background-color: @textCaptain;
+    content: '';
+}
+.oe-heading-5:before {
+    left: -20px;
+}
+.oe-heading-5:after {
+    right: -20px;
+}
+
+.oe-heading-6:before,
+.oe-heading-6:after
+{
+    position: relative;
+    display: inline-block;
+    top: -0.25em;
+    width: 5px;
+    height: 5px;
+    background-color: @textCaptain;
+    content: '';
+    .box-shadow(10px 0 0 @textCaptain, -10px 0 0 @textCaptain;);
+}
+.oe-heading-6:before {
+    left: -30px;
+}
+.oe-heading-6:after {
+    right: -30px;
+}
+
+// Added
+.oe-heading-deco-reflect {
+	&:before, &:after {
+		background-color: @lineBorder;
+	}
+}
+.oe-reflect {
+	.oe-heading-deco-reflect {
+		&:before, &:after {
+			background-color: @reflectLineBorder;
+		}
+	}
+}

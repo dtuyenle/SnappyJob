@@ -1,0 +1,50 @@
+{"_id":{"$oid":"5596af8b340f21287da2f80f"},"state":"AL","state_name":"Alabama","twitter_id":"616977445867098112"}
+{"_id":{"$oid":"5596af8b340f21287da2f810"},"state":"AK","state_name":"Alaska","twitter_id":"616821615473631232"}
+{"_id":{"$oid":"5596af8b340f21287da2f811"},"state":"AZ","state_name":"Arizona","twitter_id":"616992424842383360"}
+{"_id":{"$oid":"5596af8b340f21287da2f812"},"state":"AR","state_name":"Arkansas","twitter_id":"616819663549300737"}
+{"_id":{"$oid":"5596af8b340f21287da2f813"},"state":"CA","state_name":"California","twitter_id":"616811429451005952"}
+{"_id":{"$oid":"5596af8b340f21287da2f814"},"state":"CO","state_name":"Colorado","twitter_id":"616992548570169346"}
+{"_id":{"$oid":"5596af8b340f21287da2f815"},"state":"CT","state_name":"Connecticut","twitter_id":"616812966709624836"}
+{"_id":{"$oid":"5596af8b340f21287da2f816"},"state":"DE","state_name":"Delaware","twitter_id":"616979907021774848"}
+{"_id":{"$oid":"5596af8b340f21287da2f817"},"state":"FL","state_name":"Florida","twitter_id":"616980098412081152"}
+{"_id":{"$oid":"5596af8b340f21287da2f818"},"state":"GA","state_name":"Georgia","twitter_id":"616980617494966272"}
+{"_id":{"$oid":"5596af8b340f21287da2f819"},"state":"HI","state_name":"Hawaii","twitter_id":"616992653599764480"}
+{"_id":{"$oid":"5596af8b340f21287da2f81a"},"state":"ID","state_name":"Idaho","twitter_id":"616992784478814209"}
+{"_id":{"$oid":"5596af8b340f21287da2f81b"},"state":"IL","state_name":"Illinois","twitter_id":"616980920608903168"}
+{"_id":{"$oid":"5596af8b340f21287da2f81c"},"state":"IN","state_name":"Indiana","twitter_id":"616983991070105600"}
+{"_id":{"$oid":"5596af8b340f21287da2f81d"},"state":"IA","state_name":"Iowa","twitter_id":"616986401238876164"}
+{"_id":{"$oid":"5596af8b340f21287da2f81e"},"state":"KS","state_name":"Kansas","twitter_id":"616986713706098688"}
+{"_id":{"$oid":"5596af8b340f21287da2f81f"},"state":"KY","state_name":"Kentucky","twitter_id":"616986942312448000"}
+{"_id":{"$oid":"5596af8b340f21287da2f820"},"state":"LA","state_name":"Louisiana","twitter_id":"616987324866502658"}
+{"_id":{"$oid":"5596af8b340f21287da2f821"},"state":"ME","state_name":"Maine","twitter_id":"616987527019405312"}
+{"_id":{"$oid":"5596af8b340f21287da2f822"},"state":"MD","state_name":"Maryland","twitter_id":"616987743277740033"}
+{"_id":{"$oid":"5596af8b340f21287da2f823"},"state":"MA","state_name":"Massachusetts","twitter_id":"616987861171224576"}
+{"_id":{"$oid":"5596af8b340f21287da2f824"},"state":"MI","state_name":"Michigan","twitter_id":"616987980234948608"}
+{"_id":{"$oid":"5596af8b340f21287da2f825"},"state":"MN","state_name":"Minnesota","twitter_id":"616988222762188800"}
+{"_id":{"$oid":"5596af8b340f21287da2f826"},"state":"MS","state_name":"Mississippi","twitter_id":"616988532196941825"}
+{"_id":{"$oid":"5596af8b340f21287da2f827"},"state":"MO","state_name":"Missouri","twitter_id":"616988649041825792"}
+{"_id":{"$oid":"5596af8b340f21287da2f828"},"state":"MT","state_name":"Montana","twitter_id":"616988823898169344"}
+{"_id":{"$oid":"5596af8b340f21287da2f829"},"state":"NE","state_name":"Nebraska","twitter_id":"616989013908570112"}
+{"_id":{"$oid":"5596af8b340f21287da2f82a"},"state":"NV","state_name":"Nevada","twitter_id":"616989456575414272"}
+{"_id":{"$oid":"5596af8b340f21287da2f82b"},"state":"NH","state_name":"New Hampshire","twitter_id":"616989576494718976"}
+{"_id":{"$oid":"5596af8b340f21287da2f82c"},"state":"NJ","state_name":"NewJersey","twitter_id":"616989720367788032"}
+{"_id":{"$oid":"5596af8b340f21287da2f82d"},"state":"NM","state_name":"NewMexico","twitter_id":"616989840308084736"}
+{"_id":{"$oid":"5596af8b340f21287da2f82e"},"state":"NY","state_name":"NewYork","twitter_id":"616989955408142336"}
+{"_id":{"$oid":"5596af8b340f21287da2f82f"},"state":"NC","state_name":"North Carolina","twitter_id":"616990059204608000"}
+{"_id":{"$oid":"5596af8b340f21287da2f830"},"state":"ND","state_name":"North Dakota","twitter_id":"616990252402626560"}
+{"_id":{"$oid":"5596af8b340f21287da2f831"},"state":"OH","state_name":"Ohio","twitter_id":"616990361572016128"}
+{"_id":{"$oid":"5596af8b340f21287da2f832"},"state":"OK","state_name":"Oklahoma","twitter_id":"616990464907063296"}
+{"_id":{"$oid":"5596af8b340f21287da2f833"},"state":"OR","state_name":"Oregon","twitter_id":"616990707673382912"}
+{"_id":{"$oid":"5596af8b340f21287da2f834"},"state":"PA","state_name":"Pennsylvania","twitter_id":"616990829480144896"}
+{"_id":{"$oid":"5596af8b340f21287da2f835"},"state":"RI","state_name":"Rhode Island","twitter_id":"616990968785563648"}
+{"_id":{"$oid":"5596af8b340f21287da2f836"},"state":"SC","state_name":"South Carolina","twitter_id":"616991079250923521"}
+{"_id":{"$oid":"5596af8b340f21287da2f837"},"state":"SD","state_name":"South Dakota","twitter_id":"616991194300719104"}
+{"_id":{"$oid":"5596af8b340f21287da2f838"},"state":"TN","state_name":"Tennessee","twitter_id":"616991334675709952"}
+{"_id":{"$oid":"5596af8b340f21287da2f839"},"state":"TX","state_name":"Texas","twitter_id":"616991442712555520"}
+{"_id":{"$oid":"5596af8b340f21287da2f83a"},"state":"UT","state_name":"Utah","twitter_id":"616991550107729920"}
+{"_id":{"$oid":"5596af8b340f21287da2f83b"},"state":"VT","state_name":"Vermont","twitter_id":"616991658777944064"}
+{"_id":{"$oid":"5596af8b340f21287da2f83c"},"state":"VA","state_name":"Virginia","twitter_id":"616991768479928320"}
+{"_id":{"$oid":"5596af8b340f21287da2f83d"},"state":"WA","state_name":"Washington","twitter_id":"616991880090394624"}
+{"_id":{"$oid":"5596af8b340f21287da2f83e"},"state":"WV","state_name":"West Virginia","twitter_id":"616991988265709568"}
+{"_id":{"$oid":"5596af8b340f21287da2f83f"},"state":"WI","state_name":"Wisconsin","twitter_id":"616992100425580549"}
+{"_id":{"$oid":"5596af8b340f21287da2f840"},"state":"WY","state_name":"Wyoming","twitter_id":"616992216955899907"}

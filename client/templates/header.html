@@ -1,0 +1,162 @@
+<header class="mainhead header-fixed" ng-controller="headerController">
+    <div class="oe-header oe-header-basic">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-md-3 header-main">
+                    <h1 class="logo hidden-xs">
+                        <a ng-click="navService.reloadHomePage()" href="#">
+                            <img width="60" height="60" alt="SnappyJob" src="/resources/assets/img/retina/logo@2x.png">nappyJob
+                        </a>
+                    </h1>
+                    <div class="logo-mobile visible-xs">
+                        <a ng-click="navService.reloadHomePage()" href="#">
+                            <img width="60" height="60" alt="SnappyJob" src="/resources/assets/img/logo-tiny.png">
+                        </a>
+                    </div>
+                  
+                </div>
+
+                <div class="oe-header-extra clearfix" style="width: 130px;">
+                    <div class="hidden-lg hidden-md offset-canvas-btn" style="">
+                        <a data-uk-offcanvas="{target:'#offcanvasMain'}" href="javascript:">
+                            <i class="fa fa-navicon"></i>
+                        </a>
+                    </div>
+                    <div class="hidden-sm hidden-xs desktop-show offset-canvas-btn">
+                        <a data-uk-offcanvas="{target:'#offcanvasMain'}" href="javascript:">
+                            <i class="fa fa-navicon"></i>
+                        </a>
+                    </div>
+                    <div data-toggle-active="#searchForm" class="oe-search-btn-box">
+                        <label data-focus="#searchInput" class="search-btn">
+                            <i class="fa fa-search"></i>
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="visible-md visible-lg col-md-9 menu-header">
+                    <nav class="oe-mainmenu" style="margin-right: 130px;">
+                        <ul class="oe-menu-dad">
+                            <li class="menu-item menu-item-has-child col-1">
+                                <a ng-show="!geoService.city.length" ng-click="getCurrentLocation(searchParams)"><i class="fa oe-icon fa-map-marker"></i> Current Location</a>
+                                <a ng-show="geoService.city.length" ng-click="getCurrentLocation(searchParams)"><i class="fa oe-icon fa-map-marker"></i> {{geoService.city}} {{geoService.state}}</a>
+                            </li>
+
+                            <li ng-show="geoService.lat" class="menu-item menu-item-has-child col-1">
+                                <a ng-click="navService.toMap()"><i class="fa fa-map"></i> SnappyJob Map</a>
+
+                                <!--<ul class="submenu">
+                                    <li ng-show="geoService.lat" ng-click="navService.toMap()">
+                                        <a>Map View</a>   
+                                    </li>
+                                    <li ng-show="geoService.lat" ng-click="navService.toWall()">
+                                        <a>List View</a>   
+                                    </li>
+                                </ul>-->
+                            </li>
+
+                            <li ng-show="geoService.lat" class="menu-item menu-item-has-child col-1">
+                                <a ng-click="navService.toWall()"><i class="fa fa-list-alt"></i> SnappyJob Wall</a>
+                            </li>
+                            
+                            <!--<li ng-click="toTwitterWall()" ng-show="wallService.view=='map' || wallService.view=='list'" class="menu-item menu-item-has-child menu-right col-3">
+                                <a><i class="fa oe-icon fa-twitter"></i> Twitter Job Wall</a>   
+                            </li>-->
+                            <li ng-show="bookmarkService.checkBookmark()" class="menu-item menu-item-has-child col-1">
+                                <a ng-click="navService.toBookmark()"><i class="fa oe-icon fa-database"></i> Saved Jobs</a>
+                            </li>
+                            <!--<li class="menu-item menu-item-has-child col-1">
+                                <a ng-click="navService.toSnappyPost()"><i class="fa oe-icon fa-plus"></i> Post Job</a>
+                            </li>-->
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <div id="searchForm" class="oe-custom-search-form col-xs-12">
+                    <div class="row">
+                        <!--<div class="oe-column-5 col-md-5 col-xs-12">
+                            <input id="search-term" ng-model="searchService.jobtitle" class="form-control input-lg" type="text" placeholder="Job Title" />
+                        </div>-->
+                        <div class="oe-column-12 col-md-12 col-xs-12">
+                            <div class="row">
+                                <div class="oe-column-11 col-md-11 col-xs-9">
+                                    <input ng-model="searchService.address" id="search-location" class="form-control input-lg" type="text" placeholder="Location"/>
+                                </div>
+                                <div class="oe-column-1 col-md-1 col-xs-3">
+                                    <button ng-click="searchService.getSearchResult()" class="btn oe-btn oe-btn-reflect oe-search-submit" type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    <a data-toggle-active="#searchForm" class="fa search-close" href="javascript:">×</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+
+                <!--data-toggle-active="#searchForm" <div id="searchForm" class="oe-custom-search-form col-xs-12">
+                    <form>
+                        <div id="searchBox" class="search-box">
+                            <div class="row">
+                                <div class="oe-column-11 col-md-10 col-sm-12">
+                                    <nit-advanced-searchbox
+                                        ng-model="searchParams"
+                                        parameters="availableSearchParams"
+                                        placeholder="Pattern: Job Title,  Address Location...">
+                                    </nit-advanced-searchbox>
+                                </div>
+                                <div class="oe-column-1 col-md-2 col-sm-12" ng-controller="wallController" ng-click="toWall(searchParams)">
+                                    <button class="btn oe-btn oe-btn-reflect oe-btn-hover-red advancedSearchBox-button">
+                                        <span>Search</span>
+                                    </button>
+                                </div>
+                                <a data-toggle-active="#searchForm" class="fa search-close" href="javascript:">×</a>
+                            </div>
+                            
+                           
+                        </div>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+
+        <div class="uk-offcanvas" id="offcanvasMain">
+            <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+                <ul class="uk-nav uk-nav-offcanvas">
+                    <li class="menu-item menu-item-has-child col-1">
+                        <a ng-show="!geoService.city.length" ng-click="getCurrentLocation(searchParams)"><i class="fa oe-icon fa-map-marker"></i>  Current Location</a>
+                        <a ng-show="geoService.city.length" ng-click="getCurrentLocation(searchParams)"><i class="fa oe-icon fa-map-marker"></i>  {{geoService.city}} {{geoService.state}}</a>
+                    </li>
+                    <li ng-click="navService.toMap()" class="menu-item menu-item-has-child menu-right col-3">
+                        <a><i class="fa oe-icon fa-image"></i>  Map View</a>   
+                    </li>
+                    <li ng-click="navService.toWall()" class="menu-item menu-item-has-child menu-right col-3">
+                        <a><i class="fa oe-icon fa-list"></i>  List View</a> 
+                    </li>
+                    <!--<li ng-click="toTwitterWall()" ng-show="wallService.view=='map' || wallService.view=='list'" class="menu-item menu-item-has-child menu-right col-3">
+                        <a><i class="fa oe-icon fa-twitter"></i> Twitter Job Wall</a>   
+                    </li>-->
+                    <li class="menu-item menu-item-has-child col-1">
+                        <a ng-click="navService.toBookmark()"><i class="fa oe-icon fa-database"></i>  Saved Jobs</a>
+                    </li>
+                    <!--<li class="menu-item menu-item-has-child col-1">
+                        <a ng-click="navService.toSnappyPost()"><i class="fa oe-icon fa-plus"></i>  Post Job</a>
+                    </li>-->
+                    <div class="oe-mtop">
+                        <div class="row">
+                            <div share-square="true" share-links="Facebook, Twitter, LinkedIn, Google-Plus" share-title="Article Title"></div>
+                        </div>
+                    </div>
+                                 
+
+                </ul>
+        
+            </div>
+        </div>
+    </div>
+</header>
+
+

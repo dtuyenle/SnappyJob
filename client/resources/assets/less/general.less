@@ -1,0 +1,169 @@
+// Fix for black
+.oe-white {
+    color: #ccc;
+    h1, h2, h3, h4, h5, h6, p {
+        color: @white;
+    }
+    .oe-btn {
+        border-color: @white;
+        &:before {
+            background-color: @white;
+        }
+        span {
+            color: @white;
+        }
+        .fa {
+            color: @white;
+        }
+
+        &.oe-btn-reflect-icon {
+            .fa {
+                color: @black;
+                background-color: @white;
+            }
+        }
+        &:hover {
+            span {
+                color: @black;
+            }
+            .fa {
+                color: @black;
+            }
+        }
+    }
+    .oe-content-boxes {
+        i {
+            color: @white;
+        }
+        .oe-circle-dashed-border .fa-stack,
+        .oe-square-dashed-border .fa-stack {
+            border-color: @white;
+        }
+        .fa-stack {
+            border-color: #eee;
+        }
+    }
+    .oe-box-testimonials-3 {
+        .oe-testimonials-slider {
+            .flex-control-nav {
+                a.flex-active {
+                    background-color: @white;
+                }
+                a {
+                    border-color: @white;
+                }
+            }
+        }
+    }
+    .oe-text-reflect {
+        color: #fff;
+    }
+
+    .oe-circle-chart.darken .oe-color-track {
+        color: @white;
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+    .oe-social.oe-social-transparent {
+        color: @white;
+        border-color: @white;
+        &:hover {
+            color: @black;
+            background-color: @white;
+        }
+    }
+
+}
+.oe-black {
+    h1, h2, h3, h4, h5, h6 {
+        color: @black;
+    }
+    .oe-callout-reflect {
+        background-color: @white;
+        border-color: @grey;
+
+        .oe-callout-content {
+            border-color: @grey;
+        }
+    }
+    .oe-heading-5:before,
+    .oe-heading-5:after {
+        background-color: @black;
+    }
+    .oe-pricing-column {
+        background-color: @white;
+        border-color: @grey;
+        &.active {
+            border-color: #444;
+            .oe-pricing-head {
+                background-color: #444;
+                h3 {
+                    color: @white;
+                }
+            }
+        }
+    }
+    .oe-pricing-price {
+        background-color: @white;
+        .cost {
+            color: #444;
+        }
+    }
+    .oe-pricing-body {
+        ul {
+            li {
+                border-color: @grey;
+            }
+        }
+    }
+    .oe-circle-dashed-border .fa-stack,
+    .oe-square-dashed-border .fa-stack {
+        border-color: #444;
+    }
+    .oe-content-boxes {
+        i {
+            color: #444;
+        }
+    }
+    .oe-icon-boxes-hover-darken {
+        .fa-stack:hover {
+            background-color: #444;
+            i {
+                color: @white;
+            }
+        }
+    }
+    .fa-li.oe-li,
+    .oe-li {
+        color: #444;
+    }
+    .oe-btn {
+        border-color: @black;
+        &:before {
+            background-color: @black;
+        }
+        span {
+            color: @black;
+        }
+        .fa {
+            color: @black;
+        }
+
+        &.oe-btn-reflect-icon {
+            .fa {
+                color: @white;
+                background-color: @black;
+            }
+        }
+        &:hover {
+            span {
+                color: @white;
+            }
+            .fa {
+                color: @white;
+            }
+        }
+    }
+}
+.flex-viewport {
+    z-index: 1;
+}

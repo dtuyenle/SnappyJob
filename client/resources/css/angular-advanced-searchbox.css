@@ -1,0 +1,111 @@
+/*! 
+ * angular-advanced-searchbox v1.1.1
+ * https://github.com/dnauck/angular-advanced-searchbox
+ * Copyright (c) 2015 Nauck IT KG http://www.nauck-it.de/
+ * License: MIT
+ */
+
+
+.advancedSearchBox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: text;
+    display: block;
+    line-height: 40px;
+    margin: 5px 0 10px;
+    min-height: 40px;
+    padding: 0 9px;
+    position: relative;
+}
+
+.advancedSearchBox-button {
+    margin-top: 20px;
+    width: auto;
+    position: relative!important;
+}
+@media (max-width: 908px) {
+    .advancedSearchBox-button {
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+.advancedSearchBox .search-icon {
+    float: right;
+    cursor: pointer;
+    display: none;
+    padding: 10px 0 0 10px;
+}
+.advancedSearchBox .remove-all-icon {
+    float: right;
+    cursor:pointer;
+    display:none;
+    padding: 10px 0 0 10px;
+}
+.remove-all-icon{
+    top: 18px;
+}
+.advancedSearchBox .search-parameter {
+    background-color: #5bc0de;
+    border-radius: 4px;
+    cursor: default;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 7px 0 0;
+    padding: 0 15px;
+    transition: box-shadow 100ms linear 0s;
+}
+
+.advancedSearchBox .search-parameter:hover {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+.advancedSearchBox .search-parameter div {
+    float: left;
+    margin: 0 2px;
+}
+.advancedSearchBox .search-parameter .remove {
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.advancedSearchBox .search-parameter .key, .advancedSearchBox .search-parameter .value span {
+    color: #fff;
+}
+.advancedSearchBox .search-parameter .value input {
+    height: 24px;
+}
+.advancedSearchBox .search-parameter-input {
+    border: 0 none;
+    display: inline-block;
+    height: 75px;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+    width: 90%;
+}
+.advancedSearchBox .search-parameter-input:focus {
+    box-shadow: none;
+    outline: 0 none;
+}
+.advancedSearchBox .search-parameter-suggestions {
+    cursor: auto;
+    display: block;
+}
+.advancedSearchBox .search-parameter-suggestions .title {
+    background-color: transparent;
+    color: #888;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 25px;
+    margin: 7px 7px 0 0;
+    padding: 0 5px;
+}
+.advancedSearchBox .search-parameter-suggestions .search-parameter {
+    background-color: #bdbdbd;
+    color: #fff;
+    cursor: pointer;
+}

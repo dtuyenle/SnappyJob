@@ -1,0 +1,54 @@
+.oe-sidebar-nav {
+    .ul-nostyle;
+    border-top: 1px solid @lineBorder;
+    li {
+        display: block;
+        a {
+            display: block;
+            position: relative;
+            margin: 0;
+            padding: 10px 20px;
+            border: 1px solid @lineBorder;
+            border-top: 0;
+
+            &:before {
+                content: '\f105';
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                .fontIcon;
+                .opacity(0);
+                .translate(0, -50%);
+                .transition(all linear .2s);
+            }
+            &:hover {
+                padding-left: 25px;
+                &:before {
+                    right: 15px;
+                    .opacity(1);
+                }
+            }
+        }
+        &.active {
+            a {
+                border-left: 0;
+                color: @textCaptain;
+            }
+        }
+    }
+}
+.oe-shortcode-sidebar-left {
+    .oe-main-col {
+        float: right;
+    }
+    .oe-sidebar-nav {
+        li {
+            &.active {
+                a {
+                    border-right: 0;
+                    border-left: 1px solid @lineBorder;
+                }
+            }
+        }
+    }
+}

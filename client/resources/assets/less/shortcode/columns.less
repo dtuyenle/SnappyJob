@@ -1,0 +1,56 @@
+//
+// Columns
+// --------------------------------------------------
+
+@padding-right: 2.56410;
+
+// Mixins
+.make-xs-oe-column(@columns; @gutter: @grid-gutter-width) {
+	position: relative;
+	float: left;
+	width: percentage((@columns / @grid-columns)) - (@padding-right / 2);
+	min-height: 1px;
+	padding-right: percentage(@padding-right/100);
+}
+.make-sm-oe-column(@columns; @gutter: @grid-gutter-width) {
+	position: relative;
+	min-height: 1px; 
+	padding-right: percentage(@padding-right/100);
+	
+	@media (min-width: @screen-sm-min) {
+		float: left;
+		width: percentage((@columns / @grid-columns)) - (@padding-right / 2);
+	}
+}
+.make-md-oe-column(@columns; @gutter: @grid-gutter-width) {
+	position: relative; 
+	min-height: 1px;
+	padding-right: percentage(@padding-right/100);
+	 
+	@media (min-width: @screen-md-min) {
+		float: left;
+		width: percentage((@columns / @grid-columns)) - (@padding-right / 2);
+	}
+}
+ 
+// Base class
+.oe-column-one-half {
+	.make-xs-oe-column(12; @gutter: @grid-gutter-width); 
+	.make-sm-oe-column(6; @gutter: @grid-gutter-width); 
+	.make-md-oe-column(6; @gutter: @grid-gutter-width); 
+}
+.oe-column-three-fourth {
+	.make-xs-oe-column(12; @gutter: @grid-gutter-width); 
+	.make-sm-oe-column(3; @gutter: @grid-gutter-width); 
+	.make-md-oe-column(9; @gutter: @grid-gutter-width); 
+}
+.oe-column-one-fourth {
+	.make-xs-oe-column(4; @gutter: @grid-gutter-width); 
+	.make-sm-oe-column(3; @gutter: @grid-gutter-width); 
+	.make-md-oe-column(3; @gutter: @grid-gutter-width);  
+}
+
+.oe-column-last {
+	padding-left: 0;
+	padding-right: 0;
+}

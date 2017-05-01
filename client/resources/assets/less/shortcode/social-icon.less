@@ -1,0 +1,120 @@
+//
+// # Social Icon
+// --------------------------
+
+// MIXIN get by social
+.oe-social {
+    padding: 9px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius:  0px;
+    background: @socialDarken;
+    color: @textColor;
+    border: 0px;
+    line-height: 1.3em;
+    overflow: hidden;
+    .transition(all 0.3s ease-in-out);
+    &:hover {
+        line-height: 1.3em;
+//        .fa {
+//            .animation(pulseBig 500ms ease-out);
+//        }
+    }
+    &.oe-social-transparent {
+        background: transparent;
+        color: @reflectBgColor;
+        border: 1px solid @reflectBgColor;
+        width: 39px;
+        height: 39px;
+        padding: 8px 9px;
+        &:hover {
+            background: @reflectBgColor;
+            color: @bgColor;
+        }
+    }
+}
+.oe-social-light, .oe-social-hover-light:hover {
+    background: @socialLight;
+    color: @socialDarken;
+}
+.oe-social-dark, .oe-social-hover-dark:hover {
+    background: @socialDarken;
+    color: @white;
+}
+
+.oe-social-twitter, .oe-social-hover-twitter:hover {
+    .oe-social-color(@socialTwitterBg);
+}
+.oe-social-facebook, .oe-social-hover-facebook:hover {
+    .oe-social-color(@socialFacebookBg);
+}
+.oe-social-linkedin, .oe-social-hover-linkedin:hover {
+    .oe-social-color(@socialLikedinBg);
+}
+.oe-social-google, .oe-social-hover-google:hover {
+    .oe-social-color(@socialGoogleBg);
+}
+.oe-social-dribbble, .oe-social-hover-dribbble:hover {
+    .oe-social-color(@socialDribbbleBg);
+}
+.oe-social-skype, .oe-social-hover-skype:hover {
+    .oe-social-color(@socialSkypeBg);
+}
+.oe-social-behance, .oe-social-hover-behance:hover {
+    .oe-social-color(@socialBehanceBg);
+}
+.oe-social-deviantart, .oe-social-hover-deviantart:hover {
+    .oe-social-color(@socialDeviantartBg);
+}
+.oe-social-tumblr, .oe-social-hover-tumblr:hover {
+    .oe-social-color(@socialTumblrBg);
+}
+.oe-social-rss, .oe-social-hover-rss:hover {
+    .oe-social-color(@socialRssBg);
+}
+.oe-social-vimeo, .oe-social-hover-vimeo:hover {
+    .oe-social-color(@socialVimeoBg);
+}
+.oe-social-pinterest, .oe-social-hover-pinterest:hover {
+    .oe-social-color(@socialPinterestBg);
+}
+.oe-social-flickr, .oe-social-hover-flickr:hover {
+    .oe-social-color(@socialFlickrBg);
+}
+.oe-social-youtube, .oe-social-hover-youtube:hover {
+    .oe-social-color(@socialYoutubeBg);
+}
+.oe-social-instagram, .oe-social-hover-instagram:hover {
+    .oe-social-color(@socialInstagramBg);
+}
+.oe-social-apple, .oe-social-hover-apple:hover {
+    .oe-social-color(@socialAppleBg);
+}
+
+.oe-reflect {
+    .oe-social-transparent {
+        background: transparent;
+        color: @bgColor;
+        border: 1px solid @bgColor;
+        &:hover {
+            background: @bgColor;
+            color: @reflectBgColor;
+        }
+    }
+}
+
+.oe-social-group-nospace {
+    .oe-social {
+        margin-right: -4px;
+    }
+}
+.oe-social-group-smallspace {
+    .oe-social {
+        margin-right: -3px;
+    }
+}
+.oe-social-group-largespace {
+    .oe-social {
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,829 @@
+//
+// Buttons
+// --------------------------------------------------
+@animateSpeed: .4s;
+.oe-btn {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+    padding: 0;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid @reflectBgColor;
+    .border-radius(0);
+    .transition(all ease-out @animateSpeed);
+    .box-shadow(0 0 1px rgba(0, 0, 0, 0.05););
+
+    span {
+        position: relative;
+        z-index: 10;
+        display: inline-block;
+        padding: 1em 1.8em;
+        line-height: 1.5em;
+        color: @textCaptain;
+        .transition(all ease-out @animateSpeed);
+    }
+
+    &:before,
+    span:before,
+    .fa:after {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        padding: 1em 1.3em;
+        line-height: 1.5em;
+        color: @reflectTextCaptain;
+        background-color: @reflectBgColor;
+        .opacity(.5);
+        .transition(all ease-out @animateSpeed);
+    }
+
+    .fa {
+        position: relative;
+        z-index: 10;
+        padding: 1em 1.2em 1em 1.4em;
+        line-height: 1.5em;
+        color: @textCaptain;
+        .transition(all ease-out @animateSpeed);
+
+        &:after {
+            z-index: -1;
+            right: -100%;
+            left: auto;
+        }
+    }
+
+    &:hover {
+        span {
+            color: @reflectTextCaptain;
+            &:before {
+                .opacity(1);
+            }
+        }
+        &:before {
+            left: 0;
+            background-color: @reflectBgColor;
+            .opacity(1);
+        }
+        .fa {
+            color: @reflectTextCaptain;
+            &:after {
+                .opacity(1);
+            }
+        }
+    }
+
+    &:active {
+        .translate(0, 3px);
+        .transition-duration(.1s);
+    }
+    &:focus,
+    &:active:focus {
+        outline: 0;
+    }
+}
+// Button hover
+.oe-btn-hover-overlap {
+    &:before {
+        display: none;
+    }
+    span {
+        &:before {
+            content: attr(data-btn-text);
+        }
+    }
+    .fa {
+        background-color: @bgColor;
+    }
+    &:hover {
+        span {
+            .translate(100%, 0);
+        }
+        .fa {
+            color: @textCaptain;
+        }
+    }
+}
+.oe-btn-hover-up {
+    &:before {
+        left: 0;
+        top: 100%;
+    }
+    .fa {
+        &:after {
+            right: 0;
+            top: -100%;
+        }
+    }
+    &:hover {
+        &:before {
+            top: 0;
+        }
+        .fa {
+            &:after {
+                top: 0;
+            }
+        }
+    }
+    &.oe-btn-reflect-icon {
+        &:hover {
+            .fa {
+                color: @textCaptain;
+                &:after {
+                    background-color: @bgColor;
+                }
+            }
+        }
+    }
+    &.oe-btn-hover-overlap {
+        span {
+            &:before {
+                left: 0;
+                top: 100%;
+            }
+        }
+        &:hover {
+            span {
+                .translate(0, -100%);
+            }
+        }
+    }
+}
+.oe-btn-hover-down {
+    &:before {
+        left: 0;
+        top: -100%;
+    }
+    .fa {
+        &:after {
+            right: 0;
+            top: 100%;
+        }
+    }
+    &:hover {
+        &:before {
+            top: 0;
+        }
+    }
+    &.oe-btn-reflect-icon {
+        &:hover {
+            .fa {
+                color: @textCaptain;
+                &:after {
+                    top: 0;
+                    background-color: @bgColor;
+                }
+            }
+        }
+    }
+    &.oe-btn-hover-overlap {
+        span {
+            &:before {
+                left: 0;
+                top: -100%;
+            }
+        }
+        &:hover {
+            span {
+                .translate(0, 100%);
+            }
+        }
+    }
+}
+/* 3D STYLES */
+.oe-btn-hover-flap,
+.oe-btn-3d-box,
+.oe-btn-3d-left,
+.oe-btn-3d-right {
+    .perspective(800px);
+    overflow: visible;
+    border: 0;
+
+    &:before {
+        display: none;
+    }
+    span {
+        background-color: @bgColor;
+        border: 1px solid @reflectBgColor;
+        outline: 1px solid transparent;
+        .box-sizing(border-box);
+        .preserve-3d;
+        &:before {
+            content: attr(data-btn-text);
+            display: block;
+            position: absolute;
+            padding: 1em;
+            color: @reflectTextCaptain;
+            background-color: @reflectBgColor;
+            border: 1px solid @reflectBgColor;
+        }
+    }
+    .fa {
+        margin: 0 -1px;
+        border: 1px solid @reflectBgColor;
+        .box-sizing(border-box);
+        &:after {
+            display: none;
+        }
+    }
+}
+.oe-btn-hover-flap {
+    span {
+        &:before {
+            left: -1px;
+            top: -100%;
+            width: 101%;
+            height: 105%;
+            .transform-origin(0% 100%);
+            .rotateX(90deg);
+        }
+    }
+    &:hover {
+        span {
+            .transform-origin(50% 100%);
+            -webkit-transform: rotateX(-90deg) translateY(100%);
+            -moz-transform: rotateX(-90deg) translateY(100%);
+            transform: rotateX(-90deg) translateY(100%);
+        }
+    }
+}
+.oe-btn-3d-left {
+    span {
+        &:before {
+            top: -1px;
+            left: -100%;
+            width: 101%;
+            height: 105%;
+            .transform-origin(100% 0);
+            .rotateY(-90deg);
+        }
+    }
+    &:hover {
+        span {
+            .transform-origin(100% 50%);
+            -webkit-transform: rotateY(90deg) translateX(100%);
+            -moz-transform: rotateY(90deg) translateX(100%);
+            transform: rotateY(90deg) translateX(100%);
+        }
+    }
+}
+.oe-btn-3d-right {
+    span {
+        &:before {
+            top: -1px;
+            left: 100%;
+            width: 101%;
+            height: 105%;
+            .transform-origin(0 0);
+            .rotateY(90deg);
+        }
+    }
+    &:hover {
+        span {
+            .transform-origin(0 0);
+            -webkit-transform: rotateY(-90deg) translateX(-100%);
+            -moz-transform: rotateY(-90deg) translateX(-100%);
+            transform: rotateY(-90deg) translateX(-100%);
+        }
+    }
+}
+.oe-btn-3d-box {
+    span {
+        .rotateX(8deg);
+        .transition-duration(.2s);
+        &:before {
+            top: 100%;
+            left: -1px;
+            width: 101%;
+            height: 105%;
+            color: @reflectBtnGrey;
+            background-color: @reflectBtnGrey;
+            .opacity(1);
+            .rotateX(-90deg);
+            .transform-origin(0 0);
+        }
+    }
+    &:hover {
+        span {
+            color: @textCaptain;
+            -webkit-transform: rotateX(5deg) translateY(2px);
+            -moz-transform: rotateX(5deg) translateY(2px);
+            transform: rotateX(5deg) translateY(2px);
+
+            &:before {
+                background-color: @reflectBtnGrey;
+            }
+        }
+        .fa {
+            color: @textCaptain;
+        }
+    }
+    &:active {
+        span {
+            .rotateX(0);
+        }
+    }
+    &.oe-btn-reflect {
+        span {
+            &:before {
+                color: @reflectBtnGrey;
+            }
+        }
+        &:hover {
+            span {
+                &:before {
+                    background-color: @reflectBtnGrey;
+                }
+            }
+        }
+    }
+}
+// Button types
+.oe-btn-reflect {
+    background-color: @reflectBgColor;
+
+    &:before,
+    span:before,
+    .fa:after {
+        color: @textCaptain;
+    }
+
+    .fa,
+    span {
+        color: @reflectTextCaptain;
+    }
+    &:hover {
+        &:before,
+        span:before {
+            background-color: @bgColor;
+        }
+        .fa,
+        span {
+            color: @textCaptain;
+        }
+    }
+    &.oe-btn-reflect-icon {
+        .fa {
+            color: @textCaptain;
+            background-color: @bgColor;
+        }
+    }
+    &.oe-btn-hover-overlap {
+        .fa {
+            background-color: @reflectBgColor;
+        }
+    }
+    &.oe-btn-hover-down {
+        &.oe-btn-reflect-icon {
+            &:hover {
+                .fa {
+                    color: @reflectTextCaptain;
+                    &:after {
+                        background-color: @reflectBgColor;
+                    }
+                }
+            }
+        }
+    }
+    &.oe-btn-3d-box,
+    &.oe-btn-3d-left,
+    &.oe-btn-3d-right,
+    &.oe-btn-hover-flap {
+        background-color: transparent;
+        &:before {
+            display: none;
+        }
+        span {
+            color: @reflectTextCaptain;
+            background-color: @reflectBgColor;
+        }
+        .fa {
+            background-color: @reflectBgColor;
+        }
+        &:hover {
+            .fa {
+                color: @bgColor;
+            }
+        }
+    }
+}
+.oe-btn-reflect-icon {
+    .fa {
+        color: @reflectTextCaptain;
+        background-color: @reflectBgColor;
+    }
+}
+.oe-btn-split {
+    .fa {
+        border-left: 1px solid @reflectBgColor;
+    }
+    &:hover {
+        .fa {
+            border-left-color: @bgColor;
+        }
+    }
+    &.oe-btn-icon-left {
+        border-left: 0;
+        border-right: 1px solid @reflectBgColor;
+        &:hover {
+            .fa {
+                border-right-color: @bgColor;
+            }
+        }
+    }
+}
+.oe-btn-split-short {
+    span {
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 20%;
+            right: 0;
+            width: 1px;
+            height: 60%;
+            background-color: @lineBorder;
+        }
+    }
+    &.oe-btn-icon-left {
+        span {
+            &:after {
+                right: auto;
+                left: 0;
+            }
+        }
+    }
+}
+.oe-btn-grey {
+    color: @textCaptain;
+    border-color: @lineBorder;
+    background-color: @lineBorder;
+}
+/* Reflect block colors */
+.oe-reflect {
+    .oe-btn {
+        border: 1px solid @bgColor;
+
+        span {
+            color: @reflectTextCaptain;
+        }
+
+        &:before,
+        span:before,
+        .fa:after {
+            color: @textCaptain;
+            background-color: @bgColor;
+        }
+
+        .fa {
+            color: @reflectTextCaptain;
+        }
+
+        &:hover {
+            span {
+                color: @textCaptain;
+            }
+            &:before {
+                background-color: @bgColor;
+            }
+            .fa {
+                color: @textCaptain;
+            }
+        }
+    }
+
+    // Button hover
+    .oe-btn-hover-overlap {
+        .fa {
+            background-color: @reflectBgColor;
+        }
+        &:hover {
+            .fa {
+                color: @reflectTextCaptain;
+            }
+        }
+    }
+    .oe-btn-hover-up {
+        &.oe-btn-reflect-icon {
+            &:hover {
+                .fa {
+                    color: @reflectTextCaptain;
+                    &:after {
+                        background-color: @reflectBgColor;
+                    }
+                }
+            }
+        }
+    }
+    .oe-btn-hover-down {
+        &.oe-btn-reflect-icon {
+            &:hover {
+                .fa {
+                    color: @reflectTextCaptain;
+                    &:after {
+                        background-color: @reflectBgColor;
+                    }
+                }
+            }
+        }
+    }
+    .oe-btn-3d-box,
+    .oe-btn-3d-left,
+    .oe-btn-3d-right,
+    .oe-btn-hover-flap {
+        border: 0;
+        span {
+            background-color: @reflectBgColor;
+            border: 1px solid @bgColor;
+
+            &:before {
+                color: @textCaptain;
+                background-color: @bgColor;
+                border: 1px solid @bgColor;
+            }
+        }
+        .fa {
+            border: 1px solid @bgColor;
+        }
+    }
+    // Button types
+    .oe-btn-reflect {
+        background-color: @bgColor;
+
+        &:before,
+        span:before,
+        .fa:after {
+            color: @reflectTextCaptain;
+        }
+
+        .fa,
+        span {
+            color: @textCaptain;
+        }
+        &:hover {
+            &:before,
+            span:before {
+                background-color: @reflectBgColor;
+            }
+            .fa,
+            span {
+                color: @reflectTextCaptain;
+            }
+        }
+        &.oe-btn-reflect-icon {
+            .fa {
+                color: @reflectTextCaptain;
+                background-color: @reflectBgColor;
+            }
+        }
+
+        &.oe-btn-hover-down {
+            &.oe-btn-reflect-icon {
+                &:hover {
+                    .fa {
+                        color: @textCaptain;
+                        &:after {
+                            background-color: @bgColor;
+                        }
+                    }
+                }
+            }
+        }
+        &.oe-btn-3d-box,
+        &.oe-btn-3d-left,
+        &.oe-btn-3d-right,
+        &.oe-btn-hover-flap {
+            background-color: transparent;
+            span {
+                background-color: @bgColor;
+            }
+            .fa {
+                background-color: @bgColor;
+            }
+            &:hover {
+                .fa {
+                    color: @reflectBgColor;
+                }
+            }
+        }
+    }
+    .oe-btn-reflect-icon {
+        .fa {
+            color: @textCaptain;
+            background-color: @bgColor;
+        }
+    }
+    .oe-btn-split {
+        .fa {
+            border-left: 1px solid @bgColor;
+        }
+        &:hover {
+            .fa {
+                border-left-color: @reflectBgColor;
+            }
+        }
+    }
+    .oe-btn-split-short {
+        span {
+            &:after {
+                background-color: @lineBorder;
+            }
+        }
+    }
+    .oe-btn-grey {
+        border-color: @reflectBtnGrey;
+        background-color: @reflectBtnGrey;
+    }
+
+    .oe-btn-3d-box {
+        span {
+            &:before {
+                color: @lineBorder;
+                background-color: @lineBorder;
+                .opacity(1);
+                .rotateX(-90deg);
+                .transform-origin(0 0);
+            }
+        }
+        .fa {
+            border: 0;
+        }
+        &:hover {
+            span {
+                color: @reflectTextCaptain;
+
+                &:before {
+                    background-color: @lineBorder;
+                }
+            }
+            .fa {
+                color: @reflectTextCaptain;
+            }
+        }
+        &.oe-btn-reflect {
+            span {
+                color: @textCaptain;
+            }
+            .fa {
+                color: @textCaptain;
+            }
+        }
+    }
+}
+.oe-btn-inline-icon {
+    span {
+        height: 50px;
+    }
+    .fa {
+        padding: 0;
+        margin-right: 15px;
+        border: 0;
+        &:after {
+            display: none;
+        }
+    }
+}
+// Colours
+.oe-btn-hover-blue,
+.oe-btn-hover-red,
+.oe-btn-hover-sapphire {
+    span {
+        &:before {
+            width: 101%;
+        }
+    }
+    &:hover {
+        span,
+        .fa,
+        span:before {
+            color: @reflectTextCaptain;
+        }
+    }
+}
+.oe-btn-blue,
+.oe-btn-red,
+.oe-btn-sapphire {
+    &:hover {
+        border-color: @reflectBgColor;
+
+        .fa {
+            background-color: @reflectBgColor;
+        }
+    }
+    &.oe-btn-reflect {
+        &:hover {
+            span {
+                &:before {
+                    color: @textCaptain;
+                }
+            }
+            .fa {
+                background-color: @bgColor;
+            }
+        }
+    }
+}
+.oe-btn-hover-blue {
+    &:hover {
+        border-color: @boxBlue;
+
+        .fa,
+        &:before,
+        span:before {
+            background-color: @boxBlue;
+        }
+    }
+}
+.oe-btn-blue {
+    background-color: @boxBlue;
+    &:extend(.oe-btn-hover-blue:hover all);
+}
+
+.oe-btn-hover-sapphire {
+    &:hover {
+        border-color: @boxTeal;
+
+        .fa,
+        &:before,
+        span:before {
+            background-color: @boxTeal;
+        }
+    }
+}
+.oe-btn-sapphire {
+    background-color: @boxTeal;
+    &:extend(.oe-btn-hover-sapphire:hover all);
+}
+
+.oe-btn-hover-red {
+    &:hover {
+        border-color: @boxRed;
+
+        .fa,
+        &:before,
+        span:before {
+            background-color: @boxRed;
+        }
+    }
+}
+.oe-btn-red {
+    background-color: @boxRed;
+    &:extend(.oe-btn-hover-red:hover all);
+}
+.oe-btn-size-4x {
+    height: 40px;
+    span {
+        padding: 0 1.2em;
+    }
+    .fa {
+        padding: 10px 12px 7px 12px;
+    }
+    &.oe-btn-split-short {
+        span {
+            &:after {
+                top: 0;
+                height: 100%;
+            }
+        }
+    }
+}
+.oe-label-btn {
+    &:before {
+        display: none;
+    }
+    span {
+        &:before {
+            display: none;
+        }
+    }
+    .fa {
+        &:after {
+            display: none;
+        }
+    }
+    &:hover {
+        span {
+            color: @textCaptain;
+        }
+        .fa {
+            color: @textCaptain;
+        }
+    }
+    &.oe-btn-reflect-icon {
+        .fa {
+            color: @reflectTextCaptain;
+        }
+    }
+}
+.oe-btn-border-grey {
+    border-color: @lineBorder;
+}
+
+.oe-btn-large {
+	height: 100px;
+}

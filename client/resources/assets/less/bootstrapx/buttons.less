@@ -1,0 +1,10 @@
+// override bootstrap
+//   buttons should have no shadow
+.btn {
+	border-radius: 0; // Square button
+
+    &:active,
+    &.active {
+       .box-shadow(none);
+    }
+}

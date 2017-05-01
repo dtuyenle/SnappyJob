@@ -1,0 +1,9 @@
+.oe-effects {
+  -webkit-animation: none  !important;
+  animation: none  !important;
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+  -webkit-transform: scale(1) translate(0, 0) !important;
+  -ms-transform: scale(1) translate(0, 0) !important;
+  transform: scale(1) translate(0, 0) !important;
+}

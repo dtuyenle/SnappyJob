@@ -1,0 +1,46 @@
+.oe-chart-holder {
+    text-align: center;
+}
+.oe-circle-chart {
+    position: relative;
+    margin: 0 auto 20px;
+    span {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 28px;
+        .translate(-50%, -50%);
+    }
+    .oe-color-track {
+        color: @textColor;
+        border-color: @chartTrail;
+    }
+    &.darken {
+       .oe-color-track {
+            color: @reflectBgColor;
+            border-color: transparent;
+        }
+    }
+}
+.oe-reflect {
+    .oe-circle-chart {
+        .oe-color-track {
+            color: @reflectTextColor;
+            border-color: @reflectChartTrail;
+        }
+        &.darken {
+            .oe-color-track {
+                color: @bgColor;
+            }
+        }
+    }
+}
+.oe-chart-md {
+    width: 150px;
+    height: 150px;
+}
+.oe-chart-sm {
+    width: 120px;
+    height: 120px;
+}

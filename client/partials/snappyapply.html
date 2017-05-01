@@ -1,0 +1,111 @@
+<main class="oe-shortcode oe-shortcode-tab-tour">
+    <div class="oe-top-page">
+        <div class="container">
+            <div class="oe-breadcrumb">
+          
+            </div>
+        </div>
+    </div>
+	<div class="container container-apply oe-main-content" ng-init="loadData()">
+
+		<div style="margin-top:40px" class="row">
+			<div class="oe-column-4 col-md-4 col-sm-12 oe-main-col" style="padding:0 50px">
+				<img style="height:200px;width:auto" class="oe-comment-avatar" alt="" src="{{content.content.asset_id.path}}" />
+			</div>
+			<div class="oe-column-8 col-md-8 col-sm-12 oe-main-col" style="padding:20px 50px 0 50px">
+				<div class="oe-comment-content">
+					<p>
+                        <span ng-show="content.content.diffDate">
+                            <i class="fa oe-icon fa-calendar"></i> {{content.content.diffDate}}
+                        </span>
+                        <span ng-show="content.content.distance">
+                            <i class="fa oe-icon fa-map-marker"></i> {{content.content.distance}} miles away.
+                        </span>
+                        <span ng-show="content.content.gasmoney">
+                            <i class="fa oe-icon fa-arrow-right"></i> {{content.content.gasmoney}} gasonline dollars.
+                        </span>
+                        <span ng-show="content.content.budget">
+                            <i class="fa oe-icon fa-gift"></i> Compensation {{content.content.budget}}
+                        </span>
+                        <span ng-show="content.content.location_id.address">
+                            <i class="fa oe-icon fa-thumb-tack"></i> {{content.content.location_id.address}}
+                        </span>
+                    </p>
+
+                    <p ng-show="geoService.lat">
+                        <strong>
+                            <a style="color:#438BD7" target="_blank" href="http://maps.google.com/maps?f=d&hl=en_US&saddr={{geoService.lat}},{{geoService.lon}}&daddr={{content.content.location_id.location.loc[1]}},{{content.content.location_id.location.loc[0]}}">Get Direction</a>
+                        </strong>
+                    </p>
+        
+					<p class="oe-comment-quote">
+						{{content.content.description}}
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row form-group col-xs-12">
+			<div class="oe-column-12 col-md-12 col-sm-12 oe-main-col">
+				<div class="oe-blog-comments oe-mtop">
+					<h6>Total Applied: {{content.content.applies.length || 0}}</h6>
+					<ul class="oe-comments">
+						<li>
+							<div class="oe-comment">
+								
+							</div>
+						</li>
+
+						<li ng-repeat="apply in content.applies">
+							<div class="oe-comment">
+								<div class="oe-comment-content">
+									<span class="oe-comment-time"><i class="fa oe-icon fa-calendar"></i> Applied {{apply.diffDate}}</span>
+									<br/>
+									<span style="color:#000; font-weight:0.7">{{apply.body}}</span>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="row oe-row oe-blog-item"  style="padding:0 50px">
+          	<div class="col-xs-12 col-md-12">
+                <h2>Apply for this job.</h2>
+                <form class="oe-contact-form">
+          			<div class="row">
+	                    <div class="form-group col-sm-6 col-xs-12">
+                  			<label class="oe-form-label">
+								Email
+								<small class="invalid" ng-show="!applyService.apply.email.length">- Required - This will only be visible to the job poster.</small>
+							</label>
+							<input ng-model="applyService.apply.email" style="font-size:14px" type="email" class="form-control input-lg" name="title" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/" required>
+	                    </div>
+                    	<div class="form-group col-xs-12">
+                      		<label class="oe-form-label">
+								Body 
+								<small class="invalid" ng-show="!applyService.apply.body.length">- Required</small>
+							</label>
+							<p class="side-note">The more information you provide, the easier it would be to get close to getting the job</p>
+							<textarea ng-model="applyService.apply.body" name="content" rows="3" class="form-control"></textarea>
+                    	</div>
+                    	<div class="form-group col-xs-12" ng-show="applyService.apply.body.length && applyService.apply.email.length">
+                      		<button class="btn oe-btn" type="submit" ng-click="submit()">
+                        		<span>APPLY</span>
+                      		</button>
+                    	</div>
+                  	</div>
+                </form>
+          	</div>
+        </div>
+
+
+
+	</div>
+</main>
+

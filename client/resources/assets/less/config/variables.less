@@ -1,0 +1,96 @@
+//
+// Variables
+// --------------------------------------------------
+
+/* === COMMONS variables === */
+@fontFamily: "Muli", "Helvetica", Arial, sans-serif;
+@fontIcon: "FontAwesome";
+@fontSizeDefault: 14px;
+@radiusSmall: 3px;
+@white: #fff;
+@black: #444;
+@grey: #ddd;
+
+//== Shortcode
+//
+//##
+
+//** Shortcode margin & padding
+@list-icon-width: 30px;
+@list-padding: 8px;
+@table-cell-padding:            10px;
+@table-col-padding:            15px;
+
+// Shortcode Social Icon
+@socialLight: #ddd;
+@socialDarken: #999;
+
+@socialTwitterBg: #54AFE2;
+@socialFacebookBg: #4671AD;
+@socialLikedinBg: #64ABCC;
+@socialGoogleBg: #DC4A38;
+@socialDribbbleBg: #D64D74;
+@socialSkypeBg: #00C6FF;
+@socialBehanceBg: #0099FD;
+@socialDeviantartBg: #C7D419;
+@socialTumblrBg: #385874;
+@socialRssBg: #FE9900;
+@socialVimeoBg: #A6CAEA;
+@socialPinterestBg: #CE2027;
+@socialFlickrBg: #F4789B;
+@socialYoutubeBg: #E70031;
+@socialInstagramBg: #2C6A91;
+@socialAppleBg: #5F5F5F;
+
+/* === Devider === */
+@divider-dark-color: #444;
+@devider-top-margin: 30px;
+@devider-bottom-margin: 55px;
+
+
+// Overwrite Bootstrap
+@container-large-desktop:      ((1170px + @grid-gutter-width));
+
+//== Forms
+//
+//##
+
+//** `<input>` background color
+@input-bg:                       transparent;
+//** `<input disabled>` background color
+@input-bg-disabled:              @boxGrey;
+//** Text color for `<input>`s
+@input-color:                    @textColor;
+//** `<input>` border color
+@input-border:                   @gray;
+//** `<input>` border radius
+@input-border-radius:            0;
+//** Border color for inputs on focus
+@input-border-focus:             @lineBorder;
+//** Placeholder text color
+@input-color-placeholder:        @textColor;
+
+//== Responsive
+//
+// ##
+
+// Tiny screen / phone
+// Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
+@screen-tn:                  320px;
+@screen-tn-min:              @screen-xs;
+@screen-tn-max:              (@screen-xs-min - 1);
+
+// Exactly
+/* o < 479 */          @mobile: ~"only screen and (max-width: @{screen-tn-max})";
+/* 480 < o < 767 */    @moblet: ~"only screen and (min-width: @{screen-xs-min}) and (max-width: @{screen-xs-max})";
+/* 768 < o < 991 */    @tablet: ~"only screen and (min-width: @{screen-sm-min}) and (max-width: @{screen-sm-max})";
+/* 992 < o < 1199*/    @desktop: ~"only screen and (min-width: @{screen-md-min}) and (max-width: @{screen-md-max})";
+/* 1200 < o */         @wide: ~"only screen and (min-width: @{screen-lg-min})";
+/* Retina */           @retina: ~"only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-moz-min-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx)";
+
+// Below
+/* < 767  */ @mobletBelow: ~"only screen and (max-width: @{screen-xs-max})";
+/* < 991  */ @tabletBelow: ~"only screen and (max-width: @{screen-sm-max})";
+/* > 991  */ @tabletAbove: ~"only screen and (min-width: @{screen-sm-max})";
+/* < 1199 */ @desktopBelow: ~"only screen and (max-width: @{screen-md-max})";
+/* > 1199  */ @desktopAbove: ~"only screen and (min-width: @{screen-md-max})";

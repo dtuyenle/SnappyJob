@@ -1,0 +1,305 @@
+//
+// Image hover
+// --------------------------------------------------
+
+
+// Base class
+.oe-image-item {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    img {
+        display: block;
+        width: 100%;
+        .transition(all 0.2s ease-out);
+    }
+    .oe-image-title {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 1em;
+        color: @textCaptain;
+    }
+}
+
+// Image hover dark
+.oe-image-hover-dark {
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        .opacity(0);
+        .transition(all 0.2s ease-out);
+        background-color: rgba(0, 0, 0, 0.7);
+        content: '';
+    }
+    &:hover,
+    &:focus {
+        &:after {
+            .opacity(1);
+        }
+        img {
+            .scale(1.03,1.03);
+        }
+    }
+    a, span, .oe-image-caption, i.fa {
+        color: @white;
+        &:hover,
+        &:focus {
+            color: @white;
+        }
+    }
+}
+
+// Image hover light
+.oe-image-hover-light {
+    &:after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        .opacity(0);
+        .transition(all 0.2s ease-out);
+        background-color: rgba(255, 255, 255, 0.7);
+        content: '';
+    }
+    &:hover,
+    &:focus {
+        &:after {
+            .opacity(1);
+        }
+        img {
+            .scale(1.03,1.03);
+        }
+    }
+    a, span, .oe-image-caption, i.fa {
+        color: @textCaptain;
+    }
+}
+
+// Image hover zoom in
+.oe-image-hover-zoom-in {
+    &:hover,
+    &:focus {
+        img {
+            .scale(1.5,1.5);
+        }
+    }
+}
+
+// Image hover zoom out
+.oe-image-hover-zoom-out {
+    &:hover,
+    &:focus {
+        img {
+            .scale(.7,.7);
+        }
+    }
+}
+
+// Image hover blur
+.oe-image-hover-blur {
+    &:hover,
+    &:focus {
+        img {
+            .scale(1,1);
+            .filter(blur(3px));
+        }
+    }
+}
+
+// Image hover gray scale
+.oe-image-hover-gray-scale {
+    img {
+        .filter(grayscale(100%));
+    }
+    &:hover,
+    &:focus {
+        img {
+            .filter(grayscale(0%));
+            .scale(1.03,1.03);
+        }
+    }
+}
+
+// Image no margin
+.oe-image-no-margin {
+    padding: 0;
+    margin: 0;
+    float: left;
+    overflow: hidden;
+    img {
+        width: initial;
+    }
+    &:hover,
+    &:focus {
+        img {
+            .scale(1.03,1.03);
+        }
+    }
+}
+
+// Image rounded
+.oe-image-rounded {
+    img {
+        .circle;
+    }
+    &:hover,
+    &:focus {
+        img {
+            .scale(.98,.98);
+        }
+    }
+}
+
+// Image rotate
+.oe-image-rotate {
+    &:hover,
+    &:focus {
+        img {
+            .rotate(5deg);
+        }
+    }
+}
+
+// Image hover show caption
+.oe-image-hover-caption {
+    position: relative;
+    .oe-image-caption, .fa {
+        position: absolute;
+        opacity: 0;
+        z-index: 100;
+        .transition(all 0.3s);
+    }
+    .oe-image-caption-top {
+        top: 0;
+        left: 30px;
+    }
+    .oe-image-caption-bot {
+        bottom: 0;
+        left: 30px;
+    }
+    i.fa {
+        top: 50%;
+        left: 50%;
+        font-size: @fontSizeDefault;
+        .scale(0,0);
+    }
+    &:hover,
+    &:focus {
+        .oe-image-caption, .fa {
+            .opacity(1);
+        }
+        .oe-image-caption-top {
+            top: 20px;
+            left: 30px;
+        }
+        .oe-image-caption-bot {
+            bottom: 20px;
+            left: 30px;
+        }
+        i.fa {
+            .scale(1.5,1.5);
+            margin: -.5em;
+        }
+    }
+}
+
+// Image tiles
+.oe-image-tiles {
+    .oe-image-item {
+        float: left;
+        margin-left: 0;
+
+        &:after {
+            display: block;
+            content: "";
+        }
+    }
+
+    .tiles(@maximumSupport, @gapRatio: 0.1) {
+        .loop(@columns) when (@columns = 1) {
+            &.x1 {
+                .oe-image-item {
+                    width: 100%;
+                    margin-right: 0;
+                }
+            }
+        }
+        .loop(@columns) when (@columns > 1) {
+            &.x@{columns} {
+                .oe-image-item {
+                    // In total, we have:
+                    //   @columns columns
+                    //   and (@columns - 1) gaps
+                    @width: 100% / (@columns + (@columns - 1) * @gapRatio);
+
+                    width: @width;
+                    margin-right: @width * @gapRatio;
+
+                    // Tricky bottom gap
+                    &:after {
+                        padding-bottom: percentage(@gapRatio);
+                    }
+
+                    &:nth-child(@{columns}n) {
+                        margin-right: 0;
+                    }
+                }
+
+                // What is gapless?
+                // Well, no gap at all
+                &.gapless .oe-image-item {
+                    width: 100% / @columns;
+                    margin-right: 0;
+
+                    &:after {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+            .loop(@columns - 1);
+        }
+        .loop(@maximumSupport);
+    }
+    .tiles(12);
+}
+.oe-image-container {
+    position: relative;
+
+    .overlay {
+        .transition(opacity ease 0.3s);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        opacity: 0;
+
+        &:before {
+            &:extend(.oe-full-banner.dark-overlay:before);
+        }
+
+        .center {
+            &:extend(.oe-block-float all);
+            &:extend(.oe-float-centered all);
+        }
+        .south {
+            .translate(-50%, 0);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+        }
+    }
+    &:hover,
+    &:focus {
+        .overlay {
+            opacity: 1;
+            z-index: 10;
+        }
+    }
+}

@@ -1,0 +1,2224 @@
+Name,AveragePay
+Carrier (city),56607.9
+Nurse,81392.79
+Rural Carrier,55990.23
+Miscellaneous Administration And Program,89696.69
+Compliance Inspection And Support,42206.86
+"Sales,svc/dist Asoc",51596.64
+Information Technology Management,103797.95
+Ru Car Asc/sv Rg Rt,36977.55
+Management And Program Analysis,99869.97
+Miscellaneous Clerk And Assistant,42644.48
+Criminal Investigation,102780.51
+Mail Proc Clk,54455.92
+"General Inspection, Investigation, Enfor",83353.81
+General Attorney,135290.76
+Medical Officer,199446.03
+City Carrier Asst1,32956.26
+Social Insurance Administration,76333.12
+Mail Handler,53132.76
+Carrier Technician,54360.05
+Contact Representative,50706.03
+Customs And Border Protection,80160.3
+Border Patrol Enforcement Series,78792.74
+Air Traffic Control,127773.46
+Correctional Officer,54707.1
+Medical Support Assistance,38818.8
+Gen Natural Resources Mgt And Bio Sci,90867.26
+Forestry Technician,38763.04
+General Business And Industry,89122.9
+Human Resources Management,91661.22
+Practical Nurse,45453.01
+Contracting,94408.19
+Laborer Custodial,49944.85
+Social Work,71478.57
+Pse Sales Serv Dis,32012.5
+General Health Science,94875.17
+Financial Administration And Program,86880.82
+Postmaster,71840.77
+Veterans Claims Examining,66999.62
+Nursing Assistant,36471.31
+Custodial Working,32543.1
+Pse Mail Proc Clk,32012.24
+Supv Cust Svcs,64962.44
+Internal Revenue Agent,99056.09
+Secretary,50756.4
+Tax Examining,47386.28
+Health Aid And Technician,42458.63
+General Engineering,124399.57
+Program Management,134555.35
+Pharmacist,111549.96
+Patent Examining,109844.17
+Accounting,105830.17
+Ml Hdlr Equip Oper,56401.95
+Social Science,82320.85
+Biological Science Technician,40388.9
+Psychology,90560.57
+Transportation Specialist,96887.9
+Maintenance Mechanic,52978.17
+Administrative Officer,83791.32
+Legal Assistance,52196.21
+Lead Ssa,57379.88
+Food Service Working,31356.75
+City Carrier Asst2,32945.42
+Parcel Post Dist-ma,54300.8
+Police,61843.21
+Budget Analysis,94107.23
+Intelligence,100590.66
+Financial Institution Examining,123503.73
+Security Administration,93673.17
+Electronic Tech,65880.34
+Financial Clerical And Assistance,45155.55
+General Physical Science,116619.12
+Paralegal Specialist,78949.3
+Park Ranger,59572.67
+Auditing,104094.28
+Aerospace Engineering,122456.33
+Mail Handler Asst,30124.9
+Medical Technologist,67434.05
+General Legal And Kindred Administration,59004.14
+Pharmacy Technician,41781.34
+Ru Car Asc/sv Ax Rt,41553.82
+Tractor Trailer Op,55617.86
+Internal Revenue Officer,81873.72
+Mail And File,35237.06
+Aviation Safety,111967.04
+Loan Specialist,78311.09
+Soil Conservation,71536.84
+Economist,115162.17
+Civil Engineering,93484.45
+Chemistry,108715.24
+Diagnostic Radiologic Technologist,59726.72
+Maint Mech Mpe,60810.21
+Dist Window Clk,56603.74
+Engineering Technical,69243.12
+Environmental Protection Specialist,108742.49
+General Expeditor,57095.45
+Consumer Safety Inspection,58315.52
+Management & Program Clerical & Assistan,50223.71
+Public Health Program Specialist,103802.54
+Claims Assistance And Examining,43319.21
+Supply Clerical And Technician,42239.71
+Supv Dist Oper,67894.11
+Human Resources Assistance,46558.71
+Medical Records Technician,46667.93
+Public Affairs,99624.69
+Admin And Office Support Student Trainee,31591.94
+Food Inspection,44948.43
+Consumer Safety,96627.51
+Cooking,51919.39
+Accounting Technician,47387.63
+Statistics,99903.95
+General Arts And Information,85447.38
+Medical Instrument Technician,55537.55
+Health Insurance Administration,106441.79
+Maintenance Mech,56563.91
+Materials Handler,48719.62
+Meteorology,99182.35
+Physician Assistant,90870.17
+Motor Vehicle Operating,44814.75
+Foreign Affairs,120133.46
+Electronics Engineering,120265.16
+Electronics Technical,81322.36
+Medical Supply Aide And Technician,41293.11
+Bulk Ml Tech,57505.18
+Safety And Occupational Health Managemen,87962.91
+Health System Specialist,89493.94
+Dietitian And Nutritionist,72417.24
+Telecommunications,93368.28
+Sales/svcs Assoc,54577.24
+Fish Biology,88022.04
+Pse Laborer Cust,27136
+Hearings And Appeals,103725.66
+Education And Vocational Training,71298.82
+Microbiology,102730.31
+Wildlife Biology,76565.12
+Pm Relief Rmpo 2hr,25832.82
+Hydrology,93180.69
+Ofc Automation Clerical And Assistance,38307.25
+Veterinary Medical Science,100502.24
+Environmental Engineering,110730.81
+Realty,85183.08
+Dental Assistant,41651.99
+Motor Veh Operator,54925.01
+Training Instruction,76126.11
+Range Technician,37287.33
+Bldg Equip Mech,60992.42
+Physical Therapist,80091.78
+Purchasing,49296.08
+Automotive Tech,53187.94
+Legal Instruments Examining,55445.63
+Speech Pathology And Audiology,82577.6
+Dental Officer,152572.41
+Social Science Aid And Technician,41685.06
+Laboring,33655.1
+General Investigation,86289.13
+Forestry,73058.34
+Medical Technician,39458.64
+Equal Employment Opportunity,99902.24
+Correctional Institution Administration,97982.7
+Administrative Law Judge,159829.96
+Grants Management,96542.59
+Education And Training Technician,46304.86
+Agricultural Commodity Grading,54323.98
+Support Services Administration,78475.9
+Electrical Engineering,105984.79
+Engineering Equipment Operating,54834.24
+Passport And Visa Examining,71111.96
+Inventory Management,64693.14
+Hydrologic Technician,52664.85
+"Equipment, Facilities, And Services",74950.74
+Supv Maint Oprns,72806.02
+Casual,24446.54
+Pm Relief Rmpo 4hr,26726.87
+Agricultural Commodity Aid,26576.38
+Electrician,59332.93
+Mine Safety And Health Inspection Series,81264.04
+Soil Conservation Technician,43992.28
+Mathematical Statistics,113438.01
+Medical And Health Student Trainee,34751.37
+Equal Opportunity Compliance,95886.26
+Tax Specialist,69156.63
+Lead Automotive Tec,59660.7
+Financial Analysis,120473.65
+Utility Systems Repairing-operating,61660.24
+Wage And Hour Investigation Series,83215.41
+Security Guard,41732.15
+Archives Technician,52155.77
+Ru Car Asc/sv Va Rt,40006.7
+Ecology,90768.95
+Data Coll Tech,57335.98
+Occupational Therapist,77138.14
+Lead Mail Proc Clk,55330.39
+Computer Science,124785.38
+Markup Clk Auto,55346.66
+Geology,99886.65
+Building Management,88646.6
+Mechanical Engineering,106287.18
+Facility Operations Services,88089.64
+General Education And Training,97449.36
+Computer Engineering,120191.28
+Worker's Compensation Claims Examining,87191.14
+Optometrist,101359.79
+Government Information,84911.04
+Chaplain,76981.06
+Computer Clerk And Assistant,54249.1
+Import Compliance Series,82145.33
+Mgr Cust Servcs,74365.95
+Postmaster (rmpo),43732.58
+Maint Supp Clk,57377.81
+Civilian Pay,44155.49
+Archeology,71851.71
+Statistical Assistant,38626.96
+Air Conditioning Equipment Mechanic,59284
+Guide,32774.77
+Recreation/creative Arts Therapist,65974.88
+Plant Protection Technician,33706.91
+Vocational Rehabilitation,62124.02
+Language Specialist,85195.58
+Rangeland Management,67135.01
+Visual Information,83180.1
+Soil Science,85169.56
+Emergency Management Specialist,91406.52
+Credit Union Examiner,105248.59
+Casual (cep),26769.64
+Nurse Anesthetist (title 38),152391.91
+Writing And Editing,95338.56
+Biological Science Student Trainee,31204.02
+Supply Program Management,81404.31
+Industrial Hygiene,92286.08
+Logistics Management,91883.14
+Architecture,107406.54
+Security Clerical And Assistance,42420.55
+Operations Research,114807.57
+Equal Opportunity Investigation,83521.76
+Automotive Mechanic,58208.45
+Gen Clk,56623.73
+Psedataconvoper,30085
+High Voltage Electrician,84914.14
+Dstrb Wndw&mkup Clk,55595.95
+Physical Science Technician,55740.03
+Data Conv Opr,42146.43
+Physics,129044.74
+Technical Information Services,85294.84
+Social Services Aid And Assistant,42528.91
+Rehabilitation Therapy Assistant,47773.84
+Oper Supp Spec,71250.61
+Voucher Examining,43521.53
+Podiatrist,104293.45
+Transportation Operations,79660.53
+Financial Management,127035.13
+Appraising,91152.41
+Cust Care Agt Tier2,55012.01
+Pipefitting,59695.06
+Bioengineering & Biomedical Engineering,92722.38
+Carpentry,55244.41
+Recreation Specialist,61544.57
+Trade Specialist,107785.7
+Librarian,94375.11
+Painting,55262.21
+Laundry Working,31344.17
+Investigative Analysis,71885.99
+Customs And Border Protection Interdictn,102330.38
+Nuclear Engineering,132740.99
+Mgr Customer Svcs,79382.86
+Misc General Maintenance & Operations Wo,64056.34
+Cust Care Agt Tier1,56073.33
+Bulk Ml Clk,57664.6
+Cemetery Caretaking,43397.2
+Psychology Aid And Technician,50652.71
+Grp Ldr Ml Handler,56125.7
+Construction Analyst,62698.66
+Pharmacology,122361.85
+Data Transcriber,35847.78
+Area Maint Tech,61273.28
+Transportation Clerk And Assistant,43265.46
+Audiovisual Production,93263.26
+Pse Tract Trail Op,40394.81
+Health System Administration,125173.38
+Wildlife Refuge Management,86869.72
+Medical Records Administration,72592.37
+Geography,86579.43
+Tax Law Specialist,95600.64
+Education Program,105387.21
+Quality Assurance,89417.83
+Museum Specialist And Technician,69076.15
+Bulk Mail Dock Clk,56129.08
+Mail Handler Tech,56053.95
+Procurement Clerical And Technician,46373.06
+Sales Store Clerical,21400.68
+Cash Processing,40450.55
+Ops Prog Spec,68699.25
+Technical Writing And Editing,91188.81
+Entomology,103736.89
+Cartography,88906.95
+Customs Entry And Liquidating,79011.5
+Telephone Operating,34076.76
+Animal Health Technician,50262.25
+Boiler Plant Operating,57461.05
+Motor Carrier Safety,72338.61
+Materials Engineering,116879.57
+Technical Systems Program Manager,143399.96
+Fire Protection And Prevention,53242.39
+Railroad Safety,92318.76
+General Supply,73399.8
+Construction Control Technical,74716.94
+Mgr Customer Srvcs,78030.59
+Engineering And Architecture Student Trn,37767.4
+Mgr Dist Opers,75464.61
+General Student Trainee,31666.54
+Budget Clerical And Assistance,46897.07
+Equipment Services,79017.77
+Bldg Mnt Custodian,55503.55
+Pm Relief Ptpo 6 Hr,25578.97
+Agricultural Marketing,97910.93
+Public Utilities Specialist,98796.15
+Dental Hygiene,58002.58
+Genetics,107446.18
+Health Physics,116253.83
+Economics Assistant,43780.95
+Toxicology,116304.05
+Outdoor Recreation Planning,78174.46
+Printing Services,95064.4
+"Equipment, Facilities, & Services Assist",49784.86
+Prosthetic Representative,71057.29
+Railroad Retirement Claims Examining,68526.01
+Archivist,87789.03
+Physical Science Student Trainee,34323.55
+Information Receptionist,34719.32
+Gardening,50906.2
+Instructional Systems,100419.53
+Community Planning,99063.9
+Library And Archives Student Trainee,28257.46
+Recreation Aid And Assistant,37465.8
+Botany,74744.98
+Industrial Equipment Mechanic,74853.14
+Law Clerk,66435.76
+Misc Transportation/mobile Equipment Ope,40577.56
+Secretary,57355.53
+Tractor Operating,44346.94
+Cartographic Technician,53704.81
+Lead Auto Tech (ag),65208.29
+Postmaster (ptpo),36229.95
+Electrical Power Controlling,92940.24
+Astronomy And Space Science,137256.98
+Admin Assist (fld),55694.75
+Museum Curator,98286.84
+Supv Trans Operatns,68225.27
+Geophysics,114585.12
+Pathology Technician,51505.12
+Mailing Reqrmnt Clk,57944.8
+Agricultural Engineering,86012.94
+Fish And Wildlife Administration,131370.21
+Kinesiotherapy,69523.91
+Equipment Operator,39434.65
+Oceanography,115966.73
+Metal Forming Machine Operating,53353.23
+Petroleum Engineering,97816.96
+Chemical Engineering,113908
+Grp Ldr Custodial,54696.21
+Respiratory Therapist,48889.83
+Electronic Industrial Controls Mechanic,80573.91
+Patent Administration,161748.27
+Library Technician,52451.53
+Plumbing,61850.63
+Patent Attorney,162829.53
+Dental Laboratory Aid And Technician,55170.77
+Land Surveying,79985
+Pm Relief/replcmnt,27054.98
+Network Spec,67179.97
+Dispatching,41656.63
+Aircraft Operation,105959.1
+Computer Operation,53688.4
+Nuclear Materials Courier,66414.7
+Electronics Mechanic,68523.66
+Cmplnt & Inqry Clk,57639.11
+Orthotist And Prosthetist,71817.22
+Addrs Mgt Sys Tech,57756.31
+Navigational Information,103754.89
+Purch And Suply Mgt,61785.22
+Social Science Student Trainee,44359.98
+Landscape Architecture,88172.99
+History,94645.67
+Funeral Directing,71766.27
+Pse Labr Custd Nw,27136
+Animal Caretaking,41460.31
+Sack Sort Mach Opr,55752.72
+Agricultural Program Specialist,91838.96
+Meteorological Technician,76301.77
+Per Proc Spc (hrss),56454.09
+Miscellaneous Plant And Animal Work,45293.7
+Labor Relation Spcl,74411.41
+Lead Cust Svc Clk,56752.36
+Labor-management Relations Examining,108622.64
+Vehicle Opns Asstbm,57960.01
+Fingerprint Identification,65929.91
+General Clerk Vmf,56532.3
+Safety Specialist,67577.84
+Plant Pathology,107467.18
+Ops Ind Engr (fld),72299.81
+Physiology,109739.27
+Actuarial Science,120226.72
+Custodian,52826.41
+Financial Management Student Trainee,34694.9
+Sports Specialist,59927.35
+Trng Tech Pedc,57877.86
+Therapeutic Radiologic Technologist,78860.74
+Photography,78794.32
+United States Marshal,87758.5
+Masonry,50547.78
+Laundry Machine Operating,42289.71
+Pse Mark Up Clerk,32010
+Exhibits Specialist,73035.26
+Workforce Development,103357.72
+Highway Safety,103175.24
+Supv Bus Mail Entry,67632.4
+Interior Design,78846.42
+Postmaster (f),49662.54
+Heavy Mobile Equipment Mechanic,62082.28
+Ramp Clk Amf,59213.25
+Supv Veh Maint,68037.05
+Hrm Spc (dist),66066.89
+Social Services,49480.59
+Equal Opportunity Assistance,50606.12
+Storekpr Auto Parts,58324.27
+Mgr Dist Ops,73716.52
+Food Services,81718.17
+Window Clk,56865.29
+Human Resources Management Student Train,38272.9
+Hospital Housekeeping Management,85508.93
+Veh Op & Maint Asst,59808.46
+Miscellaneous Printing And Reproduction,52301.29
+Agronomy,94334.81
+Utility Systems Operating,58020.82
+Bindery Working,63069.9
+Postage Due Techn,57888.44
+Field Sales Rep,63535.91
+Air Traffic Assistance,60282.9
+Information Technology Student Trainee,38512.3
+Land Law Examining,64072.74
+Ml Procsg Mach Oper,55601.24
+Legal Occupations Student Trainee,37515.73
+Telecommunications Processing,39750.73
+Body And Fender Rep,60208.05
+Letterpress Operating,102021.31
+Safety Engineering,103315.25
+Traffic Management,89755.01
+Bulk Money Handling,52524.38
+Mediation,121717.27
+Mgr Post Offc Oper,56199.68
+International Relations,113085.43
+Mathematics,127882.29
+Property Disposal,84952.07
+Acct Spec,63891.3
+Securities Compliance Examining,162940.12
+Mgr Maint Oper,81328.91
+Prs Pr Spc Tmp Ss,43622
+Driving Safety Inst,57847.26
+Air Conditioning Equipment Operating,57394.54
+Lead Sls/svcs Assoc,57142.25
+Fld Financial Spec,77441.3
+Attorney,36111.58
+Supv Cust Serv Supp,68583.05
+Hand Composing,76707.43
+Mgr Vhcl Maint Fclt,75886.39
+Comp Sys Anlyst/prg,77692.17
+Bsn Representative,65205.78
+Business And Industry Student Trainee,37517.57
+Foreign Agricultural Affairs,123929.44
+Misc Electrical Installation & Maintenan,89335.32
+Welding,59934.38
+,80247.63
+Plant Physiology,116360.35
+Review Clk,57877.01
+Info Systems Spclst,73551.22
+Design Patent Examining,105886.2
+Survey Technical,45843.3
+Spec Postal Clk,57975.38
+Industrial Engineering,93553.8
+Machining,63202.54
+Intaglio Press Operating,106170.95
+Pse Motor Veh Oper,37390.75
+Electronic Integrated Systems Mechanic,95829.04
+Contract Technician,57733.78
+Fire Protection Engineering,114145.28
+Tool&parts Clk,55794.15
+Agricultural Market Reporting,79011.56
+Misc General Services And Support Work,33683.54
+Pse Ml Pro Clk-hol,32010
+General Anthropology,91450.26
+Fabric Working,63435.26
+Marine Machinery Mechanic,57903.97
+Horticulture,84559.73
+Mining Engineering,90832.52
+Transportation Industry Analysis,116539.32
+Business Dev Spec,65847.63
+Mgr Maintenance,80457.54
+Pers Pro Asoc Temp,34529
+Locksmithing,54483.17
+Sheet Metal Mechanic,60872.01
+Hr Specialist,66050.61
+Exprs Mail Srvc Clk,57873.59
+Mgr Cust Svc Ops,70980.92
+Distribution Facilities & Storage Manage,73204.83
+Occup Health Nurse,67998.59
+Garageman,52951.55
+Pse Tr Trail Opr Nw,41894.88
+Holiday Clerk Asst,32010
+"Rcv Ck, Frgn Air Ml",56894.47
+Instrument Mechanic,45164.6
+Maint Eng Spec,77219.29
+Employee Benefits Law,113313.69
+Cemetery Administration Services,81289.68
+Clk Veh Disp,56416.45
+Cptr Sys Develpr Sr,88804.75
+Mail Flow Cntrlr,57183.28
+Small Craft Operating,53365.59
+Clrk/spcl Dlvry Msg,56319.78
+Mgr Maint Ops,81296.51
+Housing Management,64266.31
+Sales Exec Sr Ship,68750.75
+Field Sales Rep Sr,68115.6
+Postage Due Clk,56669.06
+Sfs Clerk,52408
+Mgr Trans Netwrks,73765.78
+Medical Equipment Repairing,56855.85
+Eeo Adr Specialist,74108.12
+Mathematics And Statistics Student Train,42573.43
+Food Technology,109034.57
+Cust Rel Coord,66859.55
+Irrigation System Operation,40529.59
+Education Services,63270.65
+Animal Science,103410.95
+Veh Oper Maint Asst,57722.96
+Education Research,111384.25
+Work Unit Supervising,65423.38
+Area Maint Spec,58882.56
+Document Analysis,106845.88
+Electrical Equipment Repairer,60505.82
+Process Cntrl Asst,65828.13
+Mgr Maint Ops Supp,79385.73
+Flat Srt Mchn Opr,53619.35
+Insects Production Working,34675.2
+Pest Controlling,51970.19
+Information And Arts Student Trainee,36833.17
+Retail Specialist,63498.33
+Apprenticeship And Training,93762.9
+Industrial Specialist,108063.57
+Zoology,120599.18
+Offset Press Operating,80798.54
+Acct & Con Spec,67379.91
+Miscellaneous Vessel Jobs,38374.41
+Wood Crafting,59998.69
+Clerk Mail Rec Ctr,56869.68
+Broadcasting Equipment Operating,92400.83
+Ltr Box Mech(mes),58992.16
+Miscellaneous Metal Work,59212.86
+Misc Industrial Equipment Operation,62800.03
+Plant Mgr,54074.56
+Network Oper Anlyst,82744.57
+City Car Asst Tech1,33720.61
+Supv Stat Programs,67014.96
+Sewing Machine Operating,37170.16
+Mgr Human Resources,30184
+Bookbinding,91486.16
+Mgr Po Operations,48678.81
+Admin Assistant,58345.22
+Prog Mgr Info Tech,27905.12
+Aircraft Mechanic,55062.03
+Production Machinery Mechanic,62330.53
+Misc Industrial Equipment Maintenance,68762.63
+Industrial Property Management,92195.76
+Water Treatment Plant Operating,60470.48
+Supv Cust Care Ctr,71199.01
+Automotive Mech,50671.91
+Laundry Operations Services,64930.03
+Sales Exec Sr Mail,71202.84
+Mgr Maint Ops Suppt,81857.86
+Mgr Bus Mail Entry,76350.45
+Ops Ind Engr Field,71784.54
+Mgr Sales District,58614.12
+Unemployment Insurance,99240.52
+Field Recruiter,70929.52
+Tacs Support Spclst,63177.94
+Miscellaneous Occupations,54588.81
+Acct Spec (p),64631.17
+Architect/engineer,75920.21
+Mgr In-plant Suppor,42658.03
+Investigation Student Trainee,35025.63
+Military Pay,47234.32
+Civil Rights Analysis,111599.47
+Mgr Main Engr Supt,82261.02
+Hr Generlst (prin),82025.68
+Human Resources Spe,64819.35
+Mgr Learn Dvlp Divr,80408.52
+Mgr Csmr Ind Conct,77662.03
+Lab Rel Spec Area,56918.38
+Mgr Hrm (dist),80078.97
+Bud/fin Anlyst Dist,74119.16
+Mgr Fin (dist),35488.33
+Mgr Info Systms,62694.25
+Dist Comp Coord,84920.16
+Safety Technician,51449.18
+Mgr Rtl (dist),76740.37
+Mgr Maint (lead),54300.18
+Rural Carr Relief,50452.97
+Mailing Stand.spec.,63038.1
+Sales Exec,72134.77
+General Equipment Mechanic,57823.57
+Mgr Fin Prgms Comp,81934.62
+Cptr Anlst/prg Assc,66843.66
+Mgr Add Mgmt Syst,76187.05
+Production Control,73735.22
+Mgr Safety,79029.53
+Mgr In-plant Supprt,67742.26
+Mgr Labor Relations,82863.86
+Mgr Fld Main Opr Ld,77289.96
+Mgr Opertns Progs,41732.19
+Workforce Research And Analysis,99825.79
+Editorial Assistance,51109.63
+Seaman-fisherman,44302.78
+Postmaster (g),27861.69
+Prdct Info Qlty An,66218.67
+"Ofc Clk, Vehl Oprn",55875.73
+Transfer Clk Amf,57636.2
+Clms&inquiry Clk,56879.59
+Del Sals Svcs Dist,49573.15
+Cust Suppt Spec Pdc,61892.37
+Correspondence Clerk,40594.06
+Environmental Protection Assistant,51795.58
+Naval Architecture,113545.28
+Bus Systms Analyst,59997.36
+Geodesy,115843.81
+Tree Trimming And Removing,59539.1
+Admin Clk Vmf,57987
+General Telecommunications,43540.14
+Mgr Del/cs Programs,81642.02
+Sr Bsn Spec (area),73108.16
+Air Safety Investigating,122594.57
+"Misc Laundry, Dry Cleaning, And Pressing",49470.24
+G/ldr Data Cnv Opr,52555.88
+Acct Supp Spec,63965.59
+Tools And Parts Attending,44415.48
+Cca Holiday Term,33048.24
+Staffing Specialist,73481.08
+Rigging,58403.41
+Custodial Laborer C,53965.04
+Agricultural Warehouse Inspection Series,74831.42
+Supv Cptr Mail Frwd,67472.42
+Sewage Disposal Plant Operating,56711.45
+Illustrating,73042.28
+Public Health Educator,100113.32
+Miscellaneous Woodwork,61845.9
+Lead Cust Care Agt,59049.68
+Packaging Machine Operating,54758.35
+Acct Tech,61216.09
+Distribution Clerk,56781.8
+Able Seaman,40538.82
+Clerk-typist,37674.87
+Legal Admin Assista,54260.09
+Acct & Con Spec Sr,72540.79
+Maint Electrician,59364.49
+Psegarageman,30085
+Crane Operating,61641.02
+Ops Prog Anlyst (a),63935.83
+Sr Mgr Dist Oper,36299.98
+Drill Rig Operating,54007
+Coin/currency Checking,57404.93
+Bus Proj Leader,37110.24
+Paralegal Spec,67276.22
+Database Admin,15255.38
+Mail Processor,56926.35
+Spec Pstl Clk,57579.95
+Mgr Veh Maint Fac,78649.92
+Air Records Proc,57582.23
+Clerk Stenographer,56768.41
+Marine Survey Technical,113967.05
+Prescription Eyeglass Making,47884.29
+Facilities Engineer,73402.58
+Painter,59147.38
+Highway Tran Clk,57536.32
+Elevator Mechanic,67615.65
+Sr Bud/fin Analyst,67701.73
+Strategic Acct Mgr,63886.11
+Busi Alliance Spec,71156.39
+Field Account Rep,69671.86
+Supply Center Clerk,52886.72
+Sign Painting,54024.66
+Heating & Boiler Plant Equipmt Mechanic,58435.94
+Laboratory Working,37476.57
+Lock And Dam Operating,52894.71
+Sanitarian,73191.97
+Cust Svc Clk Sfs,54153.26
+Fuel Distribution System Operating,60995
+Fork Lift Operating,47943.94
+Supv Maint Oper Sup,72018.53
+Mailpce Dsgn Anlyst,65998.39
+Insurance Examining,116565.09
+Pse S&s/d Assoc Nw,32010
+General Mathematics And Statistics,138937.39
+Intelligence Aid And Clerk,54299.88
+Vehicle Dispatcher,59009.13
+Mgr Marketing-dist,45462.75
+Commnctn Prgms Spcl,62820.34
+Mtls Hndl Eq Opr,54791.38
+Sales Perform Analy,68216.13
+Mgr In-plant Suppt,72337.68
+Miscellaneous Aircraft Overhaul,63025.39
+Trainng Instructor,75788
+Misc Electronic Equipmt Install & Maintn,94191.23
+Mgr Vehicle Ops,83553.43
+Eeo Svc Analyst,65926.13
+Financial Analyst,48566.3
+Exec Admin Assist,67464.67
+International Cooperation,109723.53
+Heat Treating,59772.13
+Misc Transportation/mobile Equipmt Maint,62829.2
+Freight Rate,56458.45
+Nuclear Medicine Technician,76682.07
+Stationary-engine Operating,8361.88
+Platemaking,80445.39
+Shipfitting,59924.54
+Patent Classifying,141060.18
+Laundry & Dry Cleaning Equipmt Repairing,55698.04
+Assignment Clk,57987
+Dist Mgr (2),60225.18
+Schemes&schl Clk,57987
+Textile Technology,94789.15
+Mgr. Marketing (dis,55666.59
+Operations Speclst,35626.44
+Maintenance Mechan,56103
+Cptr Prod Supt Tech,69459.96
+Sply Chain Plnr,68958.7
+Welder,59245
+Boat Building And Repairing,54528.62
+It Clnt Supt Spec,69005.08
+Sociology,99124
+Farming,43115.31
+Toolmaking,66670.35
+Facility Maintenanc,58657.58
+Postmaster (2),23967.81
+Supv Acctg Svc Ctr,80993.72
+Dist Mgr (1),71378.12
+Mte Qual Examiner,69050.2
+Second Cook,36325.71
+Sr Sys Acct Pdc,80296.58
+Transportation Spec,56005.42
+Sandblasting,47211.33
+Aircraft Mechnical Parts Repairing,49822
+Misc Warehousing And Stock Handling,56364.7
+Third Assistant Engineer,62347.22
+Mobile Equipment Servicing,44190.17
+Acct Supp Tech,57150.87
+Oprns Integra Spec,74165.13
+Mgr Trans/netwrks,75060.83
+Faclts Cntrct Techn,59124.13
+Aircraft Electrician,50936.48
+Quality Analyst,71469.43
+General Equipment Operating,53335.32
+First Assistant Engineer,80427.5
+Electrolytic Intaglio Platemaking,103312.77
+Supply Student Trainee,32375.86
+Materials Expediting,47422.73
+Supv Rem Encod Oper,65423.55
+Maint Eng Analyst,79402.55
+Real Este Spec Leas,69725.77
+Aircrew Technician,82880.29
+Safety Spec (tl),70972.81
+Carpenter,59245
+Maintenance Mgt Spc,72916.38
+Unlicensed Junior Engineer,44376.52
+Chief Engineer,135100.43
+Mgr Trans/networks,74274.9
+Cust Suppt Tech Pdc,55793.86
+Cptr Sys Spec Pdc,70901.1
+Cust Sv Prg Anl (a),70800.71
+Mgr Cust Svc Oper,37977.52
+Inventory Ctrl Spec,67019
+Forest Products Technology,107050.9
+Financial Sys Anlys,63770.7
+Oprns Supprt Spclst,61127.35
+City Car Asst Tech2,33705.25
+Natl Preprd Spec,84404.15
+Systems Acct Pdc,72091.2
+Packing,48173.15
+Environmental Health Technician,47759.35
+Plastering,54965.45
+Comm Engineer Sr,40530
+Supv Info Sys (ndc),78745.3
+Purchasing Analyst,72578.3
+Tire Repairman,56791
+Clerk Typist,53980.26
+Veterinary Student Trainee,39842.79
+Fireman Laborer,55483.84
+Plumber,59149.95
+Mailng Reqrmnt Clk,56979.84
+Metallurgy,135600.28
+Pm Rel/replcmnt,27182.56
+Fac Req Spec (fso),75804.39
+Cryptanalysis,115952.78
+Hazardous Waste Disposing,43366.17
+Buffing And Polishing,64183
+Customer Svc Clk,52140.33
+Management Analyst,71419.72
+Mgr Maint,72342
+Communications Clerical,37259.59
+Upholstering,60490.94
+Property Disposal Clerical And Technicia,49492.59
+Plant Mgr (major),44545.76
+Hr Analyst (area),53709.35
+Misc Food Preparation And Serving,26659.59
+Model Making,67171.76
+Chief Steward,52582.24
+Sr Plant Mgr (1),50058.47
+Cptr Oprns Spec,72187
+Plant Mgr (4),21188.82
+Plant Mgr (3),33529.24
+Rev Assur Analyst,80555.76
+Insulating,60039.19
+Education Student Trainee,41707.88
+Sr Plant Mgr (2),37234.75
+Injury Comp Spec,83958.94
+Voma (mn Bu),57987
+Purchsng Sprt Spec,62791.63
+Supv Hr Shrd Svcs,69124.25
+Math Statistician,57945.69
+Messenger,30193.13
+Electronic Digital Computer Mechanic,58614.69
+Lead Sply Chn Plnr,53685.44
+Voma (mv Bu),56890.75
+"Attorney, Honor Prg",57739.44
+Packer/warehouseman,49285.81
+Language Clerical,36862.07
+Lead Sr Mdo,43142.87
+Mgr Mail Forwarding,76108.4
+Composite/plastic Fabricating,51914.8
+Transportation Student Trainee,38910.93
+Comp Sys An/prog,22534.8
+Mgr Net Dist Ctr(2),27641.53
+Internat Sales Ex,81416.38
+Oprns Resrch Anlyst,50004.93
+Mechanical Engineer,28984.27
+Ops Ind Engr Area,66160
+Coding,53134.07
+Ordnance Equipment Mechanic,60779
+Dstd Sys Sup Spc Sr,52584.29
+Labor Relations Spc,30154.57
+Pse Sfs Clk,32010
+Fac Cust Srv Rep,57724
+Telecommunications Mechanic,57981.29
+Geodetic Technician,79947.86
+Misc General Equipment Maintenance,46663.57
+Fac Comm Tech,71425.64
+Elevator Oper,46897
+Sr Ntwrk Oprn Anlys,54536.86
+Ops Ind Engr (hq),59979.86
+Postal Ops Anlst Fa,52505.64
+It Clnt Sup Spc Sup,78659.79
+Autopsy Assistant,37627.62
+Wood Working,50514.62
+Info Syst Sec Spec,35706.08
+Project Mgr (fac),15447.15
+Mgr Mail Proc Oprns,75402.23
+Info Clk,57987
+Acct Spec Sr,69612.69
+Postmaster (1),35518.62
+Laboratory Support Working,42115.23
+Small Engine Mechanic,49828.38
+Powered Support Systems Mechanic,65071.77
+Photographic Technology,123085
+Cptr Sys Scheduler,78509.46
+Acct Supp Spec Sr,71047.08
+P/m Bus Sys Solutio,32423.54
+Cord Sfc Trans Ctr,67539.31
+Materials Examining And Identifying,49998.67
+Miscellaneous Machine Tool Work,69793.58
+Forklift Operator,55855.83
+Classification Spcl,39861.58
+Cptr Ops Suppt Spec,58161.75
+Mgr Eeo Ds Res (ao),78708.75
+Network Oper Spec,72963.5
+Tech Systems Supv,23303.75
+Lock And Dam Repairing,71385.5
+Manual Arts Therapist,67628.5
+Bud/fin Anlst Area,74285.5
+Dep Mng Cnsl (fld),55306.42
+Pse Auto Tech,34755
+Deckhand,46459.64
+Mgr Veh Main Fac,86565.09
+Facilities Prgms An,64337.64
+Unix Sys Admin Prin,30228.27
+Tacs Support Anly,57669.55
+Pricing Economist,24620
+Prog Mgr Tech Acqsn,32998.36
+Mgr Ml Proc Oper,76209.36
+Sr Plant Mgr (3),30739.27
+Packaging,82079.82
+Patent Adviser,133730.45
+Mail Equip Handler,56222
+Ml Order Entry Clk,56791
+Insurance Accounts,40761.8
+District Comm Coord,73999.2
+Enterprise Acc Dir,58668.3
+Mail Class Clk Msc,58616
+Label Prntng Tech,52080.4
+Second Assistant Engineer,75142.9
+Prod Dev Spec Sr,50168.4
+Qlty Asr/cn Anls Sr,71760.8
+Govt Relations Rep,72238.5
+Operations Spec,73509.3
+Accountant,71385.8
+Schd Exam Vehl Runs,59064.4
+Tour Supt Pstl Oper,75225.2
+Barbering,
+Bus Sys Analyst Pr,53127.78
+Info Sys Spec,81749.89
+Gov Relations Anlys,75937
+Info Sys Sec Spec,54032
+Sales Anlysis Spec,66507.11
+Info Sciences Spcls,19939.56
+Inventor Cntrl Spec,71822.11
+Fac Contr Spec,67976.22
+Mkt Spec,76580.33
+Pseadminclerkvmf,32010
+Shipwright,62037.33
+Instrument Making,71834.44
+Sales Ops&plan Sr,42898
+Sr Field Acct Rep,72843.78
+Trans Coord Nte,72770.44
+Financl Economist,24574.11
+Bus Systms Engineer,35009.33
+Cont Sales Analyst,66415.33
+Comp Sys Anl Prg Sr,94588.22
+Boatswain,58757.5
+Master-mate (fishing Vessel),85051.63
+Aircraft Engine Mechanic,53912.5
+Equipmt And Facilities Mgmt Student Tra,41149
+Lbr Rel Spec,84072.13
+Internat Sales Rep,72228.25
+Bsn Mlr Supp Analys,80077.75
+Envrn Comp/rsk Spec,80894
+Budget Specialist,68737.13
+Mgr Bus Alliances,30244.5
+Real Estate Spec Im,76948.86
+Boatswain's Mate,45931
+Research Laboratory Mechanic,59970.75
+Supv Training Nced,90100.63
+Pse Supl Ctr Clrk,32010
+Adr Mgmt Supt Anlt,18675
+Mgr Actg Ctr Ops(a),38004.5
+Sales Ops&plan,66098.5
+Cust Care Spt Spec,75027.25
+Mng Cnsl (field),73548
+Integr & Supp Spec,73634.38
+Inst Design Spec,61345.63
+Sr Litigation Cnsl,45972.38
+Industrial Engineering Technical,57659.71
+Mgr Budget (area),24230
+Mgmt Analyst (acs),86054.29
+Sys Anlyst(min/mic),6973.86
+Area Ret Equip Coor,78895.14
+Writer/editor,72539.29
+Asc Accountant,55592
+It Sol Architect,17984
+Sap Configurer,67945
+Mgr Acctg (area),58469
+Cons Relations Spec,68472.14
+Mgr Cons Ind Conct,21082.29
+Public Rltns Rep Sr,35134.14
+Mgr Natl Prep Area,79006.57
+Sr Major Acct Mail,54064.57
+Automotive Painter,59245
+Mgr Deliv Prog Supp,21921.86
+Sr Legal Admin Asst,60434.43
+Product Dev Spec,81304.57
+Electromotive Equipment Mechanic,59168.86
+Battery Repairing,45667.71
+Preservation Servicing,48591.43
+Oiler,37936.86
+Purch & Sm Trainee,56178.57
+Telephone Operator,46041.29
+Marketing Specialst,52314.14
+Office Clerk,56067.29
+Maint Software Spec,77440.29
+Supv Maint (hq),61155.57
+Lrndeve&dvrstyspec,77557.71
+Mgr Sb Dev & Ml Acc,40358.29
+City Delivery Spec,68429.86
+Inj Comp Spec,79465
+Stamp Dist Clrk-sdn,57987
+Pvs Ops Analyst,86632.86
+Operation Suprt Spc,76829
+Mgr Lbr Rltns (area,36352.29
+Financial Sys Spclt,67358.71
+Area Comp Coord,50635.57
+Mgr Corp Com Ctr,44970.43
+Mgr Maint Ops-area,46445.71
+Eeo Litigation Adv,77986.43
+Sr Accountant,36366.33
+Sr Med Dir (area),42211.14
+Bus Sys Analyst Sr,64214.71
+Lead Ops Ind Engr,66983.29
+Sustn Proj Integ,33625.57
+Ops Indtrl Engn Trn,67166.67
+Retail Mgmt Spec,53886
+Asset Mgmt Proc An,75753.5
+Supv Cust Suppt,72889.33
+Sign Painter-illstr,57987
+Vp Area Operations,3700
+Controller (area),48126
+Sr Major Acct Ship,43500.33
+Financial Sys Spec,48686.5
+Lan Administrator,88766.83
+Eeo Systems Tech,55956.17
+Ergo Spec (area),74845
+Purch Supt Spec(ld),75162.5
+Mgr Safety (ao),52398.83
+Mgr Cust Care Ops,83055.17
+It Clnt Spt Spec Gc,66849
+Disability Comp Sp,88298.17
+Applied Technl Plnr,60298
+Drafting Clk,56990.33
+Sofware Sys Eng Sr,44461.5
+Ship Operating,76269.5
+Chief Cook,45145
+Sr Exec Admin Asst,79713.17
+Data Analyst,83816.5
+Labor Rel Spec Fld,22506.33
+Mgr Intgr & Support,44574.83
+Mgr Oper Suppt Area,81637.67
+Acct/con Spc Sr (c),71725.67
+Tech Integratn Spec,63432
+Mgr Marketing (area,53728
+Post Office Clk,56743
+Tech Proj Lead,23596
+Bus Eval Analyst,81618.33
+Network Ops Spec,86172.17
+Purchasing Spclst,70180.83
+Fac Cust Rel Mgr,49388
+Classification Spec,82958
+Unix Systems Admin,78036.67
+Internat Sales Sr,49466.83
+Master Black Belt,38256.67
+Injury Compnstn Spc,93644.33
+Safety Analyst,69300.17
+Dist Mgr (major),76753.67
+Real Est Spec Asset,41336.67
+Electronic Engineer,49858
+Aircraft Attending,51394.4
+Miscellaneous Structural & Finishing Wor,59552.4
+Engine Utilityman,40616.6
+Mgr Customer Servs,73403.2
+Information Sys Spc,49652
+Comp Prnt Ln Prd Op,57013.4
+Maintence Spec,9492.4
+Ohna (area),79835.6
+Online Soltns Spec,24308.4
+Qual Assr/con Anlst,66484.4
+Asc Accountant Sr,29322.2
+Mail Rewrapper,51243
+Mgr Fleet Ops Reg,6074.6
+Envir Spec (fac),88569.2
+Eeo Support Tech,43434
+Product Info Spec,23063
+Unix Sys Engineer,8365.6
+Bus Cut Sp Svc Spec,65149.6
+Hrssc System Spec,74944.8
+Lrservcentranalyst,72245.6
+Op Support Spec,42788.6
+Hrssc Support Spec,73787.4
+Aux Rural Carrier,57057
+Cons Resch Analyst,84196.6
+Transfer Clk,57987
+Motion Picture Projection,55159.2
+Miscellaneous Painting And Paperhanging,52563.2
+Patent Technician,68845.8
+Theater Specialist,86941.6
+Mgr New Space Mgmt,21601.8
+Fin Accounting Spec,81740
+Solutns Devel Spec,91000.8
+Grp Ldr Warehousing,56791
+Operations Perf Anl,59514.6
+Mgr Ntwk Ops (area),11620.4
+Laborer,53694.2
+Supv Tacs Help Desk,82744.8
+Inventor Cntrl Tl,52079.8
+Learning Develop,67737.8
+Mail&pkg Is Spec Sr,44036
+Purchasing Assistnt,58410.8
+Computer Systems An,65339
+Real Estate Spec Le,19187.8
+Procurement Clk,57030.2
+Miscellaneous Personal Services,37368
+Electronic Measurement Equipment Mechani,100210.75
+Offset Photography,72393.67
+Intl Pstl Affrs Spc,67303.75
+Lr Spec Trainee,56375
+Fld Staff Analyst,28455
+Sftwre Sys Eng Prn,28025.75
+Tech Trng Spec,92890
+Dir Sales Area (3),26090.5
+Ship Solution Exprt,40879.5
+Asset Mgmnt Proc An,45949.5
+Pricing Anlyst,30382.5
+Communications Engn,75060
+Maj Mail Supt Spec,82592.25
+Fac Comm Tech Sr,75751.25
+Comm Engineer Pr,32439.5
+Hr Generalist Hq,75363.25
+Business Developmen,62970.5
+Ind Engmnt Spec,77684
+Program Analyst,81160.75
+Procr/mat Mgmt Asst,57987
+Mkt Spec Sr,12070.25
+Workforcemgmtanly,72751.5
+Mgr Eeo Compliance,28582.5
+Plant Maint Eng,72683.75
+Fac Info Sys Anly,60511.25
+Financ Sys Analyst,75824.5
+Comp Perf Spec,82382.5
+Supv Acct Helpdesk,74862.25
+Field Acct Rep Tl,69674.25
+Mgrcustcareopssupt,73510.25
+Oprns Perfrmce Anly,71202.5
+Label Printing Tech,57290
+Pstl Machs Mech,57987
+Org Design Clas Spc,64459.25
+Comp Specialist,87896.25
+Inst Design Tl,26911.25
+Pse Motor Veh Op Nw,34017
+Misc Wire Communca Equipmt Install & Mai,90704
+Equipment Specialis,74064.75
+Innv & Pro Dev Spc,43869.5
+Machinst,59245
+Pse Label Print Tec,32010
+Multimedia Prod,47157.75
+Ntwk Perf Anlst Pr,8835.25
+Mail Hndlr Ldman,51754.5
+"Bsa, Pr (pmnt Tech)",33433.5
+Comptr Prgm/sftw Sp,62313
+Communications Spcl,45005.25
+Sr Payroll Acct,55916.25
+Eeo Compliance Spec,82045
+Travel Mgmt Spec,57071
+Pse Tto Hldy Term,37345.5
+Product Mgr,52305.5
+Admin Srvcs Coord T,43991
+Mgr Eeo Services,46712
+Tacs Supt Spclst Sr,65944
+Requirement Analyst,32710.75
+Purch & Sm Pol Spec,63801.5
+Environmental Spcls,26027.5
+Tort Claim Exam,65335.25
+Strategic Plan Spec,20295.75
+Mgr Net Dist Ctr(3),23285.5
+Sr Field Acct,87012.75
+Mgr Cust Care Ctr,15962
+Strat Init Proj Mgr,33598.75
+Recruiter,80910.5
+Mgr Surf Trans Ctr,79203
+Riverboat Operating,52112.33
+Master,92311
+Music Specialist,79911.67
+Railroad Maintenance Vehicle Operating,55618.67
+Miscellaneous Plumbing And Pipefitting,66914
+Dist Mgr (3),43913.67
+Mgr Marketing (dist,62158.33
+Maint Fld Supt Spec,40607.67
+Dlvr Strat Spec Sr,67962
+Sr Supply Chain Pln,42845
+Audit Resp Analyst,66113.33
+It Sys Spec Mob Com,36349
+Pse Pack/warehsman,30085
+Info Systems Coordt,59196.67
+Vsblty Prg Spc Sr,35869.67
+Sply Sys Catalogsr,65409.67
+Admn Supp Asst,64499
+Chauffeur,53635.67
+Bus Anlyst Edw,13647
+Cust Serv Ops Spec,85188.33
+Network Perf Anlst,72378
+Mobile Tech Eng Sr,78475
+Mgr Rem Encod Oper,87138.67
+Supv Order Proc Sfs,57791
+City Deliv Spec Sr,39482.33
+Disd Sys Supt Spec,64802.67
+Cust Cntct Sol Spec,90574.33
+Prog Training Admn,29514.67
+Cptr Sys Admntr Pdc,25488
+Ind Equip Mech,57987
+Fld Staff Analyst S,16417.67
+Change Mgt Spec,54633
+Prgm Perfrmce Specl,13647
+Arch/eng Trainee,66083.33
+Mgr Strat Acc Ops,20777.33
+Pse Clrk Mrc,32010
+Qual Assurance Spec,81073.33
+Materials Engineer,95976.33
+Incident Mgmt Tr Ld,73925.33
+Maint Eng Alyst Tr,67166.67
+Opertns Resrch Anls,43380
+Rural Delivery Spec,76901
+Safety Comp Analyst,85592.67
+Fleet Ops Spec,48074.67
+Pse Auto Mechanic,34017
+Supply Mgmt Analyst,75698
+Bus Alliances Spec,73662
+Lr Serv Ctr Tech,66295.67
+Bldg Srvcs Spec,67581.33
+Supv Hrssc Call Wk,63089.33
+Misc Fabric And Leather Work,46414.67
+Transportation Loss & Damage Claims Exam,67460
+Electronics Technician,69671
+Clothing Design,103389
+Small Arms Repairing,59382
+Copyright And Patent Student Trainee,31102.33
+Bsa Sr (pmnt Tech),46510.67
+Illustrator,59245
+Cust Exp Pr Im Anl,60961.67
+Cap & Perf Tech Plr,18694.67
+Asset Mgmnt S C Spe,34149.33
+Ntwk Perf Anlst Sr,89848.67
+Train Quality,77862
+Ntwrk Op Res Anlyst,91691.67
+Supv Prod Oprns,91140
+Mgr Ops Integration,7171.33
+Cust Ctct Tools Spe,62875
+Tech Support Supv,56918.33
+Bus & Ind Analyst,92192.33
+Ind Segmnt Rep,64744
+Ops Ind Enginer(hq),65724.33
+Bsa/aml Analyst,52229
+P/m Telecomm,62184.67
+Mgr Internat Sales,28623.33
+Inj Comp Spec Tl,30939.33
+Express Ml Tech,51966.33
+Rtl Partner Spec,84454.67
+Stamp Develmt Spec,53976.33
+Stationary Engineer,59245
+Incident Mgmt Coor,67575.33
+Technical Srvcs Mgr,22224.33
+Innov Cust Dev Spec,45325
+Del Perform Spec Sr,40713.33
+Cust Outreach Spec,32822
+Economist,76870.67
+Personnel Clk,57189.67
+Sup Mail Recvry Ctr,66441
+Prop Cntl Spc Pdc,64858.33
+Purch/sm Spec Tl,27994
+Natl Events Cord,27723
+Mgr Bus Alnc Regnl,27146.67
+Budget/cost Analyst,49291
+Stamp Supp Clk,57987
+Supv Sur Trns Ctr,67197.67
+Job Class Analyst,65564.67
+It Business Analyst,60653
+Veh Opns Asst,57987
+Mgr Hrssc Oprns,5599.67
+Unix Sys Admin Sr,88241
+Intl Operations Spc,8171.33
+Mgr Govt Liaison,36255.67
+Hr Gen Principl Hq,48392.33
+Mail Solution Exprt,79960
+Retail Mgmt Analyst,26783.33
+Learn Pol Prog Sup,55076.33
+Sr Mail Processor,57987
+Strat Acct Anlyst,32794.67
+Supv Hrssc Ops,84680.67
+Purchasecard Coord,70155.67
+Mtrls Custserv Rep,58756.33
+Lease Mgmt Spec,77662.33
+Community Planning Technician,86003
+Art Specialist,44342.5
+Aircraft Pneudraulic Systems Mechanic,49869
+Tool And Equipment Repairing,64279.5
+Wiper,32532
+Store Working,37753.5
+Oiling And Greasing,49921
+Exhibits Making/modeling,47417
+Sr Plant Mgr (4),32273
+Mail&pkg Is Spec,2854.5
+Mgr Contract Admin,35421.5
+Comm Spec Trainee,56375
+Leg Res Ana Trainee,55000
+Cleaner,53778
+Mgr Training Nced,52544
+Req Spec,40556
+Mgr Sur Tx Ctr Opr,69904.5
+Supv Print Oprns,60586
+Proj Mgr Tech Acqsn,82314
+Mgr Ndc Operations,53553
+Mgr Property Mgmt,29815.5
+Supv Customer Srv,79409
+Budget & Fin Anyst,4591.5
+Tech Proj Spec,10546.5
+Intl Ops Spec,75716
+B2b Edi Map Spec,51874
+Laborer Leader,57987
+B2b Edi Comm Spec,4795
+Envrn Progs Anlyst,12741.5
+Dev Spec Trainee,55000
+Pgm Mgr Bsn Mlr Sup,82822
+Cust Exp Spec,74651.5
+Sr Ltigatn Cnsl Nte,44629
+Fld Rev Spec Tl,48991
+Mgr Rec Ops,69876.5
+Org Dev Analyst (en,32777
+"Translator, Corspnd",59245
+Ind Hygienist,42545.5
+Int & Suppt Spec,75757
+Pm Maj Mail Supt,84035
+Administratve Judge,68700
+Visibility Prg Spec,87350
+Bldg Proj Spec,85857.5
+Retail Serv Spec Sr,11032.5
+Sr Clerk Pdc,55070
+Eeo Info Supp Spec,66892.5
+Data Conv Opr Pdc,55070
+Tech Porject Report,68799.5
+Prog Mgr Pay,14292.5
+Cmptr Sy Opr Jr Pdc,56903
+Executive Admin,52531
+Acct Clk Ml Recov,57987
+Ntwk Ops Rsrch Anls,43752.5
+Tmo Program Lead,21225
+Math Statistcn Tl,27784.5
+Mgr Entr Data Whse,26769.5
+Sr Cst Cntct Sl Spc,15226
+Eeo Reg Plcy &comp,8283.5
+Fin Analyst Trnee,56375
+Data Alyst Trainee,55000
+Digital Mkt Spec Sr,48037.5
+Accntng Tech Train,56375
+Envrn Comp/risk Spe,4795
+Sign Paint/letterer,56791
+Data Analyst Prin,14740
+Dir Sales Area (2),33542
+Rcd Ck-int Air Mail,57987
+Spec Trans Clerk,59245
+"Mgr, Info Sys Sec",60265.5
+Mail & Pkg Is Anlst,78866
+Tour Supt Mails (b),76453.5
+Cust Exp Imprv Spec,85851
+Eap Counselor,65782.5
+Cntrct Sales Spec,47837
+Lean Six Sig Trner,44095
+Sys Admin Teradata,51082
+Speechwriter,8517.5
+Prop Invn Asst,49720.5
+Pse Cust Laborer C,27136
+Ohna (hrssc),70625.5
+Apps Analyst,66053
+Training Specialist,70020.5
+Digital Mkt Spec,80188.5
+Ntl Prep Prog Spec,51962
+Emply In Modified,77996.5
+Mat Comm/anal Spec,63281
+Custodial Laborer D,53748
+Security Spec,87669
+Baking,44305.5
+Educational Therapist,70877
+Tile Setting,66387.5
+First Officer,70833
+Explosives Safety,89799
+B2b Edi Proj Coord,92492.5
+Mgr Cap Invstmnts,33544.5
+Ergonomist,3000
+Business Solutions,39575
+Sys Analyst Ntwk,45924.5
+Mgr Net Dist Ctr(1),40388
+Mgr Prod Oper Br,50475.5
+Ret Campgn Spec,85212.5
+Reser Poly Leg Anly,80022.5
+Bus Proj Lead (mft),10278
+Div Spec Sr,91734.5
+Integratn Prog Mgr,9884.5
+Energy Spec,41249.5
+Sls Su Spec Trne,57750
+Stmp Prd Exhi Spec,86974
+Retail Prod Spec,80927
+Phil Clk,56791
+Ntwkmonitoringanly,92573
+Int & Suppt Coord,72074.5
+Computer Sys Oprtor,58530.5
+Stamp Stock Exam,50954.5
+Rural Dlvy Spec Sr,8970.5
+Comp Sy/prog Sr.edw,5830.5
+Computer Sys Admin,73147
+Bus Proc Spec Pr,47328
+Sr Designer,55485.5
+Strat Acct Anly Sr,13027
+Financial Acct Spec,78581
+Prog Mgr Benefits,9987
+Slf Srv Pst Ctr Tch,57987
+Compute Sys Admintr,10251.5
+Operation/sys Engin,38603.5
+Sr Fin Analyst,5354.5
+Prog Train Sr,18168.5
+Ed Psychologist,81327.5
+Writer-editor(acs),66712
+Strategic Pln Spec,88585.5
+Storekeeper,56791
+Labor Economist,47987.5
+Wkpl Env Impv Spec,94903
+University Recruit,61888
+Cust Cntct Cnt Spe,39545
+Comp Sys Anl Sr,84510.5
+Graphic Designer,69529.5
+Job Class Trainee,55000
+Mgr Fac Implement,53113.5
+Scanning Tech Spec,12921.5
+Cs Ops Spec Sr,47534
+Dist Mgr (metro),80721
+Acct Ppr Supp Clk,56791
+Del Strategy Spec,45003
+Proj Mgr (d&cm),25000
+Mgr Solutions Ctr,32927
+Prog Mgr Mail & Pkg,20401.5
+Prvcy & Rec Spec,55660.5
+Mgr Isc (level 1),39723.5
+Tech Proj Anlst,3079
+Mgr Reg Bus Dev,77724.5
+Class Sprt Spec,77346.5
+Prog Eval Spec,13123
+Equip Prog Ev Alyst,46304.5
+Info Sys Sec Admin,77739
+Dgtl Solution Spec,51255
+Supv Admin Srvcs,68967.5
+Mgr Env Compl Sust,12744
+Materials Analyst,60424
+Safety Aware Spec,5358
+Quality Assurnc Spc,49808.5
+Mgr Fac Reqs,48540
+Packer Shipper,56222
+Sales Prog Spec,67768
+Supv Whse Dist Opr,65897.5
+Sales Prog Spec Sr,43037.5
+Exp Pkg Spec,93242.5
+Mathematics Technician,48321
+Roofing,77532
+Oiler Diesel,56286
+"Misc Motn Pic, Radio, Tv, & Snd Equip Op",52008
+Miscellaneous Instrument Work,74777
+Quality Inspection Student Trainee,23145
+Metal Forging,56266
+Meatcutting,59083
+Miscellaneous Engine Overhaul,47604
+Mgr Field Review,15453
+Mgr Govt Mails,71819
+Landlord Maint Pm,16000
+Registrar,64263
+Fld Liaison Commctn,9336
+Tech Project Lead,4603
+Mgr Asset Mgmnt F&a,2134
+Writer,93000
+Mgr Pricing,66397
+Admin Support Spec,84126
+Supv Mtrl Inquires,60886
+Copywriter Research,6367
+Mgr Field Commnctns,32333
+Ntnl Mgr Mjr Acct,6906
+Mgr Sol Architect,21243
+St Wf Plan Spec Sr,2000
+Mgr Lr Plcy & Progs,65627
+Maint Supt Pln Spec,89063
+Mgr Disability Prog,18226
+Mgr Erp Sys Soltion,19503
+Bdgt Sys Spec (tl),6982
+Chf Csl Pro & I Pro,62576
+Mgr Support Svcs,78817
+Assoc Producer,72000
+Mgr Mail Prep&pmnt,19610
+Secy Usps Bd Of Gov,778
+Sys/process Enginer,3767
+Energy Engineer,2818
+Mgr Wf Reposition,90979
+Mgr Asset Plan R/m,20655
+Oper Tech (it),53356
+Mgmt Support Anlst,73965
+Mgr Visibility Bus,28083
+Del Planning Spec,72380
+Acctnt (sfs),61452
+Admin Supt Spec Hr,62336
+Mgr Payment Tech,54500
+Mgr Oper Apps,24864
+Mgr Del & Mobi Tech,23602
+Innv & Pro Dev Anlt,30800
+Mgr Facilty Telecom,25751
+Chief Hr Officer &,41870
+Printing Coord,70007
+Rtl Partner Spec Sr,9974
+Pci Compl Prog Mgr,7663
+Mgr Sol Dev Supp,45200
+Tech Complianc Spec,83511
+Eeo Comp & App Sp,97360
+Mgr Memphis Ops,16669
+Rev Assur Proc Spec,90251
+Mgr Glb Dir Entry,79315
+Product Perf Anlyst,89137
+Mgr Software Dev,23602
+Mgr Retail Ops Str,2419
+Train Quality Tl,8760
+Mgr Tech Mgt Office,52351
+Direct/forms Spec,8610
+Electrician,59245
+Mgr Intl Acct Opns,1666
+Mgr Stamp Prod,87400
+Mgr Engy Initiativ,29887
+Prog Resrc Coord,69850
+Mgr White Hse Sect,73002
+Mgr Public Affairs,44233
+Fld Coor Qwl Proces,78418
+Leg & Pol Resh Anly,69620
+Mgr Safety/hrm,76289
+Mng Cnsl Legal Str,81161
+Mgr Nat Mat Cs Ctr,69830
+Bus Analyst,73904
+Rtl Exp Mkt Str Tl,85286
+Mgr Glob Sys Mgmnt,31899
+Coord Acctng Progs,10857
+Mail Info Sys Arch,16046
+Mgr Hq Facility Srv,32996
+Telecom Srvs Analys,11631
+Change Mgt Coord,80000
+Energy Eng Trainee,68250
+Admin Clk Exp Mail,58140
+Chf Cnsl Nat Emp Lt,34526
+Labor Relations Spe,91082
+Rev & Comply Sup,8333
+Addr Mgmt Sup Anlyt,93072
+,71616
+Mgr Ops Int & Sup,26185
+Dir Mail Svcs,63456
+Mgr Automtn Eqpmt,22413
+Stf Secretary (pdc),57910
+Mgr Prod Classif,60140
+Mgr Surf Trans Cmc,19900
+Mgr Hr (hq),49137
+Mgrntwkvisbltysys,47692
+Cust Cntct Opns Anl,834
+Mgr Intl Proc Svcs,23424
+Mgr Address Tech,20291
+Media Mkt Spec Sr,86381
+Supply Coord,64661
+Mgr Brand & Policy,33053
+Mgr Srfc Trns Opns,57248
+Pricing Specialist,86368
+Ops Application Spe,90847
+Software Sys Eng,87303
+Mgr Mail Innov,91199
+Mgr Wfb Crt For Lea,24689
+Cons Adv & Mgr Cust,47733
+Exec Dir Intl Ops,73646
+Mgr Rev & Ind Anlys,13101
+Mgr Address Mgmt,51515
+Mgr Digital Idnty,69849
+Mgr Info Sys (sfs),91697
+Prg Mgr Cust Ct Ctn,4030
+Mgr Tech Anlys A&f,59170
+Bus Sys Cntrct Anal,86490
+Foia Specialist,55930
+Mgr Dlvry Tech Prg,21225
+Pm It Qa,90307
+Change Mgt Spec Tl,49059
+"Rtl Sls Ck, Ptl Str",55910
+Vp New Prodt Innov,93496
+Mgr Collective Barg,68396
+Mgr Bus Mlr Suppt,7164
+Dir Sales Area (1),60973
+Mgr Fin Rel Mgmt,63360
+Mgr Ops Sfs,85080
+Chf Privacy Officer,35244
+Dpmg/chief Gov Rels,54874
+Org Chng Imp Spec,14137
+Prog Mgr Wellness,89250
+Mgr Sftware Proces,29887
+Mgr Assetspayables,21238
+Mgr Cap Per Prgms,3020
+Gm Bus Dvlpmnt A/p,2290
+Sys Comp Spec,89695
+Advertising Spec,3020
+Financial System An,80985
+Info Sys Coord,82948
+Comp Spec,78024
+Mgr Mult-med Comm/e,26281
+Mgr Sales Mailing,4206
+Dist Clk Mach Mplsm,64459
+Pgm Mgr Sox Bus Ml,17734
+Mgr Ops Ind Eng,37200
+Mgr Org Mgt,22413
+Mgr Fin Bus Supt,13179
+Sr Video Prod/dir,16607
+Cash Mgmt Anlystsr,85477
+Prog Suppt Spec,89345
+Mgr Fac Con Alt Rpr,41838
+Vp Cons & Ind Afrs,97657
+Prg Mgr Safe Aware,90234
+Med Prog Analyst,94841
+Mgr Hrenablrelmgmt,52135
+Mgr Rec,32770
+Fin Valid Anlyst,66353
+Phil Sales Prgm Anl,81297
+Mgr Finance Hq,72460
+Mgr New Solutions,21225
+Mgr Ntwk Dev Suppt,27501
+Mgr Oprtns Sfs,61625
+Word Procsg Tech,51597
+Mgr Us House Of Rep,66209
+Public Rltns Rep,65628
+Info Systems Spec,59465
+Assoc Judicial Ofcr,166113
+Supv Stamp Inv Sfs,75863
+Mgr Field Accting,98963
+Sales Spec Sm Bus,88977
+Mgr Fac Portfolio,55113
+Mgr Sales Ops Supt,21258
+Mgr Ch Ctrl & Conf,17606
+Sys Admin Microstr,91344
+Mgr Bus Rel Mgmt,75521
+Sr Recruiter,6687
+Data Analyst Sr,98000
+Mgr Pay & Perf Pr,51536
+Info Sys Proc Spec,70082
+Mgr Alnc Intg Supt,31565
+Pricing Analyst,90262
+Dir Entrprise Accts,63797
+Mgr Cap & Perf Mgnt,28533
+Mng Csl Proc & Prop,74792
+Mgr Natl Eeo Serv,63360
+Grp Ldr Adm Clk Pdc,56987
+Deputy Gen Cnsl (hq,86885
+Dir Intl Tran Ntwk,41801
+Mgr Cost Attri,48583
+Stf Cnsl/hearng Ofc,34205
+Hr Anlyt Sp Trainee,57750
+Supv Maint Ops Sup,69918
+Mgr Svc Fld Opn Pm,24193
+Human Factors Eng,6672
+Asst Treas Fin/cash,57004
+Mech Eng (fac),390
+Prog Mgr Customer P,14138
+Radio Freq Spec,98000
+Overhaul Specialist,61328
+Perfmc Mgmt Spec,4795
+Mgr Stamp Prod Exh,98123
+Judicial Officer,68700
+Lrn Eval Trainee,55000
+Prj Mgr Treas Strat,26998
+Mail Flow Cntlr,61883
+Mgr Prof Tech Svcs,43041
+P/m Pst Rdo Freq,30752
+Empl Mod Assign (es,76234
+Mng Cnsl Empl & Lab,76126
+Mgr Cust Prod Dist,72432
+Prog Mgr Cust Polic,96159
+Mgr Processing Oprn,42548
+Cust Pmnt Tech Spec,80011
+Cf Csl Bus Fin Law,44678
+Brand Mgr Mail,34930
+Sr Sys Engn-act Dir,99508
+Exe Dir Intl Pstl,44364
+Auto Inc Mgmt Spec,95640
+Mgr Tech Integratn,6725
+Hr Reporting Spec,99513
+Mgr Hr Supt Svcs,9134
+Vp Labor Relations,96617
+Org Design Tl,80000
+Mgr Project Intgrs,34511
+Mgr Sales Shipping,8587
+Admin Coordinator,54054
+Purch & Sm Pol Spe,7419
+Prg Mgr Fraud Risk,15453
+Mgr Flat Mail Tech,12934
+Intl Netwrk Oper,62271
+"Mgr, Reqs & Qa",18880
+Prog Mgr Sox Init,19420
+Prog Mgr Svc Perf,4401
+Career Develp Spec,95962
+Comp Perf Spec Sr,90130
+Mgr Corp Accntg,72000
+Elearning Spec,70233
+Receiving & Shippin,56791
+Mgr Intl Acctng,24397
+Prog Mgr (recruit),95000
+Financ Intgrn Spec,89328
+Schemes Examnr,57987
+Mgr Ind Egmnt Strat,18049
+Cptr Systems Admn,67508
+Lrng Pol Prog Sup,82434
+Mgr Sales Outreach,26560
+Vp Sales,3700
+Dir Operatns Integr,37037
+Mgr Mnt Plng & Spt,60254
+Div Spec Tl,86860
+Supv Tort Claim Ex,77746
+Mgr Org Effect,16179
+Network Planning Sp,64027
+Community Rltns Ast,71472
+Dir Ship Prod Svcs,60606
+Mgr It Perf Achvmnt,44538
+Mgr Mail Rcvry Ctr,88147
+Tech Bus Anlyst,96282
+Org Dev Spec Engmnt,1958
+Miltry Ml Ops Spec,12373
+Mgr Actg Svc Mgmnt,10035
+Mgr Innov Prod Dev,35293
+Mgr Air Transp Oprs,48170
+Mgr Mp Operations,88046
+Mgr Analysis Reprt,99151
+Mgr Imtc,73328
+Asset Mgmnt B&c An,4214
+Communications Spec,95750
+Solu Devel Spec Tl,6096
+Mgr Bnft Wellness,27000
+Mgr Acct Help Desk,3346
+Ex Dir Intl Str Bus,45319
+Banking Specialist,860
+Global Bus Trainee,57750
+Mgr Budget Initiat,18656
+Mgr Int'l/mil(njbmc,1689
+Supv Acct Paper,61774
+Mgr Comp Prod Pric,45927
+Disab Prog Spec,62532
+Market Research Spc,4795
+Chf Counsel Com Lit,64955
+Bsa/aml Tech Anlyt,2114
+Mgr Perf/fld Ops Sp,72243
+"Mgr, Int & Supt Coo",64607
+Dir Asia Pac Rela,31603
+Proc&sply Asst Pdc,60073
+Dir Intrntnl Sales,72243
+Vp Facilities,96617
+Vp Ml Ent/pay Tech,90000
+Equipment Handler/t,38251
+Mgr Lbr Rltns Sys,29545
+Facilities Reqmt Sp,94000
+Infor Systems Coord,565
+Plng & Sppt Spec,15453
+Mgr Natl Events,20854
+Chf Cnsl Fed Compl,58000
+Comm Res Spec,67149
+Sr Tacs Sys Spec,92347
+Brand Mgr Shp,58000
+Mgr Cont Impr,36244
+Tech Proj Analyst,68516
+Building Engineer,68874
+Mgr Ship Info Sys,42352
+Mgr Rural Delivery,45744
+Mgr Vehicle Prog,58841
+Mgr Business Eval,22759
+Mgr Design/construc,29520
+Mgr Acctg Services,64909
+Mgr Veh Engineering,22413
+Project Mgmt Spec,79585
+Supply Data Anlyst,84694
+Bsn Mlr Sup Anyl Sr,88261
+Pse Mvo Holdy Term,40960
+P/m Bus Sys Contrac,7386
+Mgr Post Ofc Oprtns,6470
+Sys Monitoring Eng,73529
+Onlne Comm Spec,96387
+Eap Administrator,12681
+Mgr Ntwk Ops Eng,59408
+Prog Mgr Barg Pay,13179
+Mgr Hr Shrd Svcs Ct,34702
+Rm Admin,87096
+Mgr Bus Support,95643
+Laborer Mtl Hndlng,54712
+Psepostofficeclerk,27136
+Energy Mgmt Spec,75073
+Bsa/aml Cmplnc Ofc,15453
+Mgr Ind Egmt & Outr,66750
+Hr Report Spec Sr,14321
+Chief Cnsl Labr Rel,59424
+Mgr Financial Sys,99062
+Mgr Corp Budget,28841
+Occup Hlth Nurse,63541
+Mgr Windows Systems,21702
+Mgr Cst Engmt & Str,48377
+Ad Specialist,61244
+Mgr It Acq Support,41023
+Mgr Technology Plnn,72041
+Mgr Corp Fin Reptg,15000
+Mgr Safety & Osha C,53524
+Mgr Eeo Programs,11530
+Bsa/aml Compl Anal,78430
+Hr Gen Trainee,57750
+Mgr Pricng/clas Sv,43381
+Elevator Mech,59245
+Clrk Recvry Ctr Ltr,56791
+Mgr It Cust Suppt,16047
+Mgr Corp Sust Init,13992
+Mgr Sales Ops Plan,28149
+Mgr Fld Perform,26540
+Mgr Tech Acqui Mgt,27910
+Dir Strat Accts,18776
+Chf Csl Lgl Pol Leg,40639
+Supv Cptr Maint Lab,82948
+Rsrch Anl Pstl Hsty,76007
+Prg Mgr Multich Cst,90977
+Learn Eval Analyst,86178
+Mgr Asc Eagan,48583
+Vp Entrps Analytics,89335
+Vp Retail & Cs Ops,90375
+Dir Natl Busi Alli,51129
+Mgr Inj Comp Fld,203
+Mgr Mail Opr Eqp Pt,70939
+Cont Imprvmnt Spec,17000
+Hist Preserv Archt,12955
+Mgr It Portfolio,84836
+Mgr Asset Mgmt Ops,38311
+Mgr Ship Mail Solu,20726
+Vending Mach Mech,57987
+Mgr Fin Bus Solu,42785
+Admin Clk Pdc,56399
+Retent Camp Spec,79480
+Ret Prog Spec Tl,4378
+Mgr Fld Labor Rel,33205
+Pm Intelligent Mail,1821
+Mgr Del Plan,40772
+Hrssc System Admin,62532
+Mgr Trade Sys&ana,27621
+Mgr Bus Plng Anlys,12290
+Postmaster General,82360
+Vp Dlvry Oprns,96000
+Mgr Fac Leasing,61668
+Communic Supt Spec,59496
+Plnt Maint Engr Hfu,75165
+Chf Couns Fac Law,66213
+Mgr Mdlw Sys,20616
+Mgr Safe Resch Dev,34544
+Mgr Intrnl Reprtng,19205
+St Wf Plan Spec Pr,96000
+Supply Data Spec,6367
+Facilities Plan Spc,95000
+Mgr Sales Pfm Mgt,21247
+Mgr Asset Man Plng,32156
+Aircraft Freight Loading,53260
+Ordinary Seaman,41093
+Electroplating,49316
+Precision Measurement Equip Calibrating,62568
+Mobile Equipment Metal Mechanic,57309
+Kitchen/bakery Equipment Repairing,51507
+Resource Mgmt Anlys,3767
+Mgr Eng Software Mg,55052
+Mgr Trade Pol&proc,21225
+Bis & Ofac Comp Spe,16607
+Mgr Ami Proc Imprv,24140
+S Dir P&p/cos N Sec,40540
+Prog Mgr Scm Sols,14876
+Ops Compliance Spl,87621
+Mgr Unix Systems,32488
+Mgr Cust Cntct Int,29824
+Retail Serv Spec,1547
+Spec Events Coord,79573
+Mgr Ret Del Sy Spt,33858
+Mgr Mail Entry,10090
+Exec Dir Emp Engmnt,82812
+Supv Mdc Maint,82948
+Advertising Speclst,1729
+Sltns Dev Spe Anly,15453
+Rev Assur Info Spec,72593
+Pm Prod & Pmnt Tech,24761
+Tech Acq Analyst,64180
+Mgr Pkg Sort Tech,29782
+Fld Staff Support S,58412
+Emp Policy Spec,64946
+Oper Comput Label,56791
+Truck Driver-heavy,55712
+Mgr Trans Portfolio,62070
+Bus Sys Alyst Tr,57750
+Student Srvc Coord,73312
+Prg Mgr Fac Sys,96623
+Mgr Cust Rltns,73480
+Exec Vp Cio,41870
+Admin Cord Pmg Ofc,91697
+Mgr Ntwk Analytics,7119
+Mgr It Port Dev,45360
+Mgr Ip Dlvy And Rtl,58360
+I/o Psychologist,94591
+Mgr Telecom Srvs,47738
+Liquidity Mgr,98215
+Exec Vp Coo,41870
+Pse Forklift Oper,32010
+Intl Ops Analyst,99496
+Mgr Global Tran Con,15453
+Mgr Fac Admin Supp,19204
+Mgr Ctr Employ Dev,25299
+Del Perform Spec,98524
+Mgrstratmgmtoffc,44856
+Prog Analyst,64276
+Mgr Bus Cst Spt/svc,94177
+Job Class Assist,81140
+Mgr Mtrl Dist Cent,97966
+Mgr Prof Recruit,11841
+Mgr Sox Compl,65000
+Mgr Asset P&acct,27245
+Mgr Vhcl Dly Ind Eq,48583
+Mgr Inj Comp & Med,46452
+Vp Finance Planng,93640
+Mgr Bus Case Dvlp,35300
+Lss Cord,15453
+Parking Svc Coord,58526
+Qa Manager,15480
+Hist Corp Info Svcs,96282
+Mgr Nat Print Ctr,85427
+Supv Ordr Entry Sfs,75863
+Prog Training Spec,75127
+Mgr New Intl Oppor,15453
+Mgr Letter Techn,40383
+Mgr Stat Programs,57719
+Tech Services Mgr,21255
+Emply & Plcmnt Tl,83766
+Dir Div & Tal Acq,36710
+Vp Supply Mgmt,96617
+Prg Mgr Safe Compl,9449
+Photographer,87096
+Mgr Rev/field Acct,37224
+Supply Clerk,31149
+Mgr Hr Sys&tech Sol,52352
+Sr Exp Ev Spec,80000
+Ethics Specialist,73437
+Supp Svcs Spec,64661
+Mgrentrpsaccinfrst,65000
+Dir Prod Tech Innov,73934
+Mgr Cons Rel Fld Op,1824
+Mgr Prod Support,21225
+Record Req Spec Fld,64027
+Prod Info Alyst Tr,63000
+Sys Life Cycle Eng,2491
+Mgr Adr Qual Prg,14619
+Mgr Stamp Devlpmnt,12427
+Asset Mgmt Asst,59631
+Dstr & Invn Planner,66832
+Mgr Maint Opns Hq,87449
+Consmr Rel Spec Trn,57750
+Mgr Air Transp Cmc,32563
+Govnt Rel Anly Sr,86995
+Sr Markup Clk Autom,56791
+Mgr Public Policy,26384
+Mft Specialist,3657
+Employ & Place Spec,80187
+Program Eval Spec,88583
+Support Srvcs Spec,79967
+Mgr Acctg Data Mart,12934
+Mgr Ntwk Inte Supt,16261
+Vp Netwk Oprs,94775
+Mgr Del Adr Prog,27621
+Acct Paper Cntrl Sp,59631
+Mgr City Delivery,40758
+Sox Info Spec,96282
+Prg Mgr Engi Devel,29048
+Prod Dev Asst,58249
+Mgr Maj Mail Supt,3320
+Time & Attend Clk,56791
+Copywriter,57675
+Cc (trans Empl-mou,33485
+Mgr Cust Outreach,10180
+Supv Cancel Srv Sfs,71543
+It Support Coordin,46274
+Communictns Spec,96282
+Mgr Auto Mtrl Hand,37045
+Mgr Cust Ret,89793
+Edw Reporting Supv,2847
+Facil Fin Anly Trn,57750
+Mgr Cost Sys/anls,53907
+Mgr Sales Suppt Ser,20219
+Mgr Pricing Innov,32108
+Prog Mgr Comp Comm,15453
+Dispute Resol Spec,70526
+Mgr Stamp Ful Sv,41567
+Business System Mgr,95578
+Hr Prgm Trainee,57750
+Net Ops Res Anlyst,61244
+Mgr Test/eval/qual,24995
+Mgr Asc San Mateo,32350
+Mgr Mobile Comptng,30115
+Mgr Speech/publcts,16092
+Career Dvlp Coord,68019
+Mgr Retail Partnrs,98249
+Elearning Spec Tl,92205
+Bus Sys Proc Anlyst,5303
+Mgr Dgtl Intgrtn,42760
+Complement Spec Sr,99537
+Ofc Stf Asst Typist,56791
+Mgrrevvolforecast,31391
+Digital Mkt Analyst,75000
+Bus Analy Mgr,2480
+Dir Natl Preparedn,32970
+Mgr Ent Comp Suppt,36434
+Sftware Rel Mgr,66566
+Tech Bus Spec,73961
+Storage Admin,2132
+Rev Assr Data Anlys,6181
+Vp Employee Res Mgm,300
+Evp General Counsel,41870
+Off Mach Oper,55910
+Proj Mgr (cia),17185
+Mng Csl Corp Postal,71390
+Fld Staff Spec (tl),88391
+Dir Fld Strat Cont,43686
+Prod Support Spec,76610
+Mgr Data Mgmt Svcs,28109
+Mgr Labor Rela Str,76750
+Mgr Cust Accts,99315
+Chf Csl Glb Bus Svc,58693
+Mgr Ship&mail Port,47998
+Hr Generalist,78242
+Quality Assurnce Sp,72224
+Exec Vp & Cfo,48632
+Mgr Logistics,64016
+Prg Mgr Pol & Proc,21225
+Asst Supv Wt Hs Ml,66864
+Mgr Sfc Tx Ctr Ops,70788
+Strategic Initv Pm,14887
+Ast Trsr Cust Pymt,65018
+Mgr Space/admin Sup,16019
+Sr Recorder,78058
+Mgr Tech Solutn Dev,7645
+Stmp Invt Anyst Sfs,60886
+Mgr Sales Sm Bus,8434
+Mgr Rlty Asset Prgs,911
+Dvrsty Evnt Coord,73971
+Mgr It Cust Spt Br,97506
+Mgr Mailship Exprt,5345
+Tech Serv Mgr Cirt,15412
+Supv Admin Svc (hq),73861
+Administr Law Judge,68700
+Mgr Ops Research,52265
+Debt Collect Tech,61453
+Fleet Ops Spec Sr,99786
+Mgr Opr Spl Mte Cmc,20289
+Mgr Tech Infra Port,62070
+Window Svc Tech,57987
+Learn Tech Supt,90970
+Mgr Datatrnsfrsvcs,26365
+Dir Strategic Plan,69311
+Mgr Finance Ops,79411
+Judicial Law Clerk,66648
+Dir Comp And Ben,80048
+Fin Anlyst Assets,72793
+Wkplc Envirn Impr A,60314
+Mgr Cust Cont Ctr,76000
+Mgr It Qlty Asurnce,35300
+Mgr Host Cmp Sys Cs,77845
+Eeo Supp Svcs Spec,5563
+Mgr Entrp Syst Mo,14940
+Test Dev Spec,71874
+Mgr Emerging Tech,40959
+Int & Support Spec,91786
+Diversity Spec,59325
+Customs Cmplnce Mgr,90299
+Deputy Gc (field),86884
+Clerk Finance St,57987
+Agc&chf Eth/cmpl Of,78151
+Eeo Data Analyst,4795
+Accntng Assoc,67849
+Sr Advisor Policy,715
+Supv Cust Prod Dis,68951
+Chief Cnsl Torts,32369
+Rec Request Lsn,76276
+Cash For Anlyst Trn,57750
+Cust Cntct Oprs Anl,78983
+Audit Response Anl,10035
+Sys Assur Analyst,93000
+Supv Admin Support,59572
+Mgr Asset Acctblty,15453
+Mgr Env Com Rsk Mg,21225
+Stamp Dev Spec Tr,57750
+Vp Engineering Sys,88000
+Mgr It Sftwr S/r Eq,48583
+Mgr Fld Staff & Sp,30732
+Admn Coord,76796
+B2b Edi Eng Spec,98500
+Mgr Sm Infrastructr,48583
+Sys Admin Micro,89758
+Retention Proj Tl,13661
+Fac Info Sys An Tr,63000
+Dir Learning & Dev,68618
+Drafting/design Spc,91697
+Mgr Bus Solutions,2570
+Mgr Cust Prod Fulf,44228
+Mgr It Busi System,35214
+B2b Edi Tech Lead,10574
+Ind Enga Spec Trn,55000
+Fac Resp Line Supv,50593
+Graphicdesignspec,53338
+Mgr Tech Dev & Apps,63360
+Mgr Corpaudit&resp,21225
+Mgracthlpdsksrvmgt,3048
+Mgr Enterp Analtcs,31753
+Mgr Rev And Vol Rpt,45945
+Mgr Emp Fin Tac Svc,25486
+Mgr Dsktp Comptng,51849
+Dep Chf Foia Ofc,16019
+Mgr Fac Real Est,60595
+Vp Controller,98275
+Princ Sys Eng Anal,21225
+Summer Intern,30720
+Vp Mng Dir Gbl Bus,90000
+Mgr Training Devp,45000
+It Ser Lvl Mgt Spc,65628
+Recruitment Coord,50593
+Mgr Cust Fld Perf,57689
+Mgr Rev Assurance,27513
+Mgr Extrnl Reprtng,28520
+Mgr Asc St Louis,33110
+Rev Asr Dat Anly Sr,12311
+Mgr Field Budget,1609
+Mgr Strtg Pln Bus,34544
+Proj Mgt Spec,89732
+Pse Cst Care Agt T1,32010
+Mgr It Ctrs & Infr,10574
+Bus Sys Anlst Trnee,60000
+Mgr Innov Prod Sol,21225
+Director Innovation,62750
+Mgr Leader Develop,48830
+Saf & Ic An Trnee,57750
+License Spec Sr,94753
+"Schl Clk, Frgn Mail",57987
+Communicatns Enginr,92902
+Mgr Leg Pol/strat D,38474
+Mgr Matl Hndlg Eng,29485
+Mgr Wrkfc Pln Anly,61645
+Supv Hrssc Org Mgt,79836
+Mgr Req Test Plan,35204
+Audit Trckng Anlyst,63927
+Mgr Sales Comm,24443
+Lr Supprt Spec Nte,64661
+Pces Exec Spec Asgn,69869
+Mgr Tech Solutions,22450
+Mgrstratbusplan,1672
+Cust Insight Spec T,57750
+Mgr Reg Price Rev,88000
+Senior Director,80417
+Mgr Tech Acq & Prg,58669
+Productinfoanalyst,84137
+Banking Manager,55055
+Vp Corporate/comm,90000
+Smtrng Coordinator,
+Pm Pmnt Tech,82727
+Mgr Sta/det Ml Dstr,8956
+Product Publicty Sp,4762
+Mth Stat Trainee,57750
+Cont Cntr Tech Plan,96453
+Mgr Adm Bg Svc Edc,16019
+Ops Imprvmnt Spec,96754
+Learn Tech Strat,99166
+Mgr Media Relations,91771
+Sr Rsch Anlst Hist,77793
+Spv Clm/inq (int U),61974
+Mgr Digital Mkt,25070
+Mgr Upu Relations,9671
+Treasurer,71805
+Mgr Maint Op/hq,45970
+Hrss Know Mgmt Adm,56815
+Chief Sustain Ofcr,57581
+Mgr Ship Solutions,26693
+Mgr Mail Pckg Visib,21921
+Mgr Natl Cst Rulng,6834
+Infosystemscoord,8548
+Mgr Scm Strategies,50835
+Mgr Isc,4920
+Travel & Relo Tl,7627
+Retent Prog Anlst,84803
+Mgr Learning Eval,18000
+Mgr Prd/pymtechsys,35302
+Mgr Str Acct Analy,29887
+Unix Sys Engn Supv,12731
+Info Sys Suppt Spec,76267
+Data Mgmt Anlyst,96282
+Admin Supt Anly-com,64806
+Wrkfce Mgmt Spec,56539
+Mgr Mail Info Sys,64607
+Sales Program Spec,82535
+Env Compl R M Spec,15453
+Mgr Mail Classif,17757
+Chf Cnsl Pcg&pd St,64955
+Mgr Post Ofc Oprn,98885
+Diversity Trainee,55000
+Mgr Bus Cst Intell,37295
+Mgr Vendr Implemen,19086
+Bsa/aml Cmpln Spec,67164
+Info Spec (is),66368
+Sys Lc Sr Engineer,29290
+Mgr Eeo Compl/appls,42498
+Grp Ldr Sck Srt Mch,58114
+Mgr Milt Mail Oper,25181
+Mgr Comptr Ops,63775
+Mkt Analyst (rtl),64000
+Chf Info Sec/vp Dig,3700
+Mgr Asset Mgmnt,46544
+Exec Recruiter,
+Mgr Contactctrtech,28050
+Bus Sys Analyst(ea),275
+Mgr Facili Svc Cmc,20821
+Mgr Area Mail Proc,28066
+Plant Mgr (2),43905
+Bus Cust Sp Sv Spec,94736
+Mgr Payroll,29993
+Retail Prod Mkt Tl,84169
+Comm Spec Sr (int),2263
+Ops Perf Anlyst Sr,91677
+Mgr Fin Reporting,17841
+Mgr Tel & It Hrdwr,41928
+Sr Mgr Public Rel,56105
+Mgr Online Comm,34544
+Org Dev Analyst,10035
+Chief Of Staff Pmg,71474
+Building Custodian,55712
+Admin Sprt Analyst,56585
+Tacs Systems Spec,82862
+Safety Engineer,70000
+Comm Spec (intrnl),67368
+Retention Anlyts Tl,15453
+Mgr Retail Tech Prg,21112
+Wrkfrc Repostn Spec,90639
+Hr Sys Mgmt Spec,57349
+Exec Dir Sales Natl,72690
+Hq Disbursmnt Coord,64661
+Sr Ethics Counsel,32339
+Mgr Reg Rpt&cst Anl,80927
+Mgr Hd & Ser Tacs,90149
+Test Dev Spec Tl,92718
+Mgr Insp Svc Sol,28775

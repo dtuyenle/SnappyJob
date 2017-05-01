@@ -1,0 +1,21 @@
+// override bootstrap
+//   form elements should have no shadow
+label {
+    font-weight: 400;
+}
+.form-control {
+    border-radius: 0;
+    background-color: transparent;
+
+    &,
+    &:focus {
+        .box-shadow(none);
+    }
+    &:focus,
+    &:active {
+        border-color: @reflectBgColor;
+    }
+}
+.form-action {
+    margin-bottom: 20px;
+}

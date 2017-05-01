@@ -1,0 +1,62 @@
+//
+// List
+// --------------------------------------------------
+
+@icon-padding: 15px;
+.oe-shortcode-list-item, .oe-ul {
+    li {
+        list-style: none;
+        margin-bottom: 15px;
+        line-height: 1.5em;
+    }
+}
+
+.fa-li.oe-li, .oe-li {
+    margin-right: @icon-padding;
+    color: @reflectBgColor;
+    font-style: normal;
+    top: 0.3em;
+    text-align: left;
+
+    &.oe-li-top-short {
+        top: 0;
+    }
+}
+.fa-fw.oe-li-fw-2x {
+    width: 2em;
+    text-align: center;
+    top: 0;
+    line-height: 0.9em;
+}
+.oe-list-icon {
+    &:before {
+        content: '';
+        display: inline-block;
+        margin-bottom: 2px;
+        position: relative;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    &.oe-list-icon-dot {
+        &:before {
+            background-image: url('../img/icon/icon-dot.png');
+            .border-radius(2px);
+            width: 4px;
+            height: 4px;
+        }
+    }
+    &.oe-list-icon-square {
+        &:before {
+            background-image: url('../img/icon/icon-square.png');
+            width: 5px;
+            height: 5px;
+        }
+    }
+    &.oe-list-icon-circle {
+        &:before {
+            background-image: url('../img/icon/icon-circle.png');
+            width: 6px;
+            height: 6px;
+        }
+    }
+}

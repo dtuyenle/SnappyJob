@@ -1,0 +1,39 @@
+	
+
+
+<main class="oe-blog oe-blog-single-gallery">
+    <div class="oe-top-page">
+        <div class="container">
+            <div class="oe-breadcrumb">
+          
+            </div>
+        </div>
+    </div>
+    <div class="container oe-main-content">
+        <div class="row">
+            
+            <div class="col-xs-12 col-md-12">
+                <div id="jstwitter" ng-model="twitters">
+
+					<div class="item" ng-repeat="twitter in twitters" on-last-repeat>
+						<div ng-bind-html='twitter.img'></div >
+						<div class="tweet-wrapper">
+							<span class="text" ng-bind-html='twitter.text'></span>\
+							<span class="time">
+								<a href="{{twitter.url}}" target="_blank">{{twitter.time}}</a>
+							</span>\
+							by 
+							<span class="user" ng-bind-html='twitter.user'></span>
+						</div>
+					</div>
+
+				</div>               
+            </div>
+         
+            
+        </div>
+    </div>
+</main>
+
+
+

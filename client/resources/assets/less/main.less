@@ -1,0 +1,163 @@
+/*-------------------------------------------------------
+[Table of contents]
+
+.Clear
+
+1. Shortcodes
+    + General (Animate, Sidebar, Panels, Form)
+        - Animate.css (https://github.com/daneden/animate.css)
+    + Buttons
+    + Boxed
+    + Heading
+    + Typography
+    + Columns
+    + Images hover
+    + Icons
+    + Lists
+    + Charts
+    + Deviders
+    + Tables
+    + Banners
+    + Messages & Callouts
+    + Tabs & Tours
+    + Pricing tables
+    + Progress bars
+    + Testimonials
+    + Social icons
+    + Paginations
+    + Icon boxes
+    + Maps
+    + Pretty Photo
+
+2. Base Template
+    + Base template (neccessary classes. ex: oe-mtop, oe-mbot, oe-reflect,...)
+    + Header
+    + Footer
+
+3. Pages (Custom for specific page)
+
+4. Components
+    + Timeline (Blog timeline)
+    + General (oe-white, oe-black)
+
+
+!! Note !!
+Since Shoot LESS has been built on top of Bootstrap LESS,
+  Bootstrap LESS must be available for Shoot LESS to be compiled.
+Please config your LESS include path to include the `vendors` folder
+  so that `bootstrap/less/bootstrap.less` point to Bootstrap LESS properly
+  Otherwise, you can choose to manually modify it according to your need,
+  as the `bootstrap.less` is used in `main.less`, `bootstrapx.less` 
+  and `landing.less`
+Thanks.
+  
+--------------------------------------------------------*/
+
+/* ===== Theme config ===== */
+@theme: "white";
+
+/* ===== Clear ===== */
+@import (reference) "bootstrap/less/bootstrap.less";
+@import (reference) "bootstrapx.less";
+
+@import (reference) "config/config.less";
+@import (reference) "config/variables.less";
+@import (reference) "config/commons.less";
+
+
+/*----------------------------------------------------
+    1. Shortcodes
+------------------------------------------------------*/
+/* ===== General ===== */
+/* Animate.css & rewrite animate */
+@import "animate.less";
+@import "shortcode/animate.less";
+/* Commons */
+@import "shortcode/sidebar.less";
+@import "shortcode/panels.less";
+@import "shortcode/form.less";
+/* ===== Buttons ===== */
+@import "shortcode/buttons.less";
+/* Boxed */
+@import "shortcode/boxed.less";
+/* ===== Heading ===== */
+@import "shortcode/heading.less";
+/* ===== Typogaphy ===== */
+@import "shortcode/typography.less";
+/* ===== Columns ===== */
+@import "shortcode/columns.less";
+/* ===== Image hover ===== */
+@import "shortcode/image-hover.less";
+/* ===== Icons ===== */
+@import "shortcode/icons.less";
+/* ===== Lists ===== */
+@import "shortcode/list.less";
+/* ===== Charts ===== */
+@import "shortcode/chart.less";
+/* ===== Deviders ===== */
+@import "shortcode/deviders.less";
+/* ===== Tables ===== */
+@import "shortcode/table.less";
+/* ===== Banners ===== */
+@import "shortcode/banners.less";
+/* ===== Dropcap & Highlight ===== */
+@import "shortcode/dropcap-highlight.less";
+/* ===== Messages & Callouts ===== */
+@import "shortcode/message-callouts.less";
+/* ===== Tabs & Tours ===== */
+@import "shortcode/tabs-tours.less";
+/* ===== Pricing Tables ===== */
+@import "shortcode/pricing-table.less";
+/* ===== Progress bars ===== */
+@import "shortcode/progress-bar.less";
+/* ===== Testimonials ===== */
+@import "shortcode/testimonials.less";
+/* ===== Social icons ===== */
+@import "shortcode/social-icon.less";
+/* ===== Pagination ===== */
+@import "shortcode/pagination.less";
+/* ===== Icon boxes ===== */
+@import "shortcode/icon-boxes.less";
+@import "shortcode/icon-boxes-animation.less";
+/* ===== Maps ===== */
+@import "shortcode/maps.less";
+/* ===== Pretty Photo ===== */
+@import "shortcode/prettyphoto.less";
+
+/*----------------------------------------------------
+    2. Base Template
+------------------------------------------------------*/
+/* ===== Base template ===== */
+@import "base.less";
+/* ===== Header ===== */
+@import "header.less";
+/* ===== Footer ===== */
+@import "footer.less";
+
+/*----------------------------------------------------
+    3. Pages
+------------------------------------------------------*/
+@import "shortcode.less";
+@import "blog.less";
+@import "feature.less";
+@import "home.less";
+@import "page.less";
+@import "portfolio.less";
+@import "shop.less";
+
+// Animations
+//@import "animate.less";
+
+/*----------------------------------------------------
+    4. Component
+------------------------------------------------------*/
+/* ===== Timeline ===== */
+@import "timeline.less";
+/* ===== General ===== */
+@import "tag.less";
+@import "stars.less";
+@import "shape.less";
+@import "general.less";
+
+
+

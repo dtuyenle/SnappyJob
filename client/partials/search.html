@@ -1,0 +1,80 @@
+<main class="oe-page oe-page-search">
+    <div class="oe-top-page">
+        <div class="container">
+            <div class="oe-breadcrumb">
+          
+            </div>
+        </div>
+    </div>
+	<div class="container oe-main-content" style="padding: 70px;">
+		<div class="row">
+			<div class="col-md-12 col-xs-12 oe-main-col">
+				<p style="font-size: 16px">
+				Snappyjob was founded with the vision for sutdents who recognised the challenges faced by members of the student community on a range of issues such as cost of living, student life, access to part-time work and internship opportunities. It is perfect for students who wish to turn their free time and knowledge into a little extra money.
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-xs-12 oe-main-col">
+				<h3 style="font-size: 22px;">Let's start   <span style="margin: 10px; color: #438BD7; font-size: 40px"><i>searching</i></span>   for   <span style="margin: 10px; color: #438BD7; font-size: 40px"><i>part time jobs</i></span>   nearby   <span style="margin: 10px; color: #438BD7; font-size: 40px"><i>your current area</i></span>.</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-xs-12 oe-main-col">
+				<article class="oe-page-article">
+					<div class="row oe-row">
+						<div class="col-md-12 col-xs-12">
+							<form method="post">
+								<div class="row">
+									<div class="form-group col-xs-12 oe-search-input">
+										<div class="row">
+											<!--<div class="oe-column-6 col-lg- col-md-6 col-xs-12">
+												<input ng-model="searchService.jobtitle" id="search-term" class="form-control input-lg" type="text" placeholder="Job Title" />
+											</div>-->
+											<div class="oe-column12 col-lg12 col-md-12 col-xs-12">
+												<input ng-model="searchService.address" id="search-location" class="form-control input-lg" type="text" placeholder="Your Current Location">
+												<button ng-click="searchService.getSearchResult()" class="btn oe-btn oe-btn-reflect oe-search-submit" type="submit">
+													<i class="fa fa-search"></i>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+
+		<div class="row">
+			<section class="container-fluid oe-fullwidth oe-mtop-2x oe-mbot-2x">
+			<div data-uk-scrollspy="{cls:'animate-started',delay:500}" class="row oe-row oe-row-fullwidth uk-scrollspy-init-inview uk-scrollspy-inview animate-started">
+				<div ng-controller="headerController" style="cursor: pointer" ng-click="getCurrentLocation(searchParams)" class="col-xs-12 oe-main-col text-center oe-effects oe-frombottom">
+					<i class="red-heart fa fa-location-arrow oe-mbot"></i>
+					<h6 class="oe-text-light oe-non-space-top oe-mbot">AUTO LOCATE</h6>
+					<!--<button ng-controller="headerController" ng-click="getCurrentLocation(searchParams)" class="btn oe-btn oe-btn-reflect-icon">
+						<span style="font-size:10px">SEARCH BASED ON MY CURRENT LOCATION</span>
+						<i class="fa fa-arrow-right"></i>
+					</button>-->
+				</div>
+			</div>
+		    </section>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 col-xs-12 oe-main-col">
+				<p style="font-size: 16px">
+					<ul class="tiles-wrap animated" id="wookmark">
+		        <li ng-repeat="tip in tips">
+		        	<a ng-href="{{tip.img}}">
+		        		<img ng-src="{{tip.img}}" width="100%" height="100%" />
+		        	</a>
+	        	</li>
+	      	</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+
+</main>

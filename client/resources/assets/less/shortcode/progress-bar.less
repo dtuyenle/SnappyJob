@@ -1,0 +1,130 @@
+//
+// Progress bars
+// --------------------------------------------------
+
+.oe-group-progress {
+    .oe-progress {
+        height: 10px;
+        background: none;
+        .box-shadow(none);
+        border: 1px solid @lineBorder;
+        border-radius: 0;
+        overflow: inherit;
+        .progress-bar {
+            position: relative;
+            background-color: transparent;
+            height: 0;
+            &:after {
+                position: absolute;
+                top: -1px;
+                left: -1px;
+                display: block;
+                width: 0;
+                height: 10px;
+                content: '';
+                .transition(all 1.5s ease-out);
+                .opacity(0);
+            }
+        }
+    }
+    .oe-progress-title {
+        display: block;
+        font-size: 1.07em;
+        margin: 30px 0 20px;
+        padding: 0;
+		&:nth-of-type(1) {
+			margin-top:0;
+		}
+    }
+    .oe-progress-2 {
+        background: @boxGrey;
+        border-color: @boxGrey;
+    }
+}
+.oe-progress-active {
+    .oe-progress {
+        .progress-bar {
+            &:after {
+                .opacity(1);
+                width: 100%;
+            }
+        }
+    }
+    .oe-progress-1 {
+        .progress-bar {
+            &:after {
+                background-color: @reflectBgColor;
+            }
+        }
+    }
+    .oe-progress-2 {
+        .progress-bar {
+            &:after {
+                background-color: @textColor;
+            }
+        }
+    }
+}
+
+.oe-reflect {
+	.oe-group-progress {
+	    .oe-progress {
+	        height: 10px;
+	        background: none;
+	        .box-shadow(none);
+	        border: 1px solid @lineBorder;
+	        border-radius: 0;
+	        overflow: inherit;
+	        .progress-bar {
+	            position: relative;
+	            background-color: transparent;
+	            height: 0;
+	            &:after {
+	                position: absolute;
+	                top: -1px;
+	                left: -1px;
+	                display: block;
+	                width: 0;
+	                height: 10px;
+	                content: '';
+	                .transition(all 1.5s ease-out);
+	                .opacity(0);
+	            }
+	        }
+	    }
+	    .oe-progress-title {
+	        display: block;
+	        font-size: 1.07em;
+	        margin: 30px 0 20px;
+	        padding: 0;
+	    }
+	    .oe-progress-2 {
+	        background: @boxGrey;
+	        border-color: @boxGrey;
+	    }
+	}
+	.oe-progress-active {
+	    .oe-progress {
+	        .progress-bar {
+	            &:after {
+	                .opacity(1);
+	                width: 100%;
+	            }
+	        }
+	    }
+	    .oe-progress-1 {
+	        .progress-bar {
+	            &:after {
+	                background-color: @reflectBgColor;
+	            }
+	        }
+	    }
+	    .oe-progress-2 {
+	        .progress-bar {
+	            &:after {
+	                background-color: @textColor;
+	            }
+	        }
+	    }
+	}
+}

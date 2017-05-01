@@ -1,0 +1,223 @@
+//
+// ========== Shortcode Icon Boxed ==============
+//
+
+.oe-content-boxes-center {
+    text-align: center;
+}
+.oe-content-boxes-left {
+    text-align: left;
+}
+.oe-content-boxes-right {
+    text-align: right;
+}
+.oe-content-boxes-white {
+    background: @white;
+    color: #999;
+    h6 {
+        color: @black;
+    }
+}
+.oe-content-boxes {
+    display: block;
+    padding: 40px 20px 15px;
+    margin: 10px 0;
+
+    > a {
+        display: block;
+        cursor: pointer;
+    }
+
+    i {
+        color: @reflectBgColor;
+    }
+    .icon-center {
+        text-align: center;
+    }
+    h6 {
+        margin: 25px 0 10px;
+    }
+
+    .circle-border {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 100%;
+        border: 1px solid transparent;
+        .transition(all 0.3s ease-out);
+    }
+    .square-border {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        border: 1px solid transparent;
+        .transition(all 0.3s ease-out);
+    }
+
+    // BORDER
+    &.oe-bordered {
+        border-color: @iconBoxesBorder;
+    }
+}
+
+.oe-circle-dashed-border, .oe-circle-solid-border {
+    .fa-stack {
+        backface-visibility: hidden;
+        border-radius: 3.4em;
+        .transition(all 0.3s ease-out);
+        width: 6.8em;
+        height: 6.8em;
+        line-height: 6.8em;
+        &:hover {
+            border-style: solid;
+        }
+    }
+}
+.oe-circle-dashed-border .fa-stack, .oe-square-dashed-border .fa-stack {
+    border: 1px dashed @reflectBgColor;
+}
+.oe-circle-solid-border .fa-stack, .oe-square-solid-border .fa-stack {
+    border: 1px solid @reflectBgColor;
+}
+.oe-square-dashed-border, .oe-square-solid-border {
+    .fa-stack {
+        backface-visibility: hidden;
+        border-radius: 0;
+        .transition(all 0.3s ease-out);
+        width: 7.1em;
+        height: 7.1em;
+        line-height: 7.1em;
+        &:hover {
+            border-style: solid;
+        }
+    }
+}
+
+
+.oe-icon-boxes-hover-darken {
+    .fa-stack {
+        &:hover {
+            i {
+                color: @bgColor;
+            }
+            background: @reflectBgColor;
+            border-color: @reflectBgColor;
+        }
+    }
+}
+.oe-icon-boxes-hover-white {
+    .fa-stack {
+        &:hover {
+            background: @white;
+            i {
+                color: @reflectBgColor;
+            }
+            background: @bgColor;
+            border-color: @reflectBgColor;
+        }
+    }
+}
+.oe-icon-boxes-hover-light {
+    .fa-stack {
+        &:hover {
+            i {
+                color: @reflectBgColor;
+            }
+            background: @lineBorder;
+        }
+    }
+}
+.oe-icon-boxes-hover-double-border {
+    .fa-stack {
+        &:hover {
+            i.circle-border, i.square-border {
+                border-width: 2px;
+                .scale(1.2, 1.2);
+                border-color: inherit;
+                border-style: inherit;
+            }
+        }
+    }
+}
+
+.oe-content-boxes-inline {
+    display: inline-block;
+    vertical-align: top;
+    .fa-stack-small {
+        width: 4.4em;
+        height: 4.4em;
+        line-height: 4.4em;
+
+        position: absolute;
+    }
+    h6 {
+        margin: 10px 0 5px;
+    }
+
+    &.oe-content-boxes-right {
+        padding-right: 120px;
+        .fa-stack-small {
+            right: 30px;
+        }
+        &.oe-content-boxes-none-border {
+            padding-right: 90px;
+        }
+    }
+    &.oe-content-boxes-left {
+        padding-left: 120px;
+        .fa-stack-small {
+            left: 30px;
+        }
+        &.oe-content-boxes-none-border {
+            padding-left: 90px;
+        }
+    }
+}
+
+.oe-content-boxes-column  {
+    .fa-stack {
+        width: auto;
+        height: auto;
+        .fa-4x {
+            font-size: 4em;
+        }
+    }
+    h2 {
+        margin: 30px 0px -2px;
+    }
+}
+
+.oe-border-grey {
+        border-color: @circleBorder;
+    .fa-stack {
+        &:extend(.oe-border-grey);
+
+        i {
+            color: @iconBoxesColor;
+        }
+    }
+}
+
+.oe-msnry-active .fa-stack,
+.oe-boxes-fa-darken {
+    background: @black;
+    i {
+        color: @white;
+    }
+}
+
+.oe-reflect {
+    .oe-content-boxes {
+        .fa {
+            color: @reflectTextCaptain;
+        }
+        .fa-stack {
+            border-color: @boxGrey;
+        }
+    }
+}

@@ -1,0 +1,185 @@
+<main class="oe-blog oe-blog-medium-image">
+
+    <div class="oe-top-page">
+      <div class="container">
+        <div class="oe-breadcrumb">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container oe-main-content" ng-show="contents.length">
+        <div class="row">
+            <div class="oe-column-3 col-md-3 col-sm-12 oe-sub-col" ng-init="addScrollLatestContent()">
+
+                <aside class="oe-sidebar-wall">
+
+                    <div id="twitter-search" ng-init="getTwitterWidget()">
+                        <a class="twitter-timeline"  href="https://twitter.com/search?q=%23job%20near%3ACA" data-widget-id="{{twitterService.twitter.twitter_id}}"></a>
+                        <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+                    </div>
+
+                    <!-- sticky offset="90" -->
+                    <ul class="oe-sidebar-nav oe-sidebar-nav-neabyjob" ng-init="getLatestContents()" ng-show="latest_contents.length">
+                        <h3>Latest Jobs</h3>
+                        <li ng-repeat="content in latest_contents track by $index" ng-click="navService.toItem(content)">
+                            <a ng-click="navService.toItem(content)">
+                                <span ng-click="navService.toItem(content)" class="oe-sidebar-nav-neabyjob-title">{{content.name}}</span>
+                                <br />
+                                <span ng-show="content.diffDate" ng-if="content.diffDate == 'today'">
+                                    <i class="fa oe-icon fa-calendar"></i> Updated today.
+                                </span>
+                                <span ng-show="content.diffDate" ng-if="content.diffDate !== 'today'">
+                                    <i class="fa oe-icon fa-calendar"></i> Updated {{content.diffDate}} days ago
+                                </span>
+                                <span ng-show="content.distance">
+                                    <i class="fa oe-icon fa-map-marker"></i> {{content.distance}} miles away.
+                                </span>
+                                <span ng-show="content.gasmoney">
+                                    <i class="fa oe-icon fa-arrow-right"></i> {{content.gasmoney}} gasonline dollars.
+                                </span>
+                                <span ng-show="content.budget">
+                                    <i class="fa oe-icon fa-gift"></i> Compensation {{content.budget}}
+                                </span>
+                            </a>
+                        </li>
+                        <ul class="pagination latest-pagination">
+                            <li class="" ng-click="prevLatestContents()">
+                                <a><i class="fa fa-angle-left"></i></a>
+                            </li>
+                            <li class="" ng-click="nextLatestContents()">
+                                <a><i class="fa fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </ul>
+                </aside>
+            </div>
+            <div class="oe-column-9 col-md-9 col-sm-12 oe-main-col">
+                <article class="oe-page-article" infinite-scroll='nextPage()' infinite-scroll-disabled='busy' infinite-scroll-distance='1'>
+                    <div class="row oe-row oe-blog-item" ng-repeat="content in contents track by $index" data-id="{{content._id}}">
+
+                        <!-- news item -->
+                        <div ng-if="content.text" class="col-xs-12 col-md-12" style="background-color: #F8F8F8; padding: 20px 10px 10px 10px;">
+                            <div class="col-xs-12 col-md-3" ng-if="content.main_image">
+                                <div class="pull-left oe-image-item oe-image-bg">
+                                    <img height="70" alt="" ng-src="{{content.main_image}}" />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9" ng-if="content.text">
+                                <h3 style="margin:0" class="oe-blog-title oe-text-bold">
+                                    <p>Blog: </p>
+                                    <a style="color:#438BD7; font-size: 15px;" ng-href="{{content.url}}">{{content.title}}</a>
+                                </h3>
+                                <div class="oe-blog-icon-box" style="font-size: 13px;">
+                                    <p class="oe-blog-date">
+                                        {{content.published}}
+                                    </p>
+                                   <p ng-bind-html='content.text'></p>
+                                   <p><a style="color:#438BD7" ng-href="{{content.url}}">read more ...</a><p>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!-- end news item -->
+
+                        
+                        <div class="col-xs-12 col-md-3" ng-show="content.asset_id">
+                            <div class="pull-left oe-image-item oe-image-bg">
+                                <img height="70" alt="" ng-src="{{content.asset_id.image}}" />
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-9" ng-show="!content.text">
+                            <h3 class="oe-blog-title oe-text-bold">
+                                <a ng-click="toItem(content)">{{content.name}}</a>
+                            </h3>
+
+                            <div class="oe-blog-icon-box">
+                                <p class="oe-blog-date">
+                              
+                                </p>
+                                <p>
+                                    <span ng-show="content.diffDate" ng-if="content.diffDate == 'today'">
+                                        <i class="fa oe-icon fa-calendar"></i>Updated today.
+                                    </span>
+                                    <span ng-show="content.diffDate" ng-if="content.diffDate !== 'today'">
+                                        <i class="fa oe-icon fa-calendar"></i>Updated {{content.diffDate}} days ago
+                                    </span>
+                                    <span ng-show="content.url">
+                                        <a href="{{content.url}}">
+                                            <i class="fa oe-icon fa-home"></i>Source Url
+                                        </a>
+                                    </span>
+                                    <span ng-show="content.distance">
+                                        <i class="fa oe-icon fa-map-marker"></i>{{content.distance}} miles away.
+                                    </span>
+                                    <span ng-show="content.gasmoney">
+                                        <i class="fa oe-icon fa-arrow-right"></i>{{content.gasmoney}} gasonline dollars.
+                                    </span>
+                                    <span ng-show="content.budget">
+                                        <i class="fa oe-icon fa-gift"></i>Compensation {{content.budget}}
+                                    </span>
+                                    <span ng-show="content.location_id.address">
+                                        <i class="fa oe-icon fa-thumb-tack"></i>{{content.location_id.address}}
+                                    </span>
+                                    <p>
+                                        <span ng-show="content.salary.length">
+                                            <i class="fa oe-icon fa-industry"></i> Market Salary Range : <span ng-bind-html='trustAsHtml(content.salary_html)'></span>
+                                        </span>
+                                    </p>
+                                    <p ng-show="geoService.lat">
+                                        <strong>
+                                            <a style="color:#438BD7" target="_blank" href="http://maps.google.com/maps?f=d&hl=en_US&saddr={{geoService.lat}},{{geoService.lon}}&daddr={{content.location_id.loc[1]}},{{content.location_id.loc[0]}}">Get Direction</a>
+                                        </strong>
+                                    </p>
+                                </p>
+                            </div>
+                            <div class="oe-blog-quote" ng-show="!content.text">
+                                <p ng-bind-html='content.description'></p>
+                                <button class="btn oe-btn-wall oe-btn oe-btn-blue oe-btn-inline-icon" ng-click="navService.toItem(content)" ng-show="content.content_type!=='timeline'">
+                                    <span data-btn-text="Read More">
+                                        <i class="fa fa-edit"></i>
+                                        READ MORE
+                                    </span>
+                                </button>
+                                <button class="btn oe-btn-wall oe-btn oe-btn-blue oe-btn-inline-icon" ng-click="navService.toSnappyApply(content)" g-show="content.content_type=='timeline'">
+                                    <span data-btn-text="Apply">
+                                        <i class="fa fa-edit"></i>
+                                        APPLY
+                                    </span>
+                                </button>
+                                <button ng-if="content.bookmark == false" class="btn oe-btn oe-btn-wall oe-btn-blue oe-btn-inline-icon" ng-click="bookmarkService.bookmark(content)">
+                                    <span data-btn-text="Save Job">
+                                        <i class="fa fa-edit"></i>
+                                        SAVE JOB
+                                    </span>
+                                </button>
+                                <div ng-if="content.bookmark == true" class="btn oe-btn-saved oe-btn oe-btn-wall oe-btn-inline-icon">
+                                    <span data-btn-text="Save Job">
+                                        <i class="fa fa-edit"></i>
+                                        JOB ALREADY SAVED
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="oe-devider oe-devider-thin"></div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <div class="container oe-main-content" ng-show="notfound">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 oe-main-col">
+                <article class="oe-page-article">
+                    <h6>No Search Found</h6>
+                    <p class="oe-mbot-2x">Very sorry, our database returns no results. Please try another search term.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+</main>

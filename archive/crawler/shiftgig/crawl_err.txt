@@ -1,0 +1,4 @@
+https://api.shiftgig.com/marketplace/jf/mixed-feed?search_type=place&name=San Francisco,CA&job_count=100---400
+https://api.shiftgig.com/marketplace/jf/mixed-feed?search_type=place&name=San Francisco,CA&job_count=100---400
+http://api.shiftgig.com/marketplace/jf/mixed-feed?search_type=place&name=San Francisco,CA&job_count=100---500
+https://api.shiftgig.com/marketplace/jf/mixed-feed?search_type=place&name=San Francisco,CA&job_count=100---unknown error

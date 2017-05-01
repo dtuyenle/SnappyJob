@@ -1,0 +1,251 @@
+<main class="oe-shortcode oe-shortcode-tab-tour">
+    <div class="oe-top-page">
+        <div class="container">
+            <div class="oe-breadcrumb">
+          
+            </div>
+        </div>
+    </div>
+	<div class="container oe-main-content" ng-show="!success.content">
+		<div class="row">
+			<div class="oe-column-9 col-md-9 col-sm-12 oe-main-col">
+				<div class="oe-shortcode-article">
+
+					<div class="alert alert-danger" ng-show="errors.location || errors.submit">
+	          			<div>
+	          				{{errors.location}}
+	          			</div>
+	          			<div>
+	          				{{errors.submit}}
+	          			</div>
+	          		</div>
+
+					<!--<div class="empty" ng-show="!contact.email.length">Make sure you entered the correct email address.</div>
+						<div class="empty" ng-show="!content.name.length">Make sure you entered title name for the job.</div>
+						<div class="empty" ng-show="!content.description.length">Make sure you entered description for the job.</div>
+						<div class="empty" ng-show="!location.city.length">Make sure you entered city for the job.</div>
+						<div class="empty" ng-show="!location.zip.length">Make sure you entered zipcode for the job.</div>
+						<div class="empty" ng-show="!content.budget.length">Make sure you entered compensation amount for the job.</div>
+	              	</div>-->
+
+
+					<div class="oe-box-tab" ng-init="tab=1">
+						<ul class="nav nav-tabs oe-tabs nav-tabs-post" role="tablist">
+							<li class="active" ng-class='{"active":tab==1 || tab==2 || tab==3 || tab==4}'>
+								<a ng-class='{"active":tab==1 || tab==2 || tab==3 || tab==4}'>
+									<!--<i class="fa fa-key"></i>-->
+									Step 1: Who
+								</a>
+							</li>
+							<li ng-class='{"active":tab==2 || tab==3 || tab==4}'>
+								<a ng-class='{"active":tab==2 || tab==3 || tab==4}'>
+									<!--<i class="fa fa-suitcase"></i>-->
+									Step 2: What
+								</a>
+							</li>
+							<li ng-class='{"active":tab==3 || tab==4}'>
+								<a ng-class='{"active":tab==3 || tab==4}'>
+									<!--<i class="fa fa-suitcase"></i>-->
+									Step 3: Where
+								</a>
+							</li>
+							<li ng-class='{"active":tab==4}'>
+								<a ng-class='{"active":tab==4}'>
+									<!--<i class="fa fa-suitcase"></i>-->
+									Step 4: How
+								</a>
+							</li>
+						</ul>
+
+						<div class="tab-content oe-tabs-content">
+							<div class="tab-pane" ng-show="tab == 1">
+								<div class="row">
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">Phone 
+											<small>- Optional - This will be visible publicly.</small>
+										</label>
+										<input class="form-control input-lg" ng-model="contact.phone" type="text" class="text title" name="title">
+									</div>
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">
+											Email
+											<small class="invalid" ng-show="!contact.email.length">- Required - This will be encryped publicly. Example: snapjob-1234@snapjob.com</small>
+										</label>
+										<input class="form-control input-lg" ng-model="contact.email" type="email" class="text title" name="title" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/" required>
+									</div>
+								</div>
+
+							</div>
+							<div class="tab-pane" ng-show="tab == 2">
+								<div class="row">
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">Titlte 
+											<small class="invalid" ng-show="!content.name.length">- Required</small>
+										</label>
+										<input class="form-control input-lg" ng-model="content.name" type="text" class="text title" name="title" required />
+									</div>
+
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label" class="form-control input-lg">Job Type 
+											<small class="invalid">- Required</small>
+										</label>
+										<dropdown placeholder="Content Type..." list="types" selected="type" property="name"></dropdown>
+									</div>
+
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label" for="contactFormMessage">Job Description ?
+											<small class="invalid" ng-show="!content.description.length">- Required</small>
+										</label>
+										<p class="side-note">The more information you provide, the easier it would be to find the right candidate</p>
+										<textarea ng-model="content.description" name="content" rows="10" class="form-control"></textarea>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane" ng-show="tab == 3">
+								<div class="row">
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">Address <small>- Optional</small></label>
+										<input ng-model="location.address" type="text" class="form-control input-lg" name="address">	
+									</div>
+
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">City 
+											<small class="invalid" ng-show="!location.city.length">- Required</small>
+										</label>
+										<input ng-model="location.city" type="text" class="form-control input-lg" name="city" required>	
+									</div>
+
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">State 
+											<small class="invalid">- Required</small>
+										</label>
+
+										<dropdown placeholder="State..." list="states" selected="state" property="name"></dropdown>
+									</div>
+
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">Zipcode 
+											<small class="invalid" ng-show="!location.zip.length">- Required</small>
+										</label>
+										<input class="form-control input-lg" ng-model="location.zip" type="text" ng-pattern="/^(\d{5}-\d{4}|\d{5})$/" class="text zipcode" name="zipcode" required>	
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="tab-pane" ng-show="tab == 4">
+								<div class="row">
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">Compensation 
+											<small class="invalid" ng-show="!content.budget.length">- Required</small>
+										</label>
+										<input class="form-control input-lg" ng-model="content.budget" type="text" class="text reward" name="budget" required>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="oe-column-3 col-md-3 col-sm-12 oe-sub-col">
+
+			</div>
+
+
+			<div class="form-group col-xs-12" class="form-btns">
+				<p ng-show="contact.email.length" style="color:#44c1e6"><strong>Applications will be emailed to: {{contact.email}}</strong></p>
+
+				<button ng-show="contact.email.length && tab==1" class="btn oe-btn" ng-click="tab=2; saveInputs()">
+					<span>Next</span>
+				</button>
+
+				
+				<button class="btn oe-btn" ng-show="tab==2" ng-click="tab=1">
+					<span>Prev</span>
+				</button>
+				<button ng-show="content.name.length && content.description.length && tab==2" class="btn oe-btn" ng-click="tab=3; saveInputs()">
+					<span>Next</span>
+				</button>
+				
+
+				<button class="btn oe-btn" ng-show="tab==3" ng-click="tab=2">
+					<span>Prev</span>
+				</button>
+				<button ng-show="location.city.length && location.zip.length && tab==3" class="btn oe-btn" ng-click="tab=4; saveInputs()">
+					<span>Next</span>
+				</button>
+				
+
+				<button class="btn oe-btn" ng-show="tab==4" ng-click="tab=3">
+					<span>Prev</span>
+				</button>
+				<button ng-show="content.budget.length && tab==4" class="btn oe-btn" ng-click="submit(); saveInputs()">
+					<span>Post To Dashboard</span>
+				</button>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container oe-main-content" ng-show="success.content">
+		<div class="row">
+			<div class="oe-column-9 col-md-9 col-sm-12 oe-main-col">
+				<article class="oe-page-article">
+
+					<h6>Thank You So Much!</h6>
+					
+					<p class="oe-mbot-2x">
+						Dear
+					</p>
+
+					<p>
+						We are pleased that you have chosen SnappyJob for your job/work needs. We hope you are enjoying the convenience, quality of our service. 
+						The growth we’ve experienced over the years is because of customers like you, who faithfully support our business by choosing SnappyJob as a job portal for seeking a worker/employee.
+						We appreciate your trust, and we’ll do our best to continue to give you the kind of service you deserve.
+						Below is the url to go to the job you just posted:
+					</p>
+
+					<p>
+						<a href="{{success.content_url}}">{{success.content_url}}</a>
+					</p>
+
+					<p>
+						Also an email was sent to you to confirm about your post.
+					</p>
+
+					<p>
+						Thanks again, for your business.
+					</p>
+
+					<p>
+						Sincerely, 
+					</p>
+
+					<div class="form-group col-xs-12" class="form-btns">
+						<button class="btn oe-btn" ng-click="toJobPost()">
+							<span>POST NEW JOB</span>
+						</button>
+
+						<button class="btn oe-btn" ng-click="toItem()">
+							<span>GO TO POSTED JOB</span>
+						</button>
+					</div>
+
+				</article>
+			</div>
+
+			<div class="oe-column-3 col-md-3 col-sm-12 oe-sub-col">
+
+			</div>
+
+		</div>
+
+
+	</div>
+</main>
+

@@ -1,0 +1,48 @@
+<main class="oe-blog oe-blog-single-gallery">
+    <div class="oe-top-page">
+        <div class="container">
+            <div class="oe-breadcrumb">
+          
+            </div>
+        </div>
+    </div>
+    <div class="container oe-main-content">
+        <div class="row">
+            
+            <div class="col-xs-12 col-md-12" ng-init="loadMapMarkers()">
+                <p><span><i style="font-weight:600; color:#000;">Click on marker to view details</i></span></p>
+                <div class="oe-shortcode-pagination-center">
+                    <!--<ul class="pagination oe-pagination">
+                        <li ng-show="prev" class="active prev-map">
+                            <a ng-click="toPrev()">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        </li>
+                        <li ng-show="next" class="active next-map">
+                            <a ng-click="toNext()">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>-->
+                </div>
+                <div class="oe-row oe-shortcode-maps-row" ng-show="contents.length">
+                    <a ng-show="prev" ng-click="toPrev()" class="active prev-inside-map"><i class="fa fa-angle-left"></i></a>
+                    <div id="map-color-scheme" style="height:600px" class="oe-maps" data-maps-style="blue" style="position: relative; background-color: rgb(229, 227, 223); overflow: hidden;"></div>
+                    <a ng-show="next" ng-click="toNext()" class="active next-inside-map"><i class="fa fa-angle-right"></i></a>
+                </div>                            
+            </div>
+
+            <div class="col-md-12 col-xs-12 oe-main-col" ng-show="!contents.length">
+                <article class="oe-page-article">
+                    <h6>No Search Found</h6>
+                    <p class="oe-mbot-2x">Very sorry, our database returns no results. Please try another search term.</p>
+                </article>
+            </div>
+         
+            
+        </div>
+    </div>
+</main>
+
+
+

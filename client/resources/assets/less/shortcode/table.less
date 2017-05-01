@@ -1,0 +1,86 @@
+//
+// Table
+// --------------------------------------------------
+
+.oe-table {
+    thead {
+        color: @reflectBgColor;
+        tr {
+            th, td {
+                border-bottom-width: 1px;
+				text-shadow: none;
+				font-weight: normal;
+            }
+        }
+    }
+	tbody, thead {
+		tr {
+            th, td {
+                padding: @table-cell-padding @table-col-padding;
+            }
+        }
+	}
+}
+
+// Hard code for table
+.oe-table-padding {
+    tbody {
+        tr {
+            position: relative;
+            td:first-child {
+                &:before {
+                    display: block;
+                    content:' ';
+                    position: relative;
+                    width: @table-col-padding;
+                    height: @table-col-padding;
+                    margin-bottom: -@table-col-padding;
+                    left: -@table-col-padding;
+                    bottom: -24px;
+                    background: @bgColor;
+                }
+            }
+
+            td:last-child {
+                &:after {
+                    display: block;
+                    content:' ';
+                    position: relative;
+                    width: @table-col-padding;
+                    height: @table-col-padding;
+                    margin-bottom: -@table-col-padding;
+                    right: -100%;
+                    bottom: -3px;
+                    background: @bgColor;
+                }
+            }
+
+            &:last-child {
+                td:first-child:before, td:last-child:after {
+                    display: none;
+                }
+            }
+
+        }
+
+    }
+}
+
+.oe-table-border-clear {
+	tbody, thead {
+		tr {
+            th, td {
+                border-color: transparent;
+            }
+        }
+	}
+}
+.oe-table-paddingleft-clear {
+	tbody, thead {
+		tr {
+            th:first-child, td:first-child {
+                padding-left: 0;
+            }
+        }
+	}
+}

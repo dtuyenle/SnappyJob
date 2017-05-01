@@ -1,0 +1,79 @@
+
+// Responsive for short code
+
+
+@media @desktopAbove {
+    .oe-shortcode-heading {
+        .oe-shortcode-article {
+            .col-md-6 {
+                width: 46%;
+            }
+        }
+    }
+}
+
+@media @tabletBelow {
+    .oe-box-testimonials-3 {
+        li {
+            .oe-flexslider-content-item {
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
+        .oe-flexslider-content {
+            .oe-flexslider-content-item {
+                margin: 0;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .oe-pricing-table.four-cols {
+    	.oe-pricing-column {
+    		
+    	}
+    }
+    .oe-pricing-table {
+    	margin-left: 0;
+    	margin-right: 0;
+    	&.oe-column-spacing {
+	    	margin-left: 0;
+	    	margin-right: 0;
+    	}
+    	
+	    .oe-pricing-column {
+	    	&.active {
+	    		margin-left: 0;
+	    		margin-right: 0;
+	    	}
+	    }
+    }
+}
+@media @mobletBelow {
+    .oe-callout {
+        .oe-callout-icon {
+            display: none;
+        }
+        .oe-callout-content {
+            width: 100%;
+            border-left: 0;
+            margin-left: 0;
+        }
+        .oe-btn {
+            position: relative;
+            margin: 10px 0 0 50px;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media @mobile {
+    .oe-callout {
+        .oe-btn {
+            position: static;
+            margin: 10px 0 0 20px;
+        }
+    }
+}

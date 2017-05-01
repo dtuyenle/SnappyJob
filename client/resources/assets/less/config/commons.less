@@ -1,0 +1,79 @@
+.cleaner {
+    padding: 0;
+    margin: 0;
+}
+.ul-nostyle {
+    .cleaner;
+    list-style: none;
+}
+.border-radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+.circle {
+    .border-radius(100%);
+}
+.background-size(@arg) {
+    -webkit-background-size: @arg;
+    -moz-background-size: @arg;
+    background-size: @arg;
+}
+.background-clip(@arg) {
+    -webkit-background-clip: @arg;
+    -moz-background-clip: @arg;
+    background-clip: @arg;
+}
+.filter(@arg) {
+    -webkit-filter: @arg;
+    -ms-filter: @arg;
+    -o-filter: @arg;
+    filter: @arg;
+}
+.transform(@arg) {
+    -webkit-transform: @arg;
+    -moz-transform: @arg;
+    transform: @arg;
+}
+.transform-style(@arg) {
+    -webkit-transform-style: @arg;
+    -moz-transform-style: @arg;
+    transform-style: @arg;
+}
+.animation-fill-mode(@arg) {
+    -webkit-animation-fill-mode: @arg;
+    -moz-animation-fill-mode: @arg;
+    animation-fill-mode: @arg;
+}
+.preserve-3d {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.backface-visibility(@arg) {
+    -webkit-backface-visibility: @arg;
+    -ms-backface-visibility: @arg;
+    backface-visibility: @arg;
+}
+// Font style
+.fontRegular {
+    font-weight: 400;
+}
+.fontLight {
+    font-weight: 300;
+}
+.fontItalic {
+    font-style: italic;
+}
+.fontLightItalic {
+    font-weight: 300;
+    font-style: italic;
+}
+.fontIcon {
+    font-family: @fontIcon;
+}
+
+.oe-social-color(@social-color) {
+    background: @social-color;
+    color: @white;
+}

@@ -1,0 +1,44 @@
+@media @tabletBelow {
+    .logo {
+        margin: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .resp-header {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 15px;
+    }
+    .oe-header-extra {
+        top: 25px !important;
+        bottom: auto !important;
+        width: 110px;
+    }
+    .oe-header {
+        position: relative;
+        float: none;
+        &:before {
+            display: none;
+        }
+    }
+    .top-drawer {
+        display: none !important;
+    }
+    .logo-mobile {
+        &:extend(.logo all);
+    }
+    .oe-custom-search-form {
+        .search-close {
+            right: 20px;
+        }
+    }
+}
+@media @mobile {
+    .hidden-mobile {
+        display: none !important;
+    }
+    .offset-canvas-btn {
+        margin-left: 10px;
+    }
+}

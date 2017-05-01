@@ -1,0 +1,58 @@
+<main class="oe-blog oe-blog-medium-image">
+
+    <div class="oe-top-page">
+      <div class="container">
+        <div class="oe-breadcrumb">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container oe-main-content">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 oe-main-col">
+                <article class="oe-page-article" infinite-scroll='wallService.nextPage()' infinite-scroll-disabled='wallService.busy' infinite-scroll-distance='1'>
+                    <div class="row oe-row oe-blog-item" ng-repeat="content in wallService.contents" data-id="{{content._id}}">
+                        <div class="col-xs-12 col-md-12">
+                            <h3 class="oe-blog-title">
+                                <a ng-click="toItem(content)">{{content.name}}</a>
+                            </h3>
+                            <div class="oe-blog-icon-box">
+                                <p class="oe-blog-date">{{content.publishedDate}}</p>
+                                <p>
+                                    <span ng-show="content.url">
+                                        <a href="{{content.url}}">
+                                            <i class="fa fa-user"></i>Source Url
+                                        </a>
+                                    </span>
+                                    <span ng-show="content.distance">
+                                        <i class="fa fa-heart-o"></i>{{content.distance}}
+                                    </span>
+                                    <span ng-show="content.budget">
+                                        <i class="fa fa-comments"></i>{{content.budget}}
+                                    </span>
+                                    <span ng-show="content.location_id.address">
+                                        <i class="fa fa-comments"></i>{{content.location_id.address}}
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="oe-blog-quote">
+                                <p ng-bind-html='content.description'></p>
+                                <button class="btn oe-btn oe-btn-reflect-icon" ng-click="toItem(content)">
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="oe-devider oe-devider-thin"></div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+
+
+</main>

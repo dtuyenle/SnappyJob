@@ -1,0 +1,348 @@
+/*
+* Shortcode - LESS stylesheet
+*/
+
+@icon-height: 80px;
+@list-margin-bottom: 25px;
+    
+.oe-shortcode {
+    // NOTE: Shortcode main
+    // Put common classes for Shortcode here
+    // .abc {}
+
+
+    // NOTE: Shortcode - Icons
+    .oe-shortcode-icon-article {
+        color: @reflectBgColor;
+    }
+    .oe-shortcode-title {
+        margin-bottom: 35px;
+     }
+    .shortcode-icon-clear {
+        height: 15px;
+    }
+
+    // NOTE: Shortcode type - List
+    .oe-shortcode-list-row {
+        //margin-bottom: @list-margin-bottom;
+        .col-md-4 {
+        	margin-bottom: @list-margin-bottom;
+        }
+    }
+
+    // NOTE: Shortcode type - Columns
+    .oe-shortcode-columns {
+
+    }
+
+    // NOTE: Shortcode type - Deviders
+    .oe-shortcode-devider {
+
+    }
+
+    // NOTE: Shortcode type - Table
+    .oe-table {
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+
+}
+
+.col-shortcode-icon {
+    float: left;
+    width: percentage(1/9);
+    height: @icon-height;
+    color: @textCaptain;
+}
+    
+// NOTE: Shortcode type - Image Animation
+
+.oe-shortcode-image-animation {
+    .oe-media {
+        .clearfix {
+            height: 20px;
+        }
+    }
+
+    .oe-media-flip {
+        a {
+            overflow: hidden;
+        }
+    }
+    .oe-media-zoom-in {
+        img {
+            .transition(300ms linear);
+            .scale(0.3, 0.3);
+        }
+    }
+    img {
+    	width: 100%;
+    }
+}
+
+// NOTE: Shortcode type - Image hover
+.oe-shortcode-image-hover {
+    .oe-shortcode-article {
+        h1, h2, h3, h4, h5, h6 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 30px;
+        }
+    }
+    .oe-row {
+        margin-bottom: 50px;
+    }
+    .oe-image-no-margin {
+    	img {
+    		width: 100%;
+    	}
+    }
+}
+
+
+// NOTE: Shortcode type - Heading
+.oe-shortcode-heading {
+    .oe-shortcode-article {
+        .oe-row {
+            content: " ";
+            display: table;
+            width: 100%;
+        }
+        .oe-box-heading-demo {
+            margin-bottom: 40px;
+        }
+        .oe-box-heading-demo-2 {
+            .col-md-6 {
+                padding: 0 0 35px 10px;
+            }
+        }
+        .col-md-12 {
+            margin-bottom: 10px;
+            padding: 10px 0 10px;
+        }
+        .col-md-6 {
+            padding-top: 10px;
+            h1,h2,h3,h4,h5,h6 {
+                margin: 10px 20px 20px;
+            }
+            &:first-child {
+                margin-left: 0;
+                padding-left: 0;
+                h1,h2,h3,h4,h5,h6 {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+// NOTE: Shortcode type - Buttons
+.oe-shortcode-buttons {
+    .oe-btn {
+        margin-top: 10px;
+    }
+}
+
+// NOTE: Shortcode type - Tabs & tours
+.oe-shortcode-tab-tour {
+    .oe-shortcode-article {
+        .oe-box-tab {
+            margin-bottom: 60px;
+            overflow: hidden;
+        }
+
+    }
+}
+
+// NOTE: Shortcode type - Progress bar
+.oe-shortcode-progress {
+    .oe-shortcode-article {
+        .oe-box-progress {
+            margin-bottom: 60px;
+            p {
+                margin-top: 35px;
+            }
+        }
+        h3 {
+            margin: 60px 0 30px;
+            &.oe-non-space-top {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+// NOTE: Shortcode type - Chart
+.oe-shortcode-chart {
+    .oe-main-content {
+        padding-top: 40px;
+    }
+    .oe-chart-holder {
+        margin: 20px 0 40px;
+    }
+}
+
+// NOTE: Shortcode type - Image Animation
+.ih-block {
+    margin-bottom: 60px;
+    h4 {
+        margin-bottom: 20px;
+    }
+}
+
+// NOTE: Shortcode type - Social Icon
+.oe-shortcode-style1 {
+    margin-bottom: 60px;
+    h4 {
+        margin-bottom: 20px;
+    }
+}
+
+// NOTE: Shortcode type - Social Icon
+.oe-shortcode-style1 {
+    margin-bottom: 60px;
+    h4 {
+        margin-bottom: 20px;
+    }
+}
+.oe-shortcode-social-row {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.oe-shortcode-social-row-medium {
+    padding: 15px 10px;
+}
+.oe-shortcode-social-row-large {
+    padding: 35px 10px;
+}
+.oe-shortcode-pagination-center {
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+
+// NOTE: Shortcode type: ICON BOXES
+.oe-shortcode-icon-boxes-row {
+    margin-bottom: 15px;
+    h4 {
+        margin-bottom: 20px;
+    }
+    &.clearfix {
+        margin-bottom: -40px;
+    }
+    .oe-content-boxes {
+        margin: 0;
+    }
+}
+.oe-shortcode-pagination-center {
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 40px;
+}
+
+.oe-shortcode-section {
+    background-color: @boxGrey;
+    padding: 65px 0 40px;
+    position: relative;
+}
+.oe-shortcode-section-image {
+    color: @white;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h2, i {
+        color: @white;
+    }
+
+    .dark-overlay {
+        background-color: #000;
+        content: "";
+        display: block;
+        height: 100%;
+        left: 0;
+        opacity: 0.4;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    .container {
+    	z-index: 1;
+    	position: relative;
+    }
+}
+
+.oe-shortcode-maps-row {
+    h4 {
+        margin-bottom: 30px;
+    }
+    .oe-maps {
+        margin-bottom: 60px;
+    }
+}
+.oe-shortcode-social-row-large {
+    padding: 35px 10px;
+}
+.oe-shortcode-social-icon-article {
+    padding: 15px 10px;
+}
+
+// NOTE: Shortcode type - Testimonials
+.oe-shortcode-testimonial {
+    h3 {
+        margin: 70px 0 30px;
+        &.oe-non-space-top {
+            margin-top: 0;
+        }
+    }
+    .container {
+        padding-bottom: 0;
+    }
+}
+
+// Shortcode icons boxes animation
+.oe-shortcode-icons-fullwidth {
+    color: @white;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    .oe-main-content {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+}
+
+
+// NOTE: Shortcode type - Accordion
+.oe-shortcode-accordion {
+    .oe-shortcode-article {
+        h3 {
+            margin: 60px 0 30px;
+            &.oe-non-space-top {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+// NOTE: Shortcode type - Boxed content
+.oe-shortcode-boxed {
+    .oe-shortcode-article {
+        .oe-non-space-top {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+// NOTE: Shortcode type - Message & callout
+.oe-shortcode-message-callout {
+    .oe-shortcode-article {
+        h3.oe-shortcode-title {
+            margin: 60px 0 30px;
+        }
+        h3.oe-non-space-top {
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+    }
+}

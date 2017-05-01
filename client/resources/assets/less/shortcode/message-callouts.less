@@ -1,0 +1,68 @@
+//
+// Alert & Callouts
+// --------------------------------------------------
+
+.alert {
+	padding: 1.24em;
+	padding-left: 1.8em;
+	border: none;
+	border-radius: 0;
+	font-size: 1.3em;
+	color: @reflectTextCaptain;
+	.close {
+		margin-top: 3px;
+		line-height: 1.3em;
+		font-size: .8em;
+		color: @reflectTextCaptain;
+		opacity: 1;
+	}
+}
+.alert-success {
+	background: #44C1E6;
+}
+.alert-warning {
+	background: #FEB654;
+}
+.alert-info {
+	background: #4AE388;
+}
+.alert-danger {
+	background: #F57A7A;
+}
+
+.oe-callout {
+	border: 1px solid @lineBorder;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+	margin-bottom: 20px;
+	.oe-callout-icon {
+		position: absolute;
+		top: 50%;
+		margin-top: -0.85em;
+		left: 4%;
+		&:before {
+			font-size: 1.8em;
+		}
+	}
+	.oe-callout-content {
+		width: 60%;
+		border-left: 1px solid @lineBorder;
+		padding: 0 10px;
+		margin: 0 0 0 9%;
+		h3 {
+			margin: 0;
+			padding: 0 10px 10px;
+		}
+		p {
+			padding: 0 10px;
+			margin-bottom: 0;
+		}
+	}
+	.btn {
+		position: absolute;
+		right: 30px;
+		top: 50%;
+		margin-top: -25px;
+	}
+}

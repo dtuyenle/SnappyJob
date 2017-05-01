@@ -1,0 +1,191 @@
+//
+// Panels
+// --------------------------------------------------
+
+
+// Overwrite
+.panel-default {
+  .panel-variant(@panel-default-border; @panel-default-text; @bgColor; @panel-default-border);
+}
+.panel-body {
+	padding-bottom: 20px;
+}
+.panel-group {
+  margin-bottom: @line-height-computed;
+
+  // Tighten up margin so it's only between panels
+  .panel {
+    margin-bottom: 0;
+    border-radius: 0; // @panel-border-radius;
+    overflow: hidden; // crop contents when collapsed
+    + .panel {
+      margin-top: 0px;
+      border-top: 0;
+    }
+  }
+
+  .panel-heading {
+    border-bottom: 0;
+    + .panel-collapse .panel-body {
+      border-top: 1px solid @lineBorder;
+    }
+    > h4 {
+        margin: 0;
+        padding: 0;
+    }
+  }
+  .panel-footer {
+    border-top: 0;
+    + .panel-collapse .panel-body {
+      border-bottom: 1px solid @lineBorder;
+    }
+  }
+}
+
+.panel-title {
+  > a {
+    padding: 15px;
+    font-size: @fontSizeDefault;
+    > .panel-icon {
+        position: absolute;
+        top: 0;
+        display: block;
+        padding-top: 16px;
+        width: 30px;
+        height: 100%;
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 0.9em;
+    }
+    > .panel-icon-left {
+        left: 18px;
+    }
+    > .panel-icon-right {
+        right: 0px;
+    }
+    > .panel-icon-plus:before {
+        content: "\f068"
+    }
+    > .panel-icon-sort {
+        top: 5px;
+    }
+    > .panel-icon-sort:before {
+        content: "\f0de";
+    }
+  }
+ &> a.collapsed {
+    > .panel-icon-plus:before {
+        content: "\f067";
+    }
+    > .panel-icon-sort {
+        top: -2px;
+    }
+    > .panel-icon-sort:before {
+        content: "\f0dd";
+    }
+  }
+}
+.panel-group-1 {
+    .panel-title {
+      > a {
+        padding-left: 65px;
+        >.panel-icon {
+            border-right: 1px solid @lineBorder;
+        }
+      }
+    }
+    .panel-body {
+        padding-left: 60px;
+    }
+}
+.panel-group-2 {
+    .panel-title {
+      > a {
+        padding-left: 45px;
+      }
+    }
+    .panel-body {
+        padding-left: 25px;
+        margin: 0 20px;
+    }
+}
+.panel-group-3 {
+    border: 1px solid @lineBorder;
+    .panel {
+        border-left: 0;
+        border-right: 0;
+        margin: 0 20px;
+    }
+    .panel:first-child {
+        border-top: 0;
+    }
+    .panel:last-child {
+        border-bottom: 0;
+    }
+    .panel-title {
+        padding: 0;
+        margin: 0;
+      > a {
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        > .panel-icon-right {
+            right: -15px;
+        }
+      }
+    }
+    .panel-body {
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+}
+.panel-group-4 {
+    .panel {
+        border-left: 0;
+        border-right: 0;
+        margin: 0;
+    }
+    .panel-title {
+        padding: 0;
+        margin: 0;
+      > a {
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        > .panel-icon-right {
+            right: -15px;
+        }
+      }
+    }
+    .panel-body {
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+}
+.panel-group-5 {
+    .panel {
+        border: 0;
+        + .panel {
+            margin-top: 10px;
+            border: 0;
+        }
+    }
+    .panel-heading {
+        border-bottom: 0;
+        + .panel-collapse .panel-body {
+          border-top: 0;
+        }
+    }
+    .panel-title {
+      > a {
+      	padding-left: 20px;
+        background: @boxGrey;
+      }
+    }
+}
+

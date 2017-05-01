@@ -1,0 +1,90 @@
+<main class="oe-shortcode oe-shortcode-tab-tour">
+    <div class="oe-top-page">
+		<div class="container">
+			<div class="oe-breadcrumb">
+
+			</div>
+		</div>
+	</div>
+	<div class="container oe-main-content">
+
+		<div class="row form-group col-xs-12">
+			<div class="oe-column-9 col-md-9 col-sm-12 oe-main-col">
+				<div class="oe-shortcode-article">
+					<div class="oe-column-6 col-md-6 col-sm-12 oe-main-col">
+		                <div nv-file-drop="" uploader="assetService.uploader" class="upload-container">
+		                    <h6 class="oe-form-label">Do you have an image to upload ?</h6>
+		                    <div ng-show="assetService.uploader.isHTML5">
+		                        <div nv-file-drop="" uploader="assetService.uploader">
+		                           
+		                                <div class="file-input-wrapper">
+		                                    <button class="btn-file-input">SELECT FILE</button>
+		                                    <input type="file" name="file" nv-file-select="" uploader="assetService.uploader" />
+		                                </div>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+
+		            <div class="oe-column-6 col-md-6 col-sm-12 oe-main-col">
+                        <div ng-repeat="item in assetService.uploader.queue"> 
+                            <div ng-show="assetService.uploader.isHTML5" ng-thumb="{ file: item._file, height: 300 }"></div>
+                        </div>
+                	</div>
+
+	       	 	</div>
+            </div>
+
+
+            <div class="row form-group col-xs-12">
+            	<div class="oe-column-6 col-md-6 col-sm-6 oe-main-col">
+					<h6 class="oe-form-label">
+						Email
+						<small class="invalid" ng-show="!content.content.contact_id.contact.email.length">- Required</small>
+					</h6>
+					<input class="form-control input-lg" style="font-size:14px" ng-model="content.content.contact_id.contact.email" type="email" class="text title" name="title" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/" required placeholder="email will be encrypted as: snapjob-1234@snapjob.com">
+				</div>
+				<div class="oe-column-6 col-md-6 col-sm-6 oe-main-col">
+					<h6 class="oe-form-label">Location
+						<small class="invalid" ng-show="!content.content.location_id.location.address.length">-  Required</small>
+					</h6>
+					<input ng-model="content.content.location_id.location.address" style="font-size:14px" type="text" class="form-control input-lg" name="address" placeholder="address, city, state, zipcode">	
+				</div>
+			</div>
+
+
+			<div class="row form-group col-xs-12">
+            	<div class="oe-column-12 col-md-12 col-sm-12 oe-main-col">
+					<h6 class="oe-form-label" for="contactFormMessage">
+						Job Description ?
+						<small class="invalid" ng-show="!content.content.description.length">- Required</small>
+					</h6>
+					<p class="side-note">The more information you provide, the easier it would be to find the right person.</p>
+					<textarea ng-model="content.content.description" name="content" rows="10" class="form-control"></textarea>
+				</div>
+			</div>
+
+
+			<div class="row form-group col-xs-12">
+				<div class="oe-column-6 col-md-6 col-sm-12 oe-main-col">
+					<h6 class="oe-form-label" for="contactFormMessage">Start Date: {{ content.startDate | date:'yyyy-MM-dd hh:mm:ss a' }}</h6>
+					<datetimepicker data-ng-model="content.content.startDate"
+				    data-datetimepicker-config="{ startView:'day', minView:'minute' }" />
+				</div>
+				<div class="oe-column-6 col-md-6 col-sm-12 oe-main-col">
+					<h6 class="oe-form-label" for="contactFormMessage">End Date: {{ content.endDate | date:'yyyy-MM-dd hh:mm:ss a' }}</h6>
+					<datetimepicker data-ng-model="content.content.endDate"
+				    data-datetimepicker-config="{ startView:'day', minView:'minute' }" />
+				</div>
+			</div>
+
+			<div class="row form-group col-xs-12" class="form-btns" ng-show="content.content.description.length && content.content.location_id.location.address.length && content.content.contact_id.contact.email.length">
+				<button class="btn oe-btn" ng-click="submit()">
+					<span>POST NEW JOB</span>
+				</button>
+			</div>
+
+		
+		</div>
+	</div>
+</main>

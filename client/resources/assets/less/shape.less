@@ -1,0 +1,28 @@
+.oe-shape {
+    // Bordered
+    &.oe-shape-bordered {
+        border: 1px solid #fff;
+    }
+
+    &.square {
+        position: relative;
+
+        &:before {
+            display: block;
+            content: "";
+            padding-top: 100%;
+        }
+        .inner {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    &.circle {
+        &:extend(.oe-shape.square all);
+        border-radius: 50%;
+    }
+}

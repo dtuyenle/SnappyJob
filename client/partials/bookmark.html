@@ -1,0 +1,78 @@
+<main class="oe-blog oe-blog-medium-image">
+
+    <div class="oe-top-page">
+      <div class="container">
+        <div class="oe-breadcrumb">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="container oe-main-content">
+        <div class="row">
+            <div class="col-md-12 col-xs-12 oe-main-col">
+                <article class="oe-page-article">
+
+                    <div class="row oe-row">
+
+                        <div class="col-xs-12 col-sm-6 col-md-6 oe-portfolio-item"  ng-repeat="content in bookmarkService.contents track by $index" data-id="{{content._id}}">
+                            <h3 class="oe-blog-title">
+                                <a ng-click="navService.toItem(content)">{{content.name}}</a>
+                            </h3>
+                            <div class="oe-image-caption">
+                                <a href="#">
+                                	<span class="text-highlight text-highlight-1" ng-repeat="tag in content.tags_id track by $index">#{{tag.tag}}</span>
+								</a>
+                            </div>
+                            <div class="oe-blog-icon-box">
+                                <p class="oe-blog-date"> {{content.publishedDate}}</p>
+                                <p>
+                                    <span ng-show="content.diffDate" ng-if="content.diffDate == 'today'">
+                                        <i class="fa oe-icon fa-calendar"></i> Updated today.
+                                    </span>
+                                    <span ng-show="content.diffDate" ng-if="content.diffDate !== 'today'">
+                                        <i class="fa oe-icon fa-calendar"></i> Updated {{content.diffDate}} days ago
+                                    </span>
+                                    <span ng-show="content.url">
+                                        <a href="{{content.url}}">
+                                            <i class="fa oe-icon fa-home"></i> Source Url
+                                        </a>
+                                    </span>
+                                    <span ng-show="content.distance">
+                                        <i class="fa oe-icon fa-map-marker"></i> {{content.distance}} miles away.
+                                    </span>
+                                    <span ng-show="content.gasmoney">
+                                        <i class="fa oe-icon fa-arrow-right"></i> {{content.gasmoney}} gasonline dollars.
+                                    </span>
+                                    <span ng-show="content.budget">
+                                        <i class="fa oe-icon fa-gift"></i> Compensation {{content.budget}}
+                                    </span>
+                                    <span ng-show="content.location_id.address">
+                                        <i class="fa oe-icon fa-thumb-tack"></i> {{content.location_id.address}}
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="oe-blog-quote">
+                                <img width='50%' height='auto' style="margin-bottom:5px" alt="" src="{{content.asset_id.image}}" />
+                                <p ng-bind-html='content.description'></p>
+                                <button class="btn oe-btn oe-btn-reflect-icon" ng-click="bookmarkService.removeBookmark(content)">
+                                    <span>REMOVE BOOKMARK</span>
+                                </button>
+                                <button class="btn oe-btn oe-btn-reflect-icon" ng-click="navService.toItem(content)">
+                                    <span>READ MORE</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</main>

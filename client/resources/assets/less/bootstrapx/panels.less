@@ -1,0 +1,27 @@
+.panel {
+    .box-shadow(none);
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+.panel-title {
+    > a {
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+    }
+    & > a:hover {
+        text-decoration: none;
+    }
+}
+
+.panel-group {
+    .panel {
+        + .panel {
+            margin-top: 0;
+            border-top: 0;
+        }
+    }
+}

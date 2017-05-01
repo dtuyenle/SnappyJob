@@ -1,0 +1,58 @@
+// Responsive for all page
+
+@media @desktopAbove {
+    .body-boxed {
+        main,
+        footer,
+        .container-fluid {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: @bgColor;
+        }
+
+        background-color: @lineBorder;
+    }
+}
+
+@media @tabletBelow {
+    .oe-last-foot {
+        text-align: center;
+        .oe-menu-dad {
+            position: relative;
+            float: left;
+            margin-top: 10px;
+            left: 50%;
+            .translate(-50%, 0);
+        }
+    }
+    .oe-breadcrumb {
+        float: none;
+        padding: 30px 0 20px;
+    }
+    .oe-image-item {
+        img[height] {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+        }
+    }
+    .oe-image-no-margin img {
+        width: 100%;
+    }
+    .oe-home-heightfix {
+        .oe-home-heightfix-image {
+            height: auto;
+        }
+    }
+}
+@media @mobletBelow {
+    .oe-big-banner-photo {
+        min-height: 350px;
+        .banner-photo {
+            width: auto;
+            min-height: 100%;
+        }
+    }
+}

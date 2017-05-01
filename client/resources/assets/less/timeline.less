@@ -1,0 +1,53 @@
+.oe-timeline-container {
+    @eventOffset: 20px;
+    @eventMarkHeight: 40px;
+    @theLine: 1px solid rgba(0,0,0,.1);
+    @bg: @topPageBg;
+
+    // The line
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        display: block;
+        content: "";
+        width: 0;
+        height: 100%;
+        border-right: @theLine;
+    }
+
+    .oe-timeline-event {
+        position: relative;
+
+        & + .oe-timeline-event {
+            margin-top: @eventOffset + @eventMarkHeight;
+        }
+
+        .oe-timeline-mark {
+            .transition(all ease 0.3s);
+            position: absolute;
+            top: 0;
+            display: block;
+            width: 50%;
+            height: @eventMarkHeight;
+            background: @bg;
+            opacity: 0;
+            text-align: center;
+
+            .btn {
+                height: 100%;
+                line-height: 100%;
+            }
+        }
+        &.left .oe-timeline-mark {
+            right: 0;
+            opacity: 1;
+            .translate(100%, 0);
+        }
+        &.right .oe-timeline-mark {
+            left: 0;
+            opacity: 1;
+            .translate(-100%, 0);
+        }
+    }
+}

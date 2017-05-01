@@ -1,0 +1,2245 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--
+
+/-p1426-qxsegment|/one-time-housekeeping-jobs.html
+
+
+  /WEB-INF/jsp/layout/shell.jsp 
+  dom-ord-prodmobile-01
+
+-->
+<head>
+<!-- Coresite monetate page -->
+<!-- Begin Monetate ExpressTag Async v6. Place at start of document head. DO NOT ALTER. -->
+<script type="text/javascript">
+	var monetateT = new Date().getTime();
+	(function() {
+	    var p = document.location.protocol;
+	    if (p == "http:" || p == "https:") {
+	        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = (p == "https:" ? "https://s" : "http://") + "b.monetate.net/js/1/a-f5189428/p/care.com/" + Math.floor((monetateT + 828712) / 3600000) + "/g";
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+	    }
+	})();
+	</script>
+<!-- End Monetate tag. -->
+<script type="text/javascript">
+	    if (typeof czenMonetate == 'undefined')
+	    	czenMonetate = {};
+	    if ('') {
+	    	czenMonetate.memberId = '';
+	    	czenMonetate.memberType = '';
+	        czenMonetate.primaryService = '';
+        	czenMonetate.subscriptionStatus='';
+        	
+        	czenMonetate.signUpDate='';
+        	czenMonetate.daysSinceSignUp='';
+        	czenMonetate.approvedPhoto='';
+        	czenMonetate.caregiversNearYou='';
+        	
+        	
+        	
+        	czenMonetate.secondaryVerticalTargeting='';
+        	czenMonetate.numberFamiliesNear='';
+        	
+        	czenMonetate.planName='';
+        	czenMonetate.packageTier='';
+        	czenMonetate.packageId='';
+        	
+        	if (czenMonetate.memberType == 'SITTER' || czenMonetate.memberType == 'SMB_MEMBER') {
+            	czenMonetate.appliedForJob='';
+        	}
+        	
+        	if (czenMonetate.memberType == 'SITTER') {
+        	czenMonetate.providerAvailabilityIsExpired='';
+        	czenMonetate.daysUntilAvailabilityIsExpired='';
+        	}
+        	
+        	if (czenMonetate.memberType == 'SEEKER') {
+        	czenMonetate.lastJobPostDate='';
+        	czenMonetate.latestJobApplicants ='';
+        	czenMonetate.seekerActivityResultsCount='';
+        	    czenMonetate.canPostJob='';
+        	}
+        	
+	    } else if ('com.czen.core.model.visitor.Visitor@7e9cf63f') {
+	    	czenMonetate.visitorId = 'dom-ord-prodmobile-011432806671966';
+	    	czenMonetate.memberType = 'Visitor';
+	    }
+	    czenMonetate.stack = 'dom-ord-prodmobile-01';
+	</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>One Time Housekeeping Jobs - Care.com</title>
+<meta name="description" content="Looking for one time housekeeping jobs? Apply to one time housekeeping jobs on Care.com."/>
+<meta name="keywords" content="one time housekeeping jobs"/>
+<link rel="canonical" href="https://www.care.com/one-time-housekeeping-jobs"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script><style type="text/css">@font-face {
+  font-family: 'caredotcom-icons';
+  src:url('/css/font-face/caredotcom-icons/caredotcom-icons.eot');
+  src:url('/css/font-face/caredotcom-icons/caredotcom-icons.eot?#iefix') format('embedded-opentype'),
+    url('/css/font-face/caredotcom-icons/caredotcom-icons.woff') format('woff'),
+    url('/css/font-face/caredotcom-icons/caredotcom-icons.ttf') format('truetype'),
+    url('/css/font-face/caredotcom-icons/caredotcom-icons.svg#caredotcom-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}</style>
+<style type="text/css">div#widget_CSZInput{width:195px;height:18px;font-size:14px;padding:5px 0 0 1px;border:1px solid #7f9db9;background:#fff}@font-face {
+		font-family: 'Marydale';
+		src: url('/css/font-face/Marydale/marydale.eot');
+		src: url('/css/font-face/Marydale/marydale.eot?#iefix')
+			format('embedded-opentype'),
+			url('/css/font-face/Marydale/marydale.woff') format('woff'),
+			url('/css/font-face/Marydale/marydale.ttf') format('truetype'),
+			url('/css/font-face/Marydale/marydale.svg#Marydale') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}</style>
+<style type="text/css">@font-face {
+			font-family:"Marydale Bold";
+			src: url('/css/font-face/Marydale_bold/marydbol.eot');
+			src:url("/css/font-face/Marydale_bold/marydbol.eot?#iefix") 
+				format('embedded-opentype'),
+				url("/css/font-face/Marydale_bold/marydbol.woff") format("woff"),
+				url("/css/font-face/Marydale_bold/marydbol.ttf") format("truetype"),
+				url("/css/font-face/Marydale_bold/marydbol.svg#MarydaleBold") format("svg");
+			font-weight:normal;
+			font-style:normal;
+		}</style>
+<meta name="verify-v1" content="zz15lR180u9eCqTfur/9l+bMP75AampYtDEm6OnbkWY="/>
+<meta property="og:title" content="One Time Housekeeping Jobs - Care.com"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://www.care.com/one-time-housekeeping-jobs"/>
+<meta property="og:image" content="https://www.care.com/img/cms/web/visitor/segmentation/housekeeping-1-lg.jpg"/>
+<meta property="og:site_name" content="Care.com"/>
+<meta property="fb:app_id" content="296867961907"/>
+<meta property="og:description" content="Looking for one time housekeeping jobs? Apply to one time housekeeping jobs on Care.com."/>
+<link rel="image_src" href="/img/vw/care-no-tag.jpg"/>
+<meta property="fb:page_id" content="6030284861"/>
+<link rel="stylesheet" href="https://s.cdn-care.com/css/vw/core.css?v=150526">
+<style type="text/css">@font-face {
+        font-family: 'Glyphicons Halflings';
+        src: url('/css/vw/fonts/glyphicons-halflings-regular.eot');
+        src: url('/css/vw/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/css/vw/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/css/vw/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/css/vw/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+      }</style>
+<link rel="stylesheet" href="https://s.cdn-care.com/css/vw/layout/visitorMain.css?v=150526">
+<link type="text/css" rel="stylesheet" href="https://s.cdn-care.com/css/vw/layout/visitorSegmentation.css?v=150526"/>
+<link type="text/css" rel="stylesheet" href="https://s.cdn-care.com/css/vw/layout/joinNowForm.css?v=150526"/>
+<script>function addLoadEvent(e){var t=window.onload;if(typeof window.onload!='function'){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+<script>
+  if(typeof careConfig == 'undefined') careConfig = {};
+  careConfig.hashTimestamp = "cmtux62opFFZ8Aov8J0aoJ1zRonczZyqP60pTTURdfIx";
+  careConfig.cdnURL = 'https://s.cdn-care.com'; 
+  careConfig.cookieDomain = '.care.com';
+  careConfig.fbApiKey = '296867961907';
+  careConfig.fbApiVersion='v2.0';
+  careConfig.spellcheckEnabled = 'false';
+  careConfig.uberTagEnabled = 'true';
+  careConfig.ipToLocationCityState = 'Washington, DC';
+  careConfig.memberType = ''; 
+  careConfig.locationZipCode = '';
+  careConfig.ipZipCode = '20036';
+
+  // Next two lines used to get the versioned qs param cachebuster // Note: someday we may want to simply expose this to the JSP to avoid this JS workaround -clow
+  
+  var urlArgs = 'https://s.cdn-care.com/js/care/src/care.js?v=150526';
+  urlArgs = urlArgs.substring(urlArgs.indexOf("v="), urlArgs.length);
+
+  var require = {
+    baseUrl: 'https://s.cdn-care.com/js/vw',
+    urlArgs: urlArgs, // cachebusting qs param
+    waitSeconds: 1200,
+    //urlArgs: 'v='+(new Date()).getTime(), // use this if you want to ensure your dependencies are reloaded on a hard refresh
+    map: {
+      '*': {
+        'css': 'requireJS/plugins/require-css/css'
+      }
+    },
+    paths: {
+      'facebook': '//connect.facebook.com/en_US/sdk',
+      'twitter': '//platform.twitter.com/widgets',
+      'gplus': 'https://apis.google.com/js/platform',
+      'pinit': '//assets.pinterest.com/js/pinit',
+      'async': 'requireJS/plugins/async',
+      'handlebars': 'handlebars-1.1.2/handlebars-v1.1.2'
+    },
+    shim: {
+      'jquery/jquery-1.10.2.min': {
+        exports: 'jQuery'
+      },
+      'jquery/jquery.ui.widget': {
+        exports: '$.widget'
+      },
+      'vendor/typeahead/typeahead.bundle.min': {
+        exports: '$.fn.typeahead'
+      },
+      'vendor/media-match/media.match.min': {
+        exports: 'window.matchMedia'
+      } ,
+      'facebook': {
+        exports: 'FB'
+      },
+      'facebookv2': {
+        exports: 'FB'
+      },
+      'twitter': {
+        exports: 'TW'
+      },
+      'gplus': {
+        exports: 'GP'
+      },
+      'pinit': {
+        exports: 'PI'
+      },
+      'vendor/condense/jquery.condense' : {
+        exports: 'condense'
+      }
+    },
+    catchError: {
+      define: true
+    }
+  };
+
+</script>
+<!--[if lt IE 9]>
+        <script src="/js/html5shiv/html5shiv.js"></script>
+        <script src="/js/respond/html5-3.6-respond-1.1.0.min.js"></script>
+        <link href="https://s.cdn-care.com/js/respond/cross-domain/respond-proxy.htm" id="respond-proxy" rel="respond-proxy" />
+        
+        <link href="/js/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+        
+        <script src="/js/respond/cross-domain/respond.proxy.js"></script>
+        
+    <![endif]-->
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1164879-3']);
+_gaq.push(['_setDomainName', '.care.com']);
+
+_gaq.push(['_setCustomVar', '3', 'testCellInfo', '1407', '1']);
+_gaq.push(['_trackPageview']); 
+(function() { 
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })(); 
+</script>
+</head>
+<body>
+<noscript>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="no-js-warning">
+<img src="https://s.cdn-care.com/img/js_error_msg.gif?v=150526" class="img-responsive error-img" alt="Please Enable Javascript to use all of the features on this site.">
+</div>
+</div>
+</div>
+</div>
+</noscript>
+<div class="content-main">
+<div class="row-offcanvas wrapper">
+<div class="main">
+<div class="navbar navbar-static-top navbar-default">
+<div class="visitor-header">
+<div class="border-top"></div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="navbar-header">
+<a class="navbar-toggle btn-menu" id="toggle" href="javascript:;">
+</a>
+<div class="care-logo-nav">
+<a href="/"><img src="https://s.cdn-care.com/img/vw/care-logo-notagline-265.png?v=150526" alt="Care.com - There for you"></a>
+</div>
+<div class="navbar-search">
+<a href="javascript:;" data-toggle="collapse" data-target=".navbar-collapse-searchbar" class="searchIcon">
+</a>
+</div>
+<div class="l0-links">
+<span class="l0-link-basic"><a href="/login-p1002-q50997295.html" class="log-in">Log in</a><span class="pipe"></span><a href="#join-now-form" class="join-now">Join now</a></span>
+<span class="l0-global-links visible-lg">
+<div class="l0-link seg-link"><a href="/child-care">Child Care</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="/senior-care">Senior Care</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="/pet-care">Pet Care</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="/housekeeping">Housekeeping</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="http://www.care.com/how-it-works-p1008.html">How it works</a></div>
+<div class="l0-link"><a href="/login-p1002-q50997295.html" class="log-in log-in-lg">Log in</a></div>
+<div class="join-wrap"><a class="btn btn-primary join-now join-lg" href="#join-now-form">Join now</a></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-collapse-searchbar collapse">
+<script>
+  if(typeof careConfig == 'undefined') careConfig = {};
+  careConfig.autoSuggestLayout = "grouped";
+</script>
+<div class="unified-search UnifiedSearch clearfix">
+<form action="/vis/captureUnifiedSearchTest" name="unifiedSearch" method="get" id="unifiedSearchForm">
+<input type="hidden" name="pageNumber" value="1">
+<input type="hidden" name="action" value=""/>
+<input type="hidden" name="showResultsPage" value=""/>
+<input type="hidden" name="suggestionStemmed" value="false"/>
+<div class="us-inner">
+<div class="row us-search-row">
+<div class="col-xs-9 col-sm-10 col-md-9 search-box">
+<input type="search" name="query" class="form-control" placeholder="Search" value=''/>
+</div>
+<div class="col-xs-3 col-sm-2 col-md-3 submit-button go">
+<button type="submit" class="btn btn-default">Go</button>
+</div>
+</div>
+</div>
+<div class="row us-loc-row">
+<div class="us-inner">
+<div class="row">
+<div class="col-xs-12">
+<span class="location-near">Near:</span>
+<span class="current-location"></span>
+<a href="javascript:;" class="change-location-link">Change location</a>
+<input type="hidden" name="location" value="">
+<input type="hidden" name="url" value="">
+<span class="icon-chevron-right"></span>
+</div>
+</div>
+</div>
+</div>
+</form>
+<div class="change-location">
+<div class="cl-inner">
+<form class="form-inline" role="form" action="javascript:;">
+<div class="form-group">
+<div class="row">
+<div class="col-xs-12">
+<label for="changeLocation">Change your location</label>
+</div>
+<div class="col-xs-8">
+<input type="text" class="form-control">
+</div>
+<div class="col-xs-4">
+<button type="submit" class="btn btn-info location-update"><span class="glyphicon glyphicon-ok"></span></button>
+<button type="button" class="btn btn-default location-cancel"><span class="glyphicon glyphicon-remove"></span></button>
+</div>
+<div class="col-xs-12 use-current-location">
+<a href="javascript:;">Use my current location</a>
+</div>
+</div>
+</div>
+</form>
+<div class="tick"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-content">
+<div class="sidebar-offcanvas">
+<div class="container">
+<div class="left-nav">
+<div class="row logo-wrap">
+<div class="col-xs-12 col-sm-4">
+<a href="/">
+<img src="/img/vw/visitorCarelogo.png" class="care-logo">
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<!-- <div class="sub-row"> -->
+<div class="sub-row sub-row-join-now">
+<a class="btn btn-primary join-now" href="#join-now-form">Join now</a>
+</div>
+<!-- </div> -->
+<div class="sub-row-last">
+<span class="sub-row-header">Already a member? </span>
+<span class="sub-row-link"><a href="/login-p1002-q50997295.html">Sign in</a></span>
+</div>
+</div>
+</div>
+<div class="row row-divider"></div>
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="care-options">
+<ul>
+<li><a href="http://www.care.com/">Home</a></li>
+<li><a href="/child-care">Child Care</a></li>
+<li><a href="/senior-care">Senior Care</a></li>
+<li><a href="/pet-care">Pet Care</a></li>
+<li><a href="/housekeeping">Housekeeping</a></li>
+<li><a href="http://www.care.com/how-it-works-p1008.html">How it works</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row row-divider"></div>
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<h2 class="nav">More Care Options</h2>
+<div class="care-options">
+<ul>
+<li><a href="https://www.care.com/full-time-housekeeping-jobs">Full Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/live-in-housekeeping-jobs">Live-in Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/part-time-housekeeping-jobs">Part Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/housekeeping-jobs">Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/seasonal-housekeeping-jobs">Seasonal Housekeeping Jobs</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="right-bar">&nbsp;</div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<!-- MAIN BODY /WEB-INF/jsp/page/visitorExperience/visitorSegmentation.jsp BEGIN -->
+<div class="body-content visitor-seg">
+<div about="513-national" class="content-wrap">
+<div class="row">
+<div class="col-xs-12">
+<style type="text/css">.letterbox .background-image{background-image:url(https://s.cdn-care.com/img/cms/web/visitor/segmentation/housekeeping-1-sm.jpg?v=150526)}@media (min-width:768px){.letterbox .background-image{background-image:url(https://s.cdn-care.com/img/cms/web/visitor/segmentation/housekeeping-1-lg.jpg?v=150526)}}</style>
+<div class="letterbox-expander">
+<div class="letterbox">
+<div class="background-image"></div>
+<div class="headline">
+<h1 property="headline">One Time Housekeeping Jobs</h1>
+</div>
+<div property="subHead" class="sub-headline">
+Looking for a one time housekeeping job? Create a free profile and apply now!
+</div>
+<div class="join-cta">
+<a class="btn btn-primary join-now" href="#join-now-form">Join now</a>
+</div>
+</div>
+<div class="template-border-bottom"></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+<div class="visible-lg bread-crumb-wrap">
+<span class="breadcrumb" itemprop="breadcrumb" itemscope itemtype="http://schema.org/breadcrumb"><span><a href="/jobs" itemprop="url" class="breadcb-block first-bc-link"><span itemprop="name">Apply To The Best Jobs Near You Today</span></a><span class="breadcb-block">&gt;</span><span itemprop="child" itemscope itemtype="http://schema.org/breadcrumb"><a href="/housekeeping-jobs" itemprop="url" class="breadcb-block"><span itemprop="name">Housekeeping Jobs</span></a><span class="breadcb-block">&gt;</span><span itemprop="child" itemscope itemtype="http://schema.org/breadcrumb"><span itemprop="name" class="breadcb-block breadcb-last-block">One Time Housekeeping Jobs</span></span></span></span></span>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-9 search-results">
+<div class="row social-row">
+<div class="col-xs-12 col-sm-6 col-sm-push-6 social social-row-divider">
+<script type="text/javascript">
+    careConfig.fbApiKey = 296867961907;
+</script>
+<div class="socialMedia">
+<div class="shareBlock">
+<div class="facebookBlock">
+<div class="fb-like" data-href="https://www.care.com/one-time-housekeeping-jobs" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>
+<div class="twitterBlock">
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.care.com/one-time-housekeeping-jobs" data-text="One Time Housekeeping Jobs - Care.com" data-via="caredotcom">Tweet</a>
+</div>
+<div class="googlePlusBlock">
+<div class="g-plusone" data-size="medium" href="https://www.care.com/one-time-housekeeping-jobs/?rx=online_gplus|general_general|my_town_share||"></div>
+</div>
+</div>
+</div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0&appId=296867961907";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</div>
+<div id="cmsContent1" property="cmsContent1" class="col-xs-12 col-sm-6 col-sm-pull-6 template-header header-first">One Time Housekeeping Jobs</div>
+</div>
+<div class="row">
+<div class="col-xs-12 results">
+<div class="group">
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/29/14548229_vmhha3916scjyQk3ovTDZ3EQBEM0oC" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="/job/5648259-house-cleaner-needed-in-washington-for-2-bedroom-2-bathroom-home?pcp=46572782" class="profile-link"><span class="visible-xs">House Cleaner Needed In W...</span>
+<span class="visible-sm visible-md visible-lg">House Cleaner Needed In Washington For 2...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Washington home needs a one-time house cleaner. Ideal match will meet the requirements below. Hello I would like to find cleaners who work hard and like to take care of a persons home. I live in a con...
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/oneTime.png?v=150526" alt="time"></span>
+<span>One Time</span>
+</div>
+<div class="col-sm-3 block2">Starts 05/18</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$10-15/hr
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 results">
+<div id="cmsContent2" property="cmsContent2" class="template-header result2">Previous One Time Housekeeping Jobs</div>
+<div class="achived-sub-heading">See some jobs that were posted or filled recently.</div>
+<div class="group">
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/35/13043835_vkxdIsSEK9IH0XCJsEGsa4Hg99zNSk" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">One Time Detail Clean</span>
+<span class="visible-sm visible-md visible-lg">One Time Detail Clean</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Need a one time detail clean and organization of a 2 bedroom apartment for a busy very pregnant mom.
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$15-25/hr
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/28/11102628_u9qpyO18Bdv3UEYZKja3Avw5BTRHub" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">Looking For A Dependable ...</span>
+<span class="visible-sm visible-md visible-lg">Looking For A Dependable House Cleaner F...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Washington home needs a one-time house cleaner. Ideal match will meet the requirements below.
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/76/7887276_MeZVhPDNbmo0jqAQHeJvEfpYaHyS3J" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">Part-Time Cleaning</span>
+<span class="visible-sm visible-md visible-lg">Part-Time Cleaning</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Once a week cleaning of bathroom and kitchen and cat litter boxes. May wish to hire for a one time deep clean.
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$10-15/hr
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/23/9135423_UIaMit9YHkLZWoVuBfFHiJcbnuAYde" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">Looking For A Dependable ...</span>
+<span class="visible-sm visible-md visible-lg">Looking For A Dependable House Cleaner F...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+New homeowners need a one-time house cleaner with possibility of regular employment. Ideal match will meet the requirements below.
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$15-20/hr
+</div>
+<div class="col-sm-4 block3">Transportation Required</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/61/13337761_kJAQ3LNFwI1EZIUpru5MVN00fqOY" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">Looking For A Dependable ...</span>
+<span class="visible-sm visible-md visible-lg">Looking For A Dependable House Cleaner F...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Chevy Chase home needs a one-time house cleaner. Ideal match will meet the requirements below.
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$10-15/hr
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/72/12505972_krsI7ARW6m3BYVg9BJGJxtxIjYn7" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">House Cleaner Needed In A...</span>
+<span class="visible-sm visible-md visible-lg">House Cleaner Needed In Arlington For 2-...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Arlington home needs a one-time house cleaner. Ideal match will meet the requirements below:
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+</div>
+<div class="col-sm-4 block3">Transportation Required</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/96/9109296_XUnl5XVHe7o6tJ75hURuCceYbo5cP" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">House Cleaner Needed In S...</span>
+<span class="visible-sm visible-md visible-lg">House Cleaner Needed In Silver Spring Fo...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Silver Spring home needs a one-time house cleaner. Ideal match will meet the requirements below.
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/occasional.png?v=150526" alt="time"></span>
+<span>Occasional</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/13/13425113_G5WR83Ze6FbACCyfJLHgHdJq1L5v8v" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">One-Time Deep Clean (Poss...</span>
+<span class="visible-sm visible-md visible-lg">One-Time Deep Clean (Possible Recurring ...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+We're looking for at the minimum a one-time deep cleaning done this week before relatives come into town.
+We have a two bedroom apartment with one bathroom, a kitchen, and a living/dining area (1100 ...
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/oneTime.png?v=150526" alt="time"></span>
+<span>One Time</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$20-20/hr
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+<div class="search-result">
+<div class="individual-result clearfix">
+<div class="col-xs-3 img-wrap">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/10/1313610_amVGYMidsX2aKtuKDMyoBCKlpbPA0G" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 res">
+<div class="result-wrap">
+<div class="name-block">
+<span class="profile-name col-xs-12 name-align jobName">
+<a href="javascript:;" class="profile-link"><span class="visible-xs">Need A House Cleaner For ...</span>
+<span class="visible-sm visible-md visible-lg">Need A House Cleaner For One-Day Thoroug...</span></a>
+</span>
+</div>
+<div class="desc col-xs-12 name-align">
+Alexandria home needs a one-time house cleaner. Ideal match will meet the requirements below. Need one day of very intense cleaning - everything from bookshelves, behind furniture, nooks and crannies,...
+</div>
+<div class="col-xs-12">
+<div class="row info-blocks">
+<div class="col-xs-7 col-sm-3 block1 text-block">
+<span><img src="https://s.cdn-care.com/img/vw/time/oneTime.png?v=150526" alt="time"></span>
+<span>One Time</span>
+</div>
+<div class="col-xs-5 col-sm-2 block4 text-block">
+$10-15/hr
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="archived-job"></div>
+<div class="join-now-note">
+<div><div class="quest">Interested in jobs like this?</div>
+<div class="info">This job is no longer active. Sign up to find similar opportunities in your area.</div>
+<div class="join-now-block"><a href="#join-now-form" class="join-now">Join now</a></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SBP-417 VISX pagination -->
+<div class="row">
+<div class="paginate col-xs-12 col-md-8 col-md-offset-4" id="paginationBlock">
+<div class="paginationList">
+<ul class="pagination">
+<li class="page-arrow" id="leftAngle"><a href="javascript:;" class="icon-angle-left glyphicon arrow-disable glyphicon-chevron-left" rel="nofollow"></a></li>
+<li class="page-num  active "><a href="/one-time-housekeeping-jobs" class="level-one">1</a></li>
+<li class="page-arrow" id="rightAngle"><a href="javascript:;" class="icon-angle-right glyphicon glyphicon-chevron-right arrow-disable" rel="nofollow"></a></li>
+</ul>
+</div>
+<div class="paginationStats">
+Showing <span id="fisrtPage">1</span>
+- <span id="lastPage">1</span>
+of 1
+</div>
+</div>
+</div>
+<!-- SBP-417 VISX pagination -->
+</div>
+<div class="col-lg-3 right-rail">
+<div class="row">
+<div class="col-lg-12 join-now-small join-block">
+<div class="adlob" data-slot="SegmentationSearchResult-ProviderFacing">
+<div class="contact">Apply for Jobs now! Create a profile and apply for care jobs near you.</div><div><a class="btn btn-primary join-now" href="#join-now-form">Join now</a></div><div class="already-member">Already a member? <a href="/login-p1002.html">Sign in</a></div>
+</div>
+</div>
+<div class="col-lg-12">
+<div class="row right-rail-blocks">
+<div class="col-sm-6 col-lg-12 visible-lg right-rail-block">
+<div class="subCategory">
+<ul>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-lg-12 visible-lg right-rail-block">
+<h2>More Care Options</h2>
+<div>
+<ul>
+<li><a href="https://www.care.com/full-time-housekeeping-jobs">Full Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/live-in-housekeeping-jobs">Live-in Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/part-time-housekeeping-jobs">Part Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/housekeeping-jobs">Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/seasonal-housekeeping-jobs">Seasonal Housekeeping Jobs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-lg-12 right-rail-block">
+<h2 id="cmsContent3" property="cmsContent3">One Time Housekeeping Jobs in Top Cities</h2>
+<div class="subCategory">
+<ul>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/boston-ma">Boston One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/san-francisco-ca">San Francisco One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/minneapolis-mn">Minneapolis One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/washington-dc">Washington One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/chicago-il">Chicago One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/philadelphia-pa">Philadelphia One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/houston-tx">Houston One Time Housekeeping Jobs</a></li>
+<li><a href="https://www.care.com/one-time-housekeeping-jobs/seattle-wa">Seattle One Time Housekeeping Jobs</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-lg-12 right-rail-block">
+<div>
+<h2 id="cmsContent4" property="cmsContent4">Additional Housekeeping Resources</h2>
+<ul>
+<li><a href="/a/planning-your-one-year-nanny-review-1309181145">Planning Your One-Year Nanny Review</a></li>
+<li><a href="/a/7-tasks-housekeepers-should-not-do-1403031632">7 Tasks Housekeepers Should NOT Do</a></li>
+<li><a href="/a/new-year-new-me-one-moms-take-on-new-years-resolutions-1112141539">New Year, New Me: One Mom's Take on New Year's Resolutions</a></li>
+<li><a href="/a/101-baby-activities-for-your-little-one-20150401111245">101 Baby Activities for Your Little One</a></li>
+<li><a href="/a/what-is-the-difference-between-a-maid-and-a-housekeeper-1303130727">What is the Difference between a Maid and a Housekeeper?</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-12 visible-lg join-block">
+<div class="adlob" data-slot="SegmentationSearchResult-ProviderFacing">
+<div class="contact">Apply for Jobs now! Create a profile and apply for care jobs near you.</div><div><a class="btn btn-primary join-now" href="#join-now-form">Join now</a></div><div class="already-member">Already a member? <a href="/login-p1002.html">Sign in</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" href="https://s.cdn-care.com/css/cms/convoJoin.css?v=150526">
+<div class="cj-divider"></div>
+<div class="ConvoJoin" id="join-now-form">
+<div class="steps">
+<div class="step cj-joinNow">
+<div class="cj-headline">Join free today</div>
+<div class="cj-sub-headline">Sign up now! It only takes a few minutes.</div>
+<div class="options">
+<a class="btn btn-primary" href="javascript:;">Let's go</a>
+</div>
+</div>
+<div class="step cj-memberType">
+<div class="cj-headline">I'd like to...</div>
+<div class="options">
+<a class="option" data-member-type="seeker">
+Find care
+</a>
+<a class="option" data-member-type="sitter">
+Apply to care jobs
+</a>
+</div>
+</div>
+<div class="step cj-bucket">
+<div class="cj-headline">Who needs care?</div>
+<div class="options">
+<a class="option option-children" data-service-id="CHILDCARE">My kids</a>
+<a class="option option-seniors" data-service-id="SENIRCARE">My parents</a>
+<a class="option option-pets" data-service-id="PETCAREXX">My pets</a>
+<a class="option option-home" data-service-id="HOUSEKEEP">My household</a>
+</div>
+</div>
+<div class="step cj-seekerService">
+<div class="cj-headline clearfix"><div class="headline-inner">What type of <span class="cj-service"></span>?</div></div>
+<div class="options options-child-care">
+<a class="option option-babysitter" data-sub-service="babysitter">Babysitter</a>
+<a class="option option-nanny" data-sub-service="nanny">Nanny</a>
+<a class="option option-child-care-center" data-enrolled-from="childCareCenter">Child care center</a>
+<a class="option option-special-needs" data-service-id="SPCLNEEDS" data-sub-service="specialNeeds">Special needs</a>
+<a class="option option-tutoring" data-service-id="TUTORINGX" data-sub-service="tutoring">Tutoring and lessons</a>
+<a class="option option-date-night" data-enrolled-from="DATE_NIGHT" data-sub-service="dateNight">Date night</a>
+<a class="option option-after-school" data-merchandize-job-type="afterSchoolChildCare" data-sub-service="afterSchoolCare">After school</a>
+<a class="option option-not-sure" href="javascript:;">I'm not exactly sure</a>
+</div>
+<div class="options options-pet-care">
+<a class="option option-pet-sitter">Pet sitter</a>
+<a class="option option-dog-walker">Dog walker</a>
+<a class="option option-pet-day-care">Pet day care</a>
+<a class="option option-boarding">Boarding/kenneling</a>
+<a class="option option-groomer">Groomer</a>
+<a class="option option-vet">Veterinarian</a>
+</div>
+<div class="options options-home-care">
+<a class="option option-housekeeper">Housekeeper</a>
+<a class="option option-cleaning-agency">Cleaning agency</a>
+<a class="option option-house-sitter">House sitter</a>
+<a class="option option-personal-assistant">Personal assistant</a>
+</div>
+<div class="options options-senior-care">
+<a class="option option-in-home">In-home care</a>
+<a class="option option-transportation">Transportation</a>
+<a class="option option-errands">Errands</a>
+<a class="option option-retirement">Retirement facility</a>
+<a class="option option-dementia">Dementia care</a>
+<a class="option option-companion">Companion care</a>
+</div>
+</div>
+<div class="step cj-howSoon">
+<div class="cj-headline">When do you need <span class="cj-service"></span>?</div>
+<div class="options">
+<a class="option option-right-now" data-how-soon="I">Right now</a>
+<a class="option option-within-week" data-how-soon="W">Within a week </a>
+<a class="option option-within-month" data-how-soon="M">Within a month or two</a>
+<a class="option option-just-browsing" data-how-soon="N">Just browsing</a>
+</div>
+</div>
+<div class="step cj-providerService">
+<div class="cj-headline">What services do you offer?</div>
+<div class="options">
+<a class="option option-p-babysitting" data-sitter-service="babysitter" data-service-id="CHILDCARE">Babysitting and nannying</a>
+<a class="option option-p-special-needs" data-sitter-service="specialNeeds" data-service-id="SPCLNEEDS">Special needs care</a>
+<a class="option option-p-tutoring" data-sitter-service="tutoring" data-service-id="TUTORINGX">Tutoring or private lessons</a>
+<a class="option option-p-center-care" data-sitter-service="babysitter" data-service-id="CHILDCARE">Center-based child care</a>
+<a class="option option-p-senior-care" data-sitter-service="seniorCare" data-service-id="SENIRCARE">Senior care</a>
+<a class="option option-p-housekeeping" data-sitter-service="housekeeping" data-service-id="HOUSEKEEP">Housekeeping</a>
+<a class="option option-p-in-home-child-care" data-sitter-service="familyCare" data-service-id="CHILDCARE">In-home child care</a>
+<a class="option option-p-pet-care" data-sitter-service="petCare" data-service-id="PETCAREXX">Pet care</a>
+<a class="option option-p-errands" data-sitter-service="careGigs" data-service-id="CAREGIGSX">Errands and house sitting</a>
+</div>
+</div>
+<div class="step cj-providerType">
+<div class="cj-headline">What best describes you?</div>
+<div class="options">
+<a class="option option-individual" data-sitter-type="INDIVIDUAL">Individual </a>
+<a class="option option-small-business" data-sitter-type="COMPANY">Small business</a>
+</div>
+</div>
+<div class="step cj-enroll">
+<div class="hidden-xs">
+<div class="cj-headline">Last, but not least...</div>
+<div class="cj-sub-headline">Fill in the blanks to create your account.</div>
+</div>
+<div class="visible-xs">
+<div class="cj-headline cj-headline-xs">Thanks&mdash;you're almost there.</div>
+<div class="cj-sub-headline cj-sub-headline-xs">Create your login below.</div>
+</div>
+<div class="visible-md visible-sm visible-lg enroll-desktop">
+<form name="smartEnrollmentForm" id="smartEnrollmentForm" method="post" action="/visitor/intermediateEnrollmentSiteContext.do" autocomplete="off">
+<div class="form-group">
+<label for="firstName" class="fromLabel">First Name</label> <input type="text" name="firstName" maxlength="25" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="lastName" class="fromLabel">Last Name</label> <input type="text" name="lastName" maxlength="35" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="addressLine1" class="fromLabel">Address</label> <input type="text" name="addressLine1" maxlength="55" value="" class="form-control">
+</div>
+<div class="form-group cityZip-ct">
+<label for="cityStateZIP" class="fromLabel">City, State and ZIP</label> <input type="text" name="cityStateZIP" maxlength="60" value="Washington, DC 20036" id="cityStateZIP" class="form-control input-csz">
+</div>
+<div class="form-group">
+<label for="email" class="fromLabel">Email</label> <input type="text" name="email" maxlength="65" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="password" class="fromLabel">Password</label> <input type="password" name="password" maxlength="30" value="" class="form-control" autocomplete="off">
+</div>
+<div id="apply-job" class="apply-job-ct">
+<div class="form-group">
+<label for="sitterService" class="fromLabel">I am a</label>
+<select name="sitterService" class="form-control"><option value=""></option>
+<option value="babysitter">Babysitter</option>
+<option value="nanny">Nanny</option>
+<option value="familyCare">Child Care Center</option>
+<option value="familyCare">Family Child Care (In-Home Daycare)</option>
+<option value="specialNeeds">Special Needs Provider</option>
+<option value="tutoring">Tutor</option>
+<option value="tutoring">Private Lesson Instructor</option>
+<option value="seniorCare">Senior Care Provider</option>
+<option value="homeCare">Nurse</option>
+<option value="petCare">Pet Care Provider</option>
+<option value="housekeeping">Housekeeper</option>
+<option value="careGigs">Errands & Odd Jobs Provider</option></select>
+</div>
+</div>
+<div class="form-group">
+<label for="howDidYouHearAboutUs" class="fromLabel">How did you hear about us?</label>
+<select name="howDidYouHearAboutUs" class="form-control how-did-you-hear"><option value=""></option>
+<option value="HWDHABTUS010">Group Member</option>
+<option value="HWDHABTUS004">Web Search (Google, etc)</option>
+<option value="HWDHABTUS009">Email</option>
+<option value="HWDHABTUS013">Transit Advertising</option>
+<option value="HWDHABTUS002">TV Ad</option>
+<option value="HWDHABTUS006">Press Coverage (TV, Newspaper, Magazine, Blogs, etc.)</option>
+<option value="HWDHABTUS003">Radio Ad</option>
+<option value="HWDHABTUS001">Friends or Family</option>
+<option value="HWDHABTUS008">Online Community (Facebook, Twitter, Mom&#39;s Group, etc)</option>
+<option value="HWDHABTUS011">Billboard Ad</option>
+<option value="HWDHABTUS005">Website Ad</option>
+<option value="HWDHABTUS007">Other</option></select>
+</div>
+<div class="form-group">
+<input type="text" name="howDidYouHearAboutUsOther" maxlength="50" value="" class="form-control how-did-you-hear-other hidden" placeholder="Please Specify">
+</div>
+<div class="legal-text">By clicking "Join now", you agree to our <br/><span><a href="http://www.care.com/terms-of-use-p1012.html" class="link">Terms of Use</a></span> and
+<span><a href="http://www.care.com/privacy-policy-p1013.html" class="link">Privacy Policy</a></span>.</div>
+<div><input type="submit" class="btn btn-primary join-now-btn" value="Join now"/></div>
+<input type="hidden" name="validationReturnURL" value="/one-time-housekeeping-jobs">
+<input type="hidden" name="sendNewsletter" value="true">
+<input type="hidden" name="sendEmails" value="true">
+<input type="hidden" name="sendAlerts" value="true">
+<input type="hidden" name="allowCaregiversToContact" value="true">
+<input type="hidden" name="allowCaregiversToTrackProfileViewsFromMe" value="true">
+<input type="hidden" name="vhpShortForm" value="true">
+<input type="hidden" name="vhpEnrollmentPage" value="true">
+<input type="hidden" name="membershipPlan.services" value="CHILDCARE">
+<input type="hidden" name="membershipPlan.pricingPlan" value="BASICPLAN">
+<input type="hidden" name="membershipPlan.pricingScheme" value="APR1412">
+<!--  set for enrollmentSourcePage -->
+<input type="hidden" name="segmentationEnrollment" value="true">
+<div class="convo-join-hidden-fields">
+<input type="hidden" name="memberType" value="sitter">
+<input type="hidden" name="serviceId" value="">
+<input type="hidden" name="enrolledFrom" value="">
+<input type="hidden" name="sitterService" value="">
+<input type="hidden" name="sitterType" value="INDIVIDUAL">
+<input type="hidden" name="subService"/>
+<input type="hidden" name="merchandizeJobType" value=""/>
+<input type="hidden" name="attr-seeker.howSoonIsCareNeeded" value=""/>
+<input type="hidden" name="attr-seeker.careHoursPerWeek" id="fullTimeNanny"/>
+<input type="hidden" name="hoursOfCare" value="" id="hours-of-care">
+</div>
+<input type="hidden" name="convoJoin" value="true"/>
+</form>
+</div>
+<div class="visible-xs">
+<div class="seeker-mobile-step-1">
+<form action="javascript:;" method="post" name="seeker-mobile-step-1-form">
+<div class="form-group">
+<label for="email" class="fromLabel">Email</label> <input type="email" class="form-control" name="email"/>
+</div>
+<div class="form-group">
+<label for="password" class="fromLabel">Password</label> <input type="password" class="form-control" name="password"/>
+</div>
+<div class="form-group">
+<label for="zip" class="fromLabel">ZIP Code</label> <input type="number" class="form-control" name="zip"/>
+</div>
+<div class="legal-text">By clicking "Join now", you agree to our <br/><span><a href="http://www.care.com/terms-of-use-p1012.html" class="link">Terms of Use</a></span> and
+<span><a href="http://www.care.com/privacy-policy-p1013.html" class="link">Privacy Policy</a></span>.</div>
+<input type="submit" class="btn btn-primary" value="Join now"/>
+</form>
+</div>
+<div class="seeker-mobile-step-2">
+<form name="mobileSeekerEnrollmentForm" method="post" action="/mobile/member/captureBasicEnroll.do" autocomplete="off" class="seeker-mobile-step-2-form">
+<div class="form-group">
+<label for="firstName" class="fromLabel">First name</label>
+<input type="text" class="form-control" name="firstName" autoCorrect="off" autoCapitalize="off"/>
+</div>
+<div class="form-group">
+<label for="lastName" class="fromLabel">Last name</label>
+<input type="text" class="form-control" name="lastName" autoCorrect="off" autoCapitalize="off"/>
+</div>
+<div class="form-group">
+<label for="addressLine1" class="fromLabel">Address</label>
+<input type="text" class="form-control" name="addressLine1"/>
+</div>
+<div class="form-group">
+<label for="cityStateZIP" class="fromLabel">City, State and ZIP</label>
+<input type="text" class="form-control input-csz" name="cityStateZIP"/>
+</div>
+<div class="form-group">
+<label for="howDidYouHearAboutUs" class="fromLabel">How did you hear about us?</label>
+<select name="howDidYouHearAboutUs" class="form-control how-did-you-hear"><option value=""></option>
+<option value="HWDHABTUS010">Group Member</option>
+<option value="HWDHABTUS004">Web Search (Google, etc)</option>
+<option value="HWDHABTUS009">Email</option>
+<option value="HWDHABTUS013">Transit Advertising</option>
+<option value="HWDHABTUS002">TV Ad</option>
+<option value="HWDHABTUS006">Press Coverage (TV, Newspaper, Magazine, Blogs, etc.)</option>
+<option value="HWDHABTUS003">Radio Ad</option>
+<option value="HWDHABTUS001">Friends or Family</option>
+<option value="HWDHABTUS008">Online Community (Facebook, Twitter, Mom&#39;s Group, etc)</option>
+<option value="HWDHABTUS011">Billboard Ad</option>
+<option value="HWDHABTUS005">Website Ad</option>
+<option value="HWDHABTUS007">Other</option></select>
+</div>
+<div class="form-group">
+<input type="text" name="howDidYouHearAboutUsOther" maxlength="50" value="" class="form-control how-did-you-hear-other hidden" placeholder="Please Specify">
+</div>
+<div class="legal-text">By clicking "Join now", you agree to our <br/><span><a href="http://www.care.com/terms-of-use-p1012.html" class="link">Terms of Use</a></span> and
+<span><a href="http://www.care.com/privacy-policy-p1013.html" class="link">Privacy Policy</a></span>.</div>
+<input type="submit" class="btn btn-primary" value="Join now"/>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="cj-footer">
+<div>Already a member? <a href="/login-p1002.html">Sign in</a></div>
+<div class="go-back">Not looking for <span class="cj-service"></span>? <a href="javascript:;" class="start-over">Go back</a></div>
+</div>
+</div>
+<script>
+  addLoadEvent(function(){
+    if($('.ConvoJoin').length){
+      require([
+        'care/src/amd/ConvoJoin'
+      ], function(){
+        $('.ConvoJoin').ConvoJoin(careConfig.convoJoinConfig = {
+          showSubVerticalImages: true,
+          showNotSure: false,
+          nannyWording : true
+        });
+      });
+    }
+  });
+</script>
+<script>
+  try{
+    careConfig.convoDeepLink = {"memberType":{"memberType":"sitter"},"providerService":{"serviceId":"HOUSEKEEP","sitterService":"housekeeping"}};
+  }catch(err){}
+</script>
+</div>
+</div>
+<!-- MAIN BODY /WEB-INF/jsp/page/visitorExperience/visitorSegmentation.jsp END -->
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="social-footer">
+<a href="http://www.facebook.com/caredotcom" target="_blank">
+<img src="/img/icons/icn-facebook.png" alt="Facebook"/>
+</a>
+<a href="http://twitter.com/caredotcom" target="_blank">
+<img src="/img/icons/icn-twitter.png" alt="Twitter"/>
+</a>
+<a href="http://www.youtube.com/user/caredotcom" target="_blank">
+<img src="/img/icons/icn-youtube.png" alt="YouTube"/>
+</a>
+<a href="https://plus.google.com/105649189868566206085/" target="_blank">
+<img src="/img/icons/icn-g+.png" alt="Google"/>
+</a>
+<a href="http://pinterest.com/caredotcom/" target="_blank">
+<img src="/img/icons/ico-pinterest.png" alt="Pinterest"/>
+</a>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="company-footer col-xs-12">
+<a href="http://www.care.com/company-overview">About Us</a>
+<span class="pipe">|</span>
+<a href="/care-directory">Care Directory</a>
+<span class="pipe">|</span>
+<a href="http://www.care.com/business-p1369-q43501273.html">For Businesses</a>
+<span class="pipe post-business">|</span>
+<div class="visible-xs"></div>
+<a href="http://www.care.com/terms-of-use-p1012.html">Terms of Use</a>
+<span class="pipe">|</span>
+<a href="http://www.care.com/privacy-policy-p1013.html">Privacy Policy</a>
+</div>
+</div>
+<div class="row">
+<div class="legal-footer col-xs-12 col-md-8">
+<p>
+Care.com is the world's largest online destination for care.
+We connect families with great caregivers and caring companies to help you be there for the ones you love.
+</p>
+<p>
+Care.com does not employ, recommend or endorse any care provider or care seeker nor is it
+responsible for the conduct of any care provider or care seeker. Care.com provides information
+and tools to help care seekers and care providers connect and make informed decisions.
+However, each individual is solely responsible for selecting an appropriate care provider or care seeker for
+themselves or their families and for complying with all applicable laws in connection with any employment
+relationship they establish. Care.com does not provide medical advice, diagnosis or treatment or engage
+in any conduct that requires a professional license.
+</p>
+<p>
+Care.com and "There for you" are service marks or registered service marks of Care.com, Inc.
+</p>
+<p class="service-marks">
+<span class="copy-write">&copy;</span>
+2007-2015 Care.com, Inc. All rights reserved.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://s.cdn-care.com/js/vw/vendor/jquery-1.11.0/jquery.min.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/vendor/bootstrap-3.0.3/bootstrap.min.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/requireJS/require.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/jquery/jquery.ui.widget.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/care/src/care.js?v=150526"></script>
+<script>
+      define('jquery', function(){return $;}); // this is needed to register the 'jquery' module so other (some 3rd party) scripts can specify it as a dependency
+      define('care', function(){return care;}); // same for 'care'
+    </script>
+<script type="text/javascript" src="https://s.cdn-care.com/js/vw/visitorMain.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/visitorSegmentation.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/joinNowForm.js?v=150526"></script>
+<!--[if lte IE 9]>
+      
+    <![endif]-->
+<!-- TODO add modernizr (in head? w/ which checks enabled?) -->
+<!-- TODO add GUA (below footer) -->
+<script type="text/javascript">
+var ut_params = ut_params || [];ut_params.push("UT-774527768");//version:0.4
+(function() {var ut = document.createElement('script'); ut.type = 'text/javascript'; ut.async = true;
+ut.src = (("https:" == document.location.protocol) ? "https://" : "http://") + 'app.ubertags.com/javascripts/ubertags.js';
+var script = document.getElementsByTagName('script')[0]; script.parentNode.insertBefore(ut, script);})();
+if(typeof czenConfig == 'undefined') czenConfig = {}; if(typeof czenConfig.trackingPixel == 'undefined') czenConfig.trackingPixel = {};czenConfig.trackingPixel.memberId='';
+czenConfig.trackingPixel.sessionId='L5LYIpS6dq71svpf57N2TBgr.dom-ord-prodmobile-01';
+</script>
+<script type="text/javascript">$(function(){
+care.uberTagsLoad('/us-subscription/segment/nonmember/');
+care.uberTagsLoad('/us-subscription/segment/vertical-interest/');
+care.uberTagsLoad('/us-subscription/segment/provider/interest/');
+});
+</script>
+<!-- BOTTrackingPixel : START -->
+<script language="JavaScript" type="text/javascript"> document.write('<img src="/trackVisit.trace1432958634659" width="1" height="1" border="0"/>');</script>
+<!-- BOTTrackingPixel : END -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"4736481","applicationTime":596,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"1beb10fd42","transactionName":"MlNTZRZRVxJUWk1bDQsZYkEWWVcGdlZXRhAKWl1UFh9cD0dWVV5NFltQQxB2VhNYGRF1JzEf","agent":"js-agent.newrelic.com\/nr-632.min.js","errorBeacon":"bam.nr-data.net"}</script></body>
+</html>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--
+
+/-p1061-qxjobId|5648259.html
+
+
+  /WEB-INF/jsp/layout/shell.jsp 
+  dom-ord-prodmobile-03
+
+-->
+<head>
+<!-- Coresite monetate page -->
+<!-- Begin Monetate ExpressTag Async v6. Place at start of document head. DO NOT ALTER. -->
+<script type="text/javascript">
+	var monetateT = new Date().getTime();
+	(function() {
+	    var p = document.location.protocol;
+	    if (p == "http:" || p == "https:") {
+	        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true; m.src = (p == "https:" ? "https://s" : "http://") + "b.monetate.net/js/1/a-f5189428/p/care.com/" + Math.floor((monetateT + 828712) / 3600000) + "/g";
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+	    }
+	})();
+	</script>
+<!-- End Monetate tag. -->
+<script type="text/javascript">
+	    if (typeof czenMonetate == 'undefined')
+	    	czenMonetate = {};
+	    if ('') {
+	    	czenMonetate.memberId = '';
+	    	czenMonetate.memberType = '';
+	        czenMonetate.primaryService = '';
+        	czenMonetate.subscriptionStatus='';
+        	
+        	czenMonetate.signUpDate='';
+        	czenMonetate.daysSinceSignUp='';
+        	czenMonetate.approvedPhoto='';
+        	czenMonetate.caregiversNearYou='';
+        	
+        	
+        	
+        	czenMonetate.secondaryVerticalTargeting='';
+        	czenMonetate.numberFamiliesNear='';
+        	
+        	czenMonetate.planName='';
+        	czenMonetate.packageTier='';
+        	czenMonetate.packageId='';
+        	
+        	if (czenMonetate.memberType == 'SITTER' || czenMonetate.memberType == 'SMB_MEMBER') {
+            	czenMonetate.appliedForJob='';
+        	}
+        	
+        	if (czenMonetate.memberType == 'SITTER') {
+        	czenMonetate.providerAvailabilityIsExpired='';
+        	czenMonetate.daysUntilAvailabilityIsExpired='';
+        	}
+        	
+        	if (czenMonetate.memberType == 'SEEKER') {
+        	czenMonetate.lastJobPostDate='';
+        	czenMonetate.latestJobApplicants ='';
+        	czenMonetate.seekerActivityResultsCount='';
+        	    czenMonetate.canPostJob='';
+        	}
+        	
+	    } else if ('com.czen.core.model.visitor.Visitor@461f62d0') {
+	    	czenMonetate.visitorId = 'dom-ord-prodmobile-031432806335353';
+	    	czenMonetate.memberType = 'Visitor';
+	    }
+	    czenMonetate.stack = 'dom-ord-prodmobile-03';
+	</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>House Cleaner Needed In Washington For 2 Bedroom, 2 Bathroom Home. - Job in Washington, DC 5648259 - Care.com</title>
+<meta name="description" content="Washington home needs a one-time house cleaner. Ideal match will meet the requirements below. Hello I would like to find cleaners who work hard and like..."/>
+<meta name="keywords" content="House Cleaner Needed In Washington For 2 Bedroom  2 Bathroom Home, Housekeeping Job in Washington, DC 20007 - Care.com, Kavita"/>
+<link rel="canonical" href="https://www.care.com/job/5648259-house-cleaner-needed-in-washington-for-2-bedroom-2-bathroom-home"/>
+<meta name="robots" content="noindex"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">@font-face {
+  font-family: 'caredotcom-icons';
+  src:url('/css/font-face/caredotcom-icons/caredotcom-icons.eot');
+  src:url('/css/font-face/caredotcom-icons/caredotcom-icons.eot?#iefix') format('embedded-opentype'),
+    url('/css/font-face/caredotcom-icons/caredotcom-icons.woff') format('woff'),
+    url('/css/font-face/caredotcom-icons/caredotcom-icons.ttf') format('truetype'),
+    url('/css/font-face/caredotcom-icons/caredotcom-icons.svg#caredotcom-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}</style>
+<style type="text/css">div#widget_CSZInput{width:195px;height:18px;font-size:14px;padding:5px 0 0 1px;border:1px solid #7f9db9;background:#fff}@font-face {
+		font-family: 'Marydale';
+		src: url('/css/font-face/Marydale/marydale.eot');
+		src: url('/css/font-face/Marydale/marydale.eot?#iefix')
+			format('embedded-opentype'),
+			url('/css/font-face/Marydale/marydale.woff') format('woff'),
+			url('/css/font-face/Marydale/marydale.ttf') format('truetype'),
+			url('/css/font-face/Marydale/marydale.svg#Marydale') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}</style>
+<style type="text/css">@font-face {
+			font-family:"Marydale Bold";
+			src: url('/css/font-face/Marydale_bold/marydbol.eot');
+			src:url("/css/font-face/Marydale_bold/marydbol.eot?#iefix") 
+				format('embedded-opentype'),
+				url("/css/font-face/Marydale_bold/marydbol.woff") format("woff"),
+				url("/css/font-face/Marydale_bold/marydbol.ttf") format("truetype"),
+				url("/css/font-face/Marydale_bold/marydbol.svg#MarydaleBold") format("svg");
+			font-weight:normal;
+			font-style:normal;
+		}</style>
+<meta name="verify-v1" content="zz15lR180u9eCqTfur/9l+bMP75AampYtDEm6OnbkWY="/>
+<meta property="og:title" content="House Cleaner Needed In Washington For 2 Bedroom, 2 Bathroom Home. - Job in Washington, DC 5648259 - Care.com"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://www.care.com"/>
+<meta property="og:image" content="https://www.care.com"/>
+<meta property="og:site_name" content="Care.com"/>
+<meta property="fb:app_id" content="296867961907"/>
+<meta property="og:description" content="Washington home needs a one-time house cleaner. Ideal match will meet the requirements below. Hello I would like to find cleaners who work hard and like..."/>
+<link rel="image_src" href="/img/vw/care-no-tag.jpg"/>
+<meta property="fb:page_id" content="6030284861"/>
+<link rel="stylesheet" href="https://s.cdn-care.com/css/vw/core.css?v=150526">
+<style type="text/css">@font-face {
+        font-family: 'Glyphicons Halflings';
+        src: url('/css/vw/fonts/glyphicons-halflings-regular.eot');
+        src: url('/css/vw/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/css/vw/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/css/vw/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/css/vw/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+      }</style>
+<link rel="stylesheet" href="https://s.cdn-care.com/css/vw/layout/visitorMain.css?v=150526">
+<link type="text/css" rel="stylesheet" href="https://s.cdn-care.com/css/vw/visitorExperience/profileJobView.css?v=150526"/>
+<link type="text/css" rel="stylesheet" href="https://s.cdn-care.com/css/vw/layout/joinNowForm.css?v=150526"/>
+<script>function addLoadEvent(e){var t=window.onload;if(typeof window.onload!='function'){window.onload=e}else{window.onload=function(){t();e()}}}</script>
+<script>
+  if(typeof careConfig == 'undefined') careConfig = {};
+  careConfig.hashTimestamp = "cmtux62opFFZ8Aov8J0aoJ1zRonczZyqP60pTTURdfIx";
+  careConfig.cdnURL = 'https://s.cdn-care.com'; 
+  careConfig.cookieDomain = '.care.com';
+  careConfig.fbApiKey = '296867961907';
+  careConfig.fbApiVersion='v2.0';
+  careConfig.spellcheckEnabled = 'false';
+  careConfig.uberTagEnabled = 'true';
+  careConfig.ipToLocationCityState = 'Washington, DC';
+  careConfig.memberType = ''; 
+  careConfig.locationZipCode = '';
+  careConfig.ipZipCode = '20036';
+
+  // Next two lines used to get the versioned qs param cachebuster // Note: someday we may want to simply expose this to the JSP to avoid this JS workaround -clow
+  
+  var urlArgs = 'https://s.cdn-care.com/js/care/src/care.js?v=150526';
+  urlArgs = urlArgs.substring(urlArgs.indexOf("v="), urlArgs.length);
+
+  var require = {
+    baseUrl: 'https://s.cdn-care.com/js/vw',
+    urlArgs: urlArgs, // cachebusting qs param
+    waitSeconds: 1200,
+    //urlArgs: 'v='+(new Date()).getTime(), // use this if you want to ensure your dependencies are reloaded on a hard refresh
+    map: {
+      '*': {
+        'css': 'requireJS/plugins/require-css/css'
+      }
+    },
+    paths: {
+      'facebook': '//connect.facebook.com/en_US/sdk',
+      'twitter': '//platform.twitter.com/widgets',
+      'gplus': 'https://apis.google.com/js/platform',
+      'pinit': '//assets.pinterest.com/js/pinit',
+      'async': 'requireJS/plugins/async',
+      'handlebars': 'handlebars-1.1.2/handlebars-v1.1.2'
+    },
+    shim: {
+      'jquery/jquery-1.10.2.min': {
+        exports: 'jQuery'
+      },
+      'jquery/jquery.ui.widget': {
+        exports: '$.widget'
+      },
+      'vendor/typeahead/typeahead.bundle.min': {
+        exports: '$.fn.typeahead'
+      },
+      'vendor/media-match/media.match.min': {
+        exports: 'window.matchMedia'
+      } ,
+      'facebook': {
+        exports: 'FB'
+      },
+      'facebookv2': {
+        exports: 'FB'
+      },
+      'twitter': {
+        exports: 'TW'
+      },
+      'gplus': {
+        exports: 'GP'
+      },
+      'pinit': {
+        exports: 'PI'
+      },
+      'vendor/condense/jquery.condense' : {
+        exports: 'condense'
+      }
+    },
+    catchError: {
+      define: true
+    }
+  };
+
+</script>
+<!--[if lt IE 9]>
+        <script src="/js/html5shiv/html5shiv.js"></script>
+        <script src="/js/respond/html5-3.6-respond-1.1.0.min.js"></script>
+        <link href="https://s.cdn-care.com/js/respond/cross-domain/respond-proxy.htm" id="respond-proxy" rel="respond-proxy" />
+        
+        <link href="/js/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+        
+        <script src="/js/respond/cross-domain/respond.proxy.js"></script>
+        
+    <![endif]-->
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1164879-3']);
+_gaq.push(['_setDomainName', '.care.com']);
+
+_gaq.push(['_setCustomVar', '3', 'testCellInfo', '1407', '1']);
+_gaq.push(['_trackPageview']); 
+(function() { 
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })(); 
+</script>
+</head>
+<body>
+<noscript>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="no-js-warning">
+<img src="https://s.cdn-care.com/img/js_error_msg.gif?v=150526" class="img-responsive error-img" alt="Please Enable Javascript to use all of the features on this site.">
+</div>
+</div>
+</div>
+</div>
+</noscript>
+<div class="content-main">
+<div class="row-offcanvas wrapper">
+<div class="main">
+<div class="navbar navbar-static-top navbar-default">
+<div class="visitor-header">
+<div class="border-top"></div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="navbar-header">
+<a class="navbar-toggle btn-menu" id="toggle" href="javascript:;">
+</a>
+<div class="care-logo-nav">
+<a href="/"><img src="https://s.cdn-care.com/img/vw/care-logo-notagline-265.png?v=150526" alt="Care.com - There for you"></a>
+</div>
+<div class="navbar-search">
+<a href="javascript:;" data-toggle="collapse" data-target=".navbar-collapse-searchbar" class="searchIcon">
+</a>
+</div>
+<div class="l0-links">
+<span class="l0-link-basic"><a href="/login-p1002-q61193382.html" class="log-in">Log in</a><span class="pipe"></span><a href="#join-now-form" class="join-now">Join now</a></span>
+<span class="l0-global-links visible-lg">
+<div class="l0-link seg-link"><a href="/child-care">Child Care</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="/senior-care">Senior Care</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="/pet-care">Pet Care</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="/housekeeping">Housekeeping</a></div>
+<div class="l0-link"><span class="pipe"></span></div>
+<div class="l0-link seg-link"><a href="http://www.care.com/how-it-works-p1008.html">How it works</a></div>
+<div class="l0-link"><a href="/login-p1002-q61193382.html" class="log-in log-in-lg">Log in</a></div>
+<div class="join-wrap"><a class="btn btn-primary join-now join-lg" href="#join-now-form">Join now</a></div>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navbar-collapse-searchbar collapse">
+<script>
+  if(typeof careConfig == 'undefined') careConfig = {};
+  careConfig.autoSuggestLayout = "grouped";
+</script>
+<div class="unified-search UnifiedSearch clearfix">
+<form action="/vis/captureUnifiedSearchTest" name="unifiedSearch" method="get" id="unifiedSearchForm">
+<input type="hidden" name="pageNumber" value="1">
+<input type="hidden" name="action" value=""/>
+<input type="hidden" name="showResultsPage" value=""/>
+<input type="hidden" name="suggestionStemmed" value="false"/>
+<div class="us-inner">
+<div class="row us-search-row">
+<div class="col-xs-9 col-sm-10 col-md-9 search-box">
+<input type="search" name="query" class="form-control" placeholder="Search" value=''/>
+</div>
+<div class="col-xs-3 col-sm-2 col-md-3 submit-button go">
+<button type="submit" class="btn btn-default">Go</button>
+</div>
+</div>
+</div>
+<div class="row us-loc-row">
+<div class="us-inner">
+<div class="row">
+<div class="col-xs-12">
+<span class="location-near">Near:</span>
+<span class="current-location"></span>
+<a href="javascript:;" class="change-location-link">Change location</a>
+<input type="hidden" name="location" value="">
+<input type="hidden" name="url" value="">
+<span class="icon-chevron-right"></span>
+</div>
+</div>
+</div>
+</div>
+</form>
+<div class="change-location">
+<div class="cl-inner">
+<form class="form-inline" role="form" action="javascript:;">
+<div class="form-group">
+<div class="row">
+<div class="col-xs-12">
+<label for="changeLocation">Change your location</label>
+</div>
+<div class="col-xs-8">
+<input type="text" class="form-control">
+</div>
+<div class="col-xs-4">
+<button type="submit" class="btn btn-info location-update"><span class="glyphicon glyphicon-ok"></span></button>
+<button type="button" class="btn btn-default location-cancel"><span class="glyphicon glyphicon-remove"></span></button>
+</div>
+<div class="col-xs-12 use-current-location">
+<a href="javascript:;">Use my current location</a>
+</div>
+</div>
+</div>
+</form>
+<div class="tick"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-content">
+<div class="sidebar-offcanvas">
+<div class="container">
+<div class="left-nav">
+<div class="row logo-wrap">
+<div class="col-xs-12 col-sm-4">
+<a href="/">
+<img src="/img/vw/visitorCarelogo.png" class="care-logo">
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<!-- <div class="sub-row"> -->
+<div class="sub-row sub-row-join-now">
+<a class="btn btn-primary join-now" href="#join-now-form">Join now</a>
+</div>
+<!-- </div> -->
+<div class="sub-row-last">
+<span class="sub-row-header">Already a member? </span>
+<span class="sub-row-link"><a href="/login-p1002-q61193382.html">Sign in</a></span>
+</div>
+</div>
+</div>
+<div class="row row-divider"></div>
+<div class="row">
+<div class="col-xs-12 col-sm-4">
+<div class="care-options">
+<ul>
+<li><a href="http://www.care.com/">Home</a></li>
+<li><a href="/child-care">Child Care</a></li>
+<li><a href="/senior-care">Senior Care</a></li>
+<li><a href="/pet-care">Pet Care</a></li>
+<li><a href="/housekeeping">Housekeeping</a></li>
+<li><a href="http://www.care.com/how-it-works-p1008.html">How it works</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row row-divider"></div>
+</div>
+</div>
+</div>
+<div class="right-bar">&nbsp;</div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<!-- MAIN BODY /WEB-INF/jsp/page/visitorExperience/visitorJobView.jsp BEGIN -->
+<div class="page-content">
+<div class="row">
+<div class="col-xs-12">
+<div class="profileLetterBox">
+<div class="col-xs-12 col-sm-12 col-md-12">
+<div class="visible-lg">
+<div class="pagination-block col-md-2">
+</div>
+</div>
+<div class="letterbox col-xs-12 col-md-8 clearfix">
+<div class="col-xs-3 col-md-2 job-logo">
+<img src="https://d1z3744m6z2h75.cloudfront.net/aws/photo/160X120/29/14548229_vmhha3916scjyQk3ovTDZ3EQBEM0oC?v=1" class="img-responsive img-circle" alt="provider">
+</div>
+<div class="col-xs-9 job-info">
+<h1 class="headline">House Cleaner Needed In Washington For 2 Bedroom, 2 Bathroom Home. </h1>
+<div class="sub-headline">Washington, DC</div>
+<div class="join-cta">
+<a class="btn btn-primary join-now" href="#join-now-form">Join
+now to apply</a>
+<div class="visible-xs sign-in-link"><a href="/login-p1002-q61193382.html">or sign in now</a></div>
+</div>
+</div>
+</div>
+<div class="visible-lg">
+<div class="pagination-block col-md-2">
+</div>
+</div>
+</div>
+</div>
+<div class="row letterbox-seperator"></div>
+</div>
+</div>
+</div>
+<div class="profile-view">
+<div class="row">
+<div class="col-xs-12 visible-lg col-lg-8 col-lg-offset-2">
+<div class="breadCrumb">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="job-desc info-block">
+<div class="display-label">About the job</div>
+<div class="display-text more-desc section-content">
+Washington home needs a one-time house cleaner. Ideal match will meet the requirements below. Hello I would like to find cleaners who work hard and like to take care of a persons home. I live in a condo and have unfinished hard wood floors and marble that needs special care. We use steam mops and have our own cleaning supplies.
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="job-req info-block">
+<div class="display-label">Job basics</div>
+<div class="section-content">
+<div class="display-text more-info">
+<div class="row">
+<div class="col-xs-6">How often</div>
+<div class="col-xs-6"><div class="need">
+One-time
+</div></div>
+</div>
+</div>
+<div class="display-text more-info">
+<div class="row">
+<div class="col-xs-6">Date</div>
+<div class="col-xs-6"><div class="need">
+Mon, May 18, 2015
+</div></div>
+</div>
+</div>
+<div class="display-text more-info">
+<div class="row">
+<div class="col-xs-6">Rate</div>
+<div class="col-xs-6"><div class="need">
+$140 Flat Rate<br/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="looking-for info-block">
+<div class="display-label">Who we're looking for</div>
+<div class="section-content">
+<div class="display-text more-info">
+<div class="row">
+<div class="col-xs-10 col-sm-11">Comfortable with pets</div>
+<div class="col-xs-2 col-sm-1">
+<span class="visible-xs"><img src="https://s.cdn-care.com/img/vw/tick-green.png?v=150526" class="img-responsive" alt="provider"></span>
+<span class="visible-sm visible-md visible-lg"><img src="https://s.cdn-care.com/img/vw/tick-green-lg.png?v=150526" class="img-responsive tick-img" alt="provider"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="kind-of-care info-block">
+<div class="display-label">Job details</div>
+<div class="section-content">
+<div class="display-text more-info">
+<div class="row">
+<div class="col-xs-12">
+Home Size: 2 bedroom
+s
+, 2 bathroom
+s
+</div>
+</div>
+</div>
+<div class="display-text more-info">
+<div class="row">
+<div class="col-xs-12">
+Frequency:
+One time only
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+<div class="info-block job-schedule">
+</div>
+</div>
+</div>
+<div class="wrapper"></div>
+</div>
+<link rel="stylesheet" href="https://s.cdn-care.com/css/cms/convoJoin.css?v=150526">
+<div class="cj-divider"></div>
+<div class="ConvoJoin" id="join-now-form">
+<div class="steps">
+<div class="step cj-joinNow">
+<div class="cj-headline">Join free today</div>
+<div class="cj-sub-headline">Sign up now! It only takes a few minutes.</div>
+<div class="options">
+<a class="btn btn-primary" href="javascript:;">Let's go</a>
+</div>
+</div>
+<div class="step cj-memberType">
+<div class="cj-headline">I'd like to...</div>
+<div class="options">
+<a class="option" data-member-type="seeker">
+Find care
+</a>
+<a class="option" data-member-type="sitter">
+Apply to care jobs
+</a>
+</div>
+</div>
+<div class="step cj-bucket">
+<div class="cj-headline">Who needs care?</div>
+<div class="options">
+<a class="option option-children" data-service-id="CHILDCARE">My kids</a>
+<a class="option option-seniors" data-service-id="SENIRCARE">My parents</a>
+<a class="option option-pets" data-service-id="PETCAREXX">My pets</a>
+<a class="option option-home" data-service-id="HOUSEKEEP">My household</a>
+</div>
+</div>
+<div class="step cj-seekerService">
+<div class="cj-headline clearfix"><div class="headline-inner">What type of <span class="cj-service"></span>?</div></div>
+<div class="options options-child-care">
+<a class="option option-babysitter" data-sub-service="babysitter">Babysitter</a>
+<a class="option option-nanny" data-sub-service="nanny">Nanny</a>
+<a class="option option-child-care-center" data-enrolled-from="childCareCenter">Child care center</a>
+<a class="option option-special-needs" data-service-id="SPCLNEEDS" data-sub-service="specialNeeds">Special needs</a>
+<a class="option option-tutoring" data-service-id="TUTORINGX" data-sub-service="tutoring">Tutoring and lessons</a>
+<a class="option option-date-night" data-enrolled-from="DATE_NIGHT" data-sub-service="dateNight">Date night</a>
+<a class="option option-after-school" data-merchandize-job-type="afterSchoolChildCare" data-sub-service="afterSchoolCare">After school</a>
+<a class="option option-not-sure" href="javascript:;">I'm not exactly sure</a>
+</div>
+<div class="options options-pet-care">
+<a class="option option-pet-sitter">Pet sitter</a>
+<a class="option option-dog-walker">Dog walker</a>
+<a class="option option-pet-day-care">Pet day care</a>
+<a class="option option-boarding">Boarding/kenneling</a>
+<a class="option option-groomer">Groomer</a>
+<a class="option option-vet">Veterinarian</a>
+</div>
+<div class="options options-home-care">
+<a class="option option-housekeeper">Housekeeper</a>
+<a class="option option-cleaning-agency">Cleaning agency</a>
+<a class="option option-house-sitter">House sitter</a>
+<a class="option option-personal-assistant">Personal assistant</a>
+</div>
+<div class="options options-senior-care">
+<a class="option option-in-home">In-home care</a>
+<a class="option option-transportation">Transportation</a>
+<a class="option option-errands">Errands</a>
+<a class="option option-retirement">Retirement facility</a>
+<a class="option option-dementia">Dementia care</a>
+<a class="option option-companion">Companion care</a>
+</div>
+</div>
+<div class="step cj-howSoon">
+<div class="cj-headline">When do you need <span class="cj-service"></span>?</div>
+<div class="options">
+<a class="option option-right-now" data-how-soon="I">Right now</a>
+<a class="option option-within-week" data-how-soon="W">Within a week </a>
+<a class="option option-within-month" data-how-soon="M">Within a month or two</a>
+<a class="option option-just-browsing" data-how-soon="N">Just browsing</a>
+</div>
+</div>
+<div class="step cj-providerService">
+<div class="cj-headline">What services do you offer?</div>
+<div class="options">
+<a class="option option-p-babysitting" data-sitter-service="babysitter" data-service-id="CHILDCARE">Babysitting and nannying</a>
+<a class="option option-p-special-needs" data-sitter-service="specialNeeds" data-service-id="SPCLNEEDS">Special needs care</a>
+<a class="option option-p-tutoring" data-sitter-service="tutoring" data-service-id="TUTORINGX">Tutoring or private lessons</a>
+<a class="option option-p-center-care" data-sitter-service="babysitter" data-service-id="CHILDCARE">Center-based child care</a>
+<a class="option option-p-senior-care" data-sitter-service="seniorCare" data-service-id="SENIRCARE">Senior care</a>
+<a class="option option-p-housekeeping" data-sitter-service="housekeeping" data-service-id="HOUSEKEEP">Housekeeping</a>
+<a class="option option-p-in-home-child-care" data-sitter-service="familyCare" data-service-id="CHILDCARE">In-home child care</a>
+<a class="option option-p-pet-care" data-sitter-service="petCare" data-service-id="PETCAREXX">Pet care</a>
+<a class="option option-p-errands" data-sitter-service="careGigs" data-service-id="CAREGIGSX">Errands and house sitting</a>
+</div>
+</div>
+<div class="step cj-providerType">
+<div class="cj-headline">What best describes you?</div>
+<div class="options">
+<a class="option option-individual" data-sitter-type="INDIVIDUAL">Individual </a>
+<a class="option option-small-business" data-sitter-type="COMPANY">Small business</a>
+</div>
+</div>
+<div class="step cj-enroll">
+<div class="hidden-xs">
+<div class="cj-headline">Last, but not least...</div>
+<div class="cj-sub-headline">Fill in the blanks to create your account.</div>
+</div>
+<div class="visible-xs">
+<div class="cj-headline cj-headline-xs">Thanks&mdash;you're almost there.</div>
+<div class="cj-sub-headline cj-sub-headline-xs">Create your login below.</div>
+</div>
+<div class="visible-md visible-sm visible-lg enroll-desktop">
+<form name="smartEnrollmentForm" id="smartEnrollmentForm" method="post" action="/visitor/intermediateEnrollmentSiteContext.do" autocomplete="off">
+<div class="form-group">
+<label for="firstName" class="fromLabel">First Name</label> <input type="text" name="firstName" maxlength="25" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="lastName" class="fromLabel">Last Name</label> <input type="text" name="lastName" maxlength="35" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="addressLine1" class="fromLabel">Address</label> <input type="text" name="addressLine1" maxlength="55" value="" class="form-control">
+</div>
+<div class="form-group cityZip-ct">
+<label for="cityStateZIP" class="fromLabel">City, State and ZIP</label> <input type="text" name="cityStateZIP" maxlength="60" value="Washington, DC 20036" id="cityStateZIP" class="form-control input-csz">
+</div>
+<div class="form-group">
+<label for="email" class="fromLabel">Email</label> <input type="text" name="email" maxlength="65" value="" class="form-control">
+</div>
+<div class="form-group">
+<label for="password" class="fromLabel">Password</label> <input type="password" name="password" maxlength="30" value="" class="form-control" autocomplete="off">
+</div>
+<div id="apply-job" class="apply-job-ct">
+<div class="form-group">
+<label for="sitterService" class="fromLabel">I am a</label>
+<select name="sitterService" class="form-control"><option value=""></option>
+<option value="babysitter">Babysitter</option>
+<option value="nanny">Nanny</option>
+<option value="familyCare">Child Care Center</option>
+<option value="familyCare">Family Child Care (In-Home Daycare)</option>
+<option value="specialNeeds">Special Needs Provider</option>
+<option value="tutoring">Tutor</option>
+<option value="tutoring">Private Lesson Instructor</option>
+<option value="seniorCare">Senior Care Provider</option>
+<option value="homeCare">Nurse</option>
+<option value="petCare">Pet Care Provider</option>
+<option value="housekeeping">Housekeeper</option>
+<option value="careGigs">Errands & Odd Jobs Provider</option></select>
+</div>
+</div>
+<div class="form-group">
+<label for="howDidYouHearAboutUs" class="fromLabel">How did you hear about us?</label>
+<select name="howDidYouHearAboutUs" class="form-control how-did-you-hear"><option value=""></option>
+<option value="HWDHABTUS010">Group Member</option>
+<option value="HWDHABTUS009">Email</option>
+<option value="HWDHABTUS011">Billboard Ad</option>
+<option value="HWDHABTUS003">Radio Ad</option>
+<option value="HWDHABTUS002">TV Ad</option>
+<option value="HWDHABTUS001">Friends or Family</option>
+<option value="HWDHABTUS006">Press Coverage (TV, Newspaper, Magazine, Blogs, etc.)</option>
+<option value="HWDHABTUS005">Website Ad</option>
+<option value="HWDHABTUS008">Online Community (Facebook, Twitter, Mom&#39;s Group, etc)</option>
+<option value="HWDHABTUS013">Transit Advertising</option>
+<option value="HWDHABTUS004">Web Search (Google, etc)</option>
+<option value="HWDHABTUS007">Other</option></select>
+</div>
+<div class="form-group">
+<input type="text" name="howDidYouHearAboutUsOther" maxlength="50" value="" class="form-control how-did-you-hear-other hidden" placeholder="Please Specify">
+</div>
+<div class="legal-text">By clicking "Join now", you agree to our <br/><span><a href="http://www.care.com/terms-of-use-p1012.html" class="link">Terms of Use</a></span> and
+<span><a href="http://www.care.com/privacy-policy-p1013.html" class="link">Privacy Policy</a></span>.</div>
+<div><input type="submit" class="btn btn-primary join-now-btn" value="Join now"/></div>
+<input type="hidden" name="validationReturnURL" value="/job/5648259-house-cleaner-needed-in-washington-for-2-bedroom-2-bathroom-home">
+<input type="hidden" name="sendNewsletter" value="true">
+<input type="hidden" name="sendEmails" value="true">
+<input type="hidden" name="sendAlerts" value="true">
+<input type="hidden" name="allowCaregiversToContact" value="true">
+<input type="hidden" name="allowCaregiversToTrackProfileViewsFromMe" value="true">
+<input type="hidden" name="vhpShortForm" value="true">
+<input type="hidden" name="vhpEnrollmentPage" value="true">
+<input type="hidden" name="membershipPlan.services" value="CHILDCARE">
+<input type="hidden" name="membershipPlan.pricingPlan" value="BASICPLAN">
+<input type="hidden" name="membershipPlan.pricingScheme" value="APR1412">
+<!--  set for enrollmentSourcePage -->
+<input type="hidden" name="VisitorPlatformJob" value="true">
+<div class="convo-join-hidden-fields">
+<input type="hidden" name="memberType" value="sitter">
+<input type="hidden" name="serviceId" value="">
+<input type="hidden" name="enrolledFrom" value="">
+<input type="hidden" name="sitterService" value="">
+<input type="hidden" name="sitterType" value="INDIVIDUAL">
+<input type="hidden" name="subService"/>
+<input type="hidden" name="merchandizeJobType" value=""/>
+<input type="hidden" name="attr-seeker.howSoonIsCareNeeded" value=""/>
+<input type="hidden" name="attr-seeker.careHoursPerWeek" id="fullTimeNanny"/>
+<input type="hidden" name="hoursOfCare" value="" id="hours-of-care">
+</div>
+<input type="hidden" name="convoJoin" value="true"/>
+</form>
+</div>
+<div class="visible-xs">
+<div class="seeker-mobile-step-1">
+<form action="javascript:;" method="post" name="seeker-mobile-step-1-form">
+<div class="form-group">
+<label for="email" class="fromLabel">Email</label> <input type="email" class="form-control" name="email"/>
+</div>
+<div class="form-group">
+<label for="password" class="fromLabel">Password</label> <input type="password" class="form-control" name="password"/>
+</div>
+<div class="form-group">
+<label for="zip" class="fromLabel">ZIP Code</label> <input type="number" class="form-control" name="zip"/>
+</div>
+<div class="legal-text">By clicking "Join now", you agree to our <br/><span><a href="http://www.care.com/terms-of-use-p1012.html" class="link">Terms of Use</a></span> and
+<span><a href="http://www.care.com/privacy-policy-p1013.html" class="link">Privacy Policy</a></span>.</div>
+<input type="submit" class="btn btn-primary" value="Join now"/>
+</form>
+</div>
+<div class="seeker-mobile-step-2">
+<form name="mobileSeekerEnrollmentForm" method="post" action="/mobile/member/captureBasicEnroll.do" autocomplete="off" class="seeker-mobile-step-2-form">
+<div class="form-group">
+<label for="firstName" class="fromLabel">First name</label>
+<input type="text" class="form-control" name="firstName" autoCorrect="off" autoCapitalize="off"/>
+</div>
+<div class="form-group">
+<label for="lastName" class="fromLabel">Last name</label>
+<input type="text" class="form-control" name="lastName" autoCorrect="off" autoCapitalize="off"/>
+</div>
+<div class="form-group">
+<label for="addressLine1" class="fromLabel">Address</label>
+<input type="text" class="form-control" name="addressLine1"/>
+</div>
+<div class="form-group">
+<label for="cityStateZIP" class="fromLabel">City, State and ZIP</label>
+<input type="text" class="form-control input-csz" name="cityStateZIP"/>
+</div>
+<div class="form-group">
+<label for="howDidYouHearAboutUs" class="fromLabel">How did you hear about us?</label>
+<select name="howDidYouHearAboutUs" class="form-control how-did-you-hear"><option value=""></option>
+<option value="HWDHABTUS010">Group Member</option>
+<option value="HWDHABTUS009">Email</option>
+<option value="HWDHABTUS011">Billboard Ad</option>
+<option value="HWDHABTUS003">Radio Ad</option>
+<option value="HWDHABTUS002">TV Ad</option>
+<option value="HWDHABTUS001">Friends or Family</option>
+<option value="HWDHABTUS006">Press Coverage (TV, Newspaper, Magazine, Blogs, etc.)</option>
+<option value="HWDHABTUS005">Website Ad</option>
+<option value="HWDHABTUS008">Online Community (Facebook, Twitter, Mom&#39;s Group, etc)</option>
+<option value="HWDHABTUS013">Transit Advertising</option>
+<option value="HWDHABTUS004">Web Search (Google, etc)</option>
+<option value="HWDHABTUS007">Other</option></select>
+</div>
+<div class="form-group">
+<input type="text" name="howDidYouHearAboutUsOther" maxlength="50" value="" class="form-control how-did-you-hear-other hidden" placeholder="Please Specify">
+</div>
+<div class="legal-text">By clicking "Join now", you agree to our <br/><span><a href="http://www.care.com/terms-of-use-p1012.html" class="link">Terms of Use</a></span> and
+<span><a href="http://www.care.com/privacy-policy-p1013.html" class="link">Privacy Policy</a></span>.</div>
+<input type="submit" class="btn btn-primary" value="Join now"/>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="cj-footer">
+<div>Already a member? <a href="/login-p1002.html">Sign in</a></div>
+<div class="go-back">Not looking for <span class="cj-service"></span>? <a href="javascript:;" class="start-over">Go back</a></div>
+</div>
+</div>
+<script>
+  addLoadEvent(function(){
+    if($('.ConvoJoin').length){
+      require([
+        'care/src/amd/ConvoJoin'
+      ], function(){
+        $('.ConvoJoin').ConvoJoin(careConfig.convoJoinConfig = {
+          showSubVerticalImages: true,
+          showNotSure: false,
+          nannyWording : true
+        });
+      });
+    }
+  });
+</script>
+<script>
+  try{
+    careConfig.convoDeepLink = {"memberType":{"memberType":"sitter"},"providerService":{"serviceId":"HOUSEKEEP","sitterService":"housekeeping"}};
+  }catch(err){}
+</script>
+<input type="hidden" name="rxSource" value="" id="rxSource">
+<input type="hidden" name="rxCampaign" value="" id="rxCampaign">
+<input type="hidden" name="rxMedium" value="" id="rxMedium">
+<input type="hidden" name="rxGroup" value="" id="rxGroup">
+</div>
+<!-- MAIN BODY /WEB-INF/jsp/page/visitorExperience/visitorJobView.jsp END -->
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<div class="social-footer">
+<a href="http://www.facebook.com/caredotcom" target="_blank">
+<img src="/img/icons/icn-facebook.png" alt="Facebook"/>
+</a>
+<a href="http://twitter.com/caredotcom" target="_blank">
+<img src="/img/icons/icn-twitter.png" alt="Twitter"/>
+</a>
+<a href="http://www.youtube.com/user/caredotcom" target="_blank">
+<img src="/img/icons/icn-youtube.png" alt="YouTube"/>
+</a>
+<a href="https://plus.google.com/105649189868566206085/" target="_blank">
+<img src="/img/icons/icn-g+.png" alt="Google"/>
+</a>
+<a href="http://pinterest.com/caredotcom/" target="_blank">
+<img src="/img/icons/ico-pinterest.png" alt="Pinterest"/>
+</a>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="company-footer col-xs-12">
+<a href="http://www.care.com/company-overview">About Us</a>
+<span class="pipe">|</span>
+<a href="/care-directory">Care Directory</a>
+<span class="pipe">|</span>
+<a href="http://www.care.com/business-p1369-q43501273.html">For Businesses</a>
+<span class="pipe post-business">|</span>
+<div class="visible-xs"></div>
+<a href="http://www.care.com/terms-of-use-p1012.html">Terms of Use</a>
+<span class="pipe">|</span>
+<a href="http://www.care.com/privacy-policy-p1013.html">Privacy Policy</a>
+</div>
+</div>
+<div class="row">
+<div class="legal-footer col-xs-12 col-md-8">
+<p>
+Care.com is the world's largest online destination for care.
+We connect families with great caregivers and caring companies to help you be there for the ones you love.
+</p>
+<p>
+Care.com does not employ, recommend or endorse any care provider or care seeker nor is it
+responsible for the conduct of any care provider or care seeker. Care.com provides information
+and tools to help care seekers and care providers connect and make informed decisions.
+However, each individual is solely responsible for selecting an appropriate care provider or care seeker for
+themselves or their families and for complying with all applicable laws in connection with any employment
+relationship they establish. Care.com does not provide medical advice, diagnosis or treatment or engage
+in any conduct that requires a professional license.
+</p>
+<p>
+Care.com and "There for you" are service marks or registered service marks of Care.com, Inc.
+</p>
+<p class="service-marks">
+<span class="copy-write">&copy;</span>
+2007-2015 Care.com, Inc. All rights reserved.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://s.cdn-care.com/js/vw/vendor/jquery-1.11.0/jquery.min.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/vendor/bootstrap-3.0.3/bootstrap.min.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/requireJS/require.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/jquery/jquery.ui.widget.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/care/src/care.js?v=150526"></script>
+<script>
+      define('jquery', function(){return $;}); // this is needed to register the 'jquery' module so other (some 3rd party) scripts can specify it as a dependency
+      define('care', function(){return care;}); // same for 'care'
+    </script>
+<script type="text/javascript" src="https://s.cdn-care.com/js/vw/visitorMain.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/joinNowForm.js?v=150526"></script>
+<script src="https://s.cdn-care.com/js/vw/profileJobView.js?v=150526"></script>
+<!--[if lte IE 9]>
+      
+    <![endif]-->
+<!-- TODO add modernizr (in head? w/ which checks enabled?) -->
+<!-- TODO add GUA (below footer) -->
+<script type="text/javascript">
+var ut_params = ut_params || [];ut_params.push("UT-774527768");//version:0.4
+(function() {var ut = document.createElement('script'); ut.type = 'text/javascript'; ut.async = true;
+ut.src = (("https:" == document.location.protocol) ? "https://" : "http://") + 'app.ubertags.com/javascripts/ubertags.js';
+var script = document.getElementsByTagName('script')[0]; script.parentNode.insertBefore(ut, script);})();
+if(typeof czenConfig == 'undefined') czenConfig = {}; if(typeof czenConfig.trackingPixel == 'undefined') czenConfig.trackingPixel = {};czenConfig.trackingPixel.memberId='';
+czenConfig.trackingPixel.sessionId='dsiqONGUXn8VJmY6PnWsq3cJ.dom-ord-prodmobile-03';
+</script>
+<script type="text/javascript">$(function(){
+care.uberTagsLoad('/us-subscription/segment/nonmember/');
+care.uberTagsLoad('/us-subscription/segment/vertical-interest/');
+care.uberTagsLoad('/us-subscription/segment/provider/jobdetails/');
+});
+</script>
+<!-- BOTTrackingPixel : START -->
+<script language="JavaScript" type="text/javascript"> document.write('<img src="/trackVisit.trace1432958635424" width="1" height="1" border="0"/>');</script>
+<!-- BOTTrackingPixel : END -->
+</body>
+</html>
+http://www.care.comjavascript:;---unknown errorhttp://www.care.comjavascript:;---unknown errorhttp://www.care.comjavascript:;---unknown errorhttp://www.care.comjavascript:;---unknown errorhttp://www.care.comjavascript:;---unknown errorhttps://www.care.com/one-time-housekeeping-jobs---403http://www.care.com/job/5597939-looking-for-a-dependable-house-cleaner-for-family-living-in-coppell?pcp=46572782---unknown errorhttp://www.care.com/job/5670986-looking-for-a-dependable-house-cleaner-for-family-living-in-villa-park?pcp=46572782---unknown errorhttp://www.care.com/p/nicholasn153/pc?pcp=47633461---unknown errorhttp://www.care.com/p/nicholasn153/pc?pcp=47633461---unknown errorhttp://www.care.com/job/5740088-looking-for-a-dependable-house-cleaner-for-family-living-in-santa-clara?pcp=46572782---unknown errorhttp://www.care.com/job/5801004-seeking-one-time-deep-home-clean?pcp=46572782---unknown errorhttps://www.care.com/one-time-housekeeping-jobs-page2---unknown errorhttp://www.care.com/job/5670986-looking-for-a-dependable-house-cleaner-for-family-living-in-villa-park?pcp=46572782---unknown errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http errorhttp://www.care.com/job/5832038-house-cleaner-needed-in-davis-for-3-bedroom-3-bathroom-home?pcp=46572782---unknown errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http errorhttp://www.care.com/job/5857032-house-cleaner-needed-in-mckinney-for-3-bedroom-2-bathroom-home?pcp=46572782---http error

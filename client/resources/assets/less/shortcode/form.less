@@ -1,0 +1,59 @@
+//
+// FORM
+// --------------------------------------------------
+.oe-form-label {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.oe-select {
+	position: relative;
+	select {
+		position: relative;
+		z-index: 11;
+	    -webkit-appearance:none;
+	    -moz-appearance:none;
+	    appearance:none;
+	    
+	    margin: 0;
+		height: 50px;
+		padding: 1em 5.5em 1em 1.8em;
+		line-height: 1.5em;
+	    outline: 0;
+	    .border-radius(0);
+	    .box-shadow(0 0 1px rgba(0, 0, 0, 0.05););
+		
+	    display: inline-block;
+	    cursor:pointer;
+		
+	    background-color: transparent;
+	    border: 1px solid @textCaptain;
+		color: @textCaptain;
+		
+	}
+    .fa {
+		background: @bgColor;
+		border-right: 1px solid @textCaptain;
+        position: absolute;
+        top: 1px;
+        right: 0px;
+        z-index: 11;
+        pointer-events:none;
+        padding: 1em 1.2em 0.9em 1.4em;
+        line-height: 1.5em;
+        color: @textCaptain;
+        .transition(all ease-out @animateSpeed);
+
+        &:after {
+        	content: '';
+			display: block;
+			position: absolute;
+			top: 20%;
+			left: 0;
+			width: 1px;
+			height: 60%;
+			background-color: #dddddd;
+        }
+    }
+    
+}

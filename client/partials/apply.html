@@ -1,0 +1,128 @@
+
+<main class="oe-shortcode oe-shortcode-tab-tour">
+    <div class="oe-top-page">
+        <div class="container">
+            <div class="oe-breadcrumb">
+          
+            </div>
+        </div>
+    </div>
+    
+    <div class="container oe-main-content" ng-show="success.content_url">
+		<div class="row">
+			<div class="oe-column-9 col-md-9 col-sm-12 oe-main-col">
+				<article class="oe-page-article">
+
+					<h6>Thank You So Much!</h6>
+					
+					<p class="oe-mbot-2x">
+						Dear
+					</p>
+
+					<p>
+						We are pleased that you have chosen SnappyJob for your job/work needs. We hope you are enjoying the convenience, quality of our service. 
+						The growth we’ve experienced over the years is because of customers like you, who faithfully support our business by choosing SnappyJob as a job portal for seeking a worker/employee.
+						We appreciate your trust, and we’ll do our best to continue to give you the kind of service you deserve.
+					Below is the url to go to the job you just applied:
+					</p>
+
+					<p>
+						<a href="{{success.content_url}}">{{success.content_url}}</a>
+					</p>
+
+					<p>
+						Also an email was sent to you to confirm about your apply.
+					</p>
+
+					<p>
+						Thanks again, for your business.
+					</p>
+
+					<p>
+						Sincerely, 
+					</p>
+
+					<div class="form-group col-xs-12" class="form-btns">
+						<button class="btn oe-btn" ng-click="toWall()">
+							<span>APPLY NEW JOB</span>
+						</button>
+
+						<button class="btn oe-btn" ng-click="toItem()">
+							<span>GO TO APPLIED JOB</span>
+						</button>
+					</div>
+
+				</article>
+			</div>
+
+			<div class="oe-column-3 col-md-3 col-sm-12 oe-sub-col">
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<div class="container oe-main-content" ng-show="!success.content_url">
+		<div class="row">
+			<div class="oe-column-9 col-md-9 col-sm-12 oe-main-col">
+				<div class="oe-shortcode-article">
+					<div class="oe-box-tab">
+						<h2>Send Email To The SnappyJob Employer.</h2>
+						<div class="tab-content oe-tabs-content">
+							<div class="tab-pane">
+								<div class="row">
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">
+											Email
+											<small class="invalid" ng-show="!email.length">- Required - This will only be visible to the job poster.</small>
+										</label>
+										<input ng-model="email" type="email" class="form-control input-lg" name="title" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/" required>
+									</div>
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">
+											Titlte 
+											<small class="invalid" ng-show="!title.length">- Required</small>
+										</label>
+										<input ng-model="title" type="text" class="form-control input-lg" name="title" required>	
+									</div>
+
+									<div class="form-group col-xs-12">
+										<label class="oe-form-label">
+											Body 
+											<small class="invalid" ng-show="!body.length">- Required</small>
+										</label>
+										<p class="side-note">The more information you provide, the easier it would be to get close to getting the job</p>
+										<textarea ng-model="body" name="content" rows="10" class="form-control"></textarea>
+									</did>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="oe-column-3 col-md-3 col-sm-12 oe-sub-col">
+
+			</div>
+
+
+			<div class="form-group col-xs-12" ng-show="email.length && title.length && body.length" class="form-btns">
+				<button class="btn oe-btn" type="submit" ng-click="submit()">
+					<span>Apply</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	
+</main>
+
+
+
+
+
+
+

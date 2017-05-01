@@ -1,0 +1,157 @@
+.oe-pricing-table {
+    margin: 30px 45px 50px;
+
+    .oe-pricing-column {
+        border-left: 0;
+        width: 100%;
+        &.active {
+            margin-left: -1px;
+            margin-right: -1px;
+        }
+    }
+
+    &.two-cols {
+        .oe-pricing-column {
+            width: 50%;
+        }
+    }
+    &.three-cols {
+        .oe-pricing-column {
+            width: 33.3333%;
+        }
+    }
+    &.four-cols {
+        .oe-pricing-column {
+            // width: 25%;
+        }
+    }
+    &.five-cols {
+        .oe-pricing-column {
+            width: 20%;
+        }
+    }
+    // Space between columns
+    &.oe-column-spacing {
+        margin: 30px 30px 50px;
+        .oe-pricing-column {
+            margin-left: 1%;
+            border-left: 1px solid @lineBorder;
+            &:first-child {
+                margin-left: 0;
+            }
+            &.active {
+                border-left: 1px solid @reflectBgColor;
+            }
+            width: 97%;
+        }
+        &.two-cols {
+            .oe-pricing-column {
+                width: 49.5%;
+            }
+        }
+        &.three-cols {
+            .oe-pricing-column {
+                width: 32.66667%;
+            }
+        }
+        &.four-cols {
+            .oe-pricing-column {
+                //width: 24.25%;
+            }
+        }
+        &.five-cols {
+            .oe-pricing-column {
+                width: 19.2%;
+            }
+        }
+    }
+    
+	// Override owl carousel
+	&.owl-carousel {
+		.owl-wrapper-outer {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+	}
+}
+
+.oe-pricing-column {
+    overflow: hidden;
+    padding: 0;
+    background-color: @bgColor;
+    border: 1px solid @lineBorder;
+
+    &.active {
+        position: relative;
+        z-index: 50;
+        margin-top: -30px;
+        margin-bottom: -30px;
+        padding-bottom: 40px;
+        border: 1px solid @reflectBgColor;
+
+        .oe-pricing-head {
+            height: 180px;
+            background-color: @reflectBgColor;
+
+            h3 {
+                color: @bgColor;
+            }
+        }
+    }
+}
+.oe-pricing-head {
+    height: 160px;
+    background-color: @pricingHead;
+
+    h3 {
+        margin: 0;
+        padding: 35px 0 0;
+        color: @textCaptain;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+.oe-pricing-price {
+    width: 130px;
+    height: 130px;
+    margin: -80px auto 0;
+    padding: 35px 0 0;
+    background-color: @bgColor;
+    text-align: center;
+    .fontRegular;
+    .circle;
+
+    .cost {
+        display: block;
+        color: @textCaptain;
+        font-size: 2.56em;
+        line-height: 1em;
+    }
+    .unit {
+        color: @linkColor;
+    }
+}
+.oe-pricing-body {
+    margin: 30px 0;
+    ul {
+        li {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid @lineBorder;
+            &:first-child {
+                border-top: 1px solid @lineBorder;
+            }
+            .oe-li {
+                top: 1em;
+                left: 10px;
+            }
+        }
+    }
+}
+.oe-pricing-foot {
+    text-align: center;
+    margin-bottom: 35px;
+}
+

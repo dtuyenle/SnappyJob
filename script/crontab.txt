@@ -1,0 +1,19 @@
+most recent
+15 14 * * * /bin/bash ~/closebytuyen/script/crawler/crawl/crawl.sh
+
+
+
+47 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/ziprecruiter.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/snagajob.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/shiftgig.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/jobtocareer.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/jobshiringnearme.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/indeed.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/groovejob.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/coolworks.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+55 14 * * * python /home/ec2-user/closebytuyen/script/crawler/crawl/care.py >> /home/ec2-user/closebytuyen/script/log/script_output_crawl.log 2>&1
+
+3 18 * * * /bin/bash /home/ec2-user/closebytuyen/script/import/import.sh >> /home/ec2-user/closebytuyen/script/log/script_output_import.log 2>&1
+
+5 18 * * * python /home/ec2-user/closebytuyen/script/crawler/util/convert_time_string_to_object.py snappyjob_dump >> /home/ec2-user/closebytuyen/script/log/script_output_import.date 2>&1
+8 18 * * * python /home/ec2-user/closebytuyen/script/crawler/util/location/generate_lat_long.py snappyjob_dump >> /home/ec2-user/closebytuyen/script/log/script_output_geo.log 2>&1
